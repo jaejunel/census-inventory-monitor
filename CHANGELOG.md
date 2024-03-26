@@ -2,6 +2,456 @@
 
 History of changes to the Census Bureau's administrative data file inventory PDF, newest first. See README.md for how row identity works and what a removed row does and does not mean.
 
+## 2024-03-26
+
+Compared [`data-file-inventory-2023-08-31.pdf`](snapshots/data-file-inventory-2023-08-31.pdf) (390 rows) to [`data-file-inventory-2024-03-26.pdf`](snapshots/data-file-inventory-2024-03-26.pdf) (472 rows).
+
+**87 added, 5 removed, 151 modified.**
+
+### Added (87)
+
+- Census — Crosswalk CUF Island Areas
+- Census — Crosswalk National Content Test (NCT)
+- Census — MBR ACS P1 Variables
+- Census — MBR ACS P2 Variables
+- Census — MBR CPS P1 Variables
+- Census — MBR CPS P2 Variables
+- Colorado (CO) — SNAP Case Data
+- Colorado (CO) — SNAP Individual Data
+- Connecticut State Colleges and Universities — Degree Data
+- Department of Labor — Davis Bacon Data
+- Department of Labor — EEO Deficets Data
+- Department of Labor — EEO Review Data
+- Department of Labor — Employer Data
+- Department of Labor — Employment and Training Agency Registered Apprenticeship Partners Information Data System (ETA RAPIDS)
+- Department of Labor — Program Contacts Data
+- Department of Labor — Program Data
+- Department of Labor — Program Occupation Data
+- Department of Labor — QAA Review Data
+- Department of Labor — RTI Provider Detail Data
+- Department of Labor — Wage Schedule Data
+- Health and Human Services (HHS) — Refugee Arrivals Data System (RADS)
+- Housing and Urban Development (HUD) — FHA Integrated Data Base
+- Housing and Urban Development (HUD) — FHA Integrated Data Base - Multiple Units File
+- Housing and Urban Development (HUD) — FHA Integrated Data Base -Single Units File
+- Housing and Urban Development (HUD) — Household File
+- Housing and Urban Development (HUD) — Member File
+- Illinois Community College Board — Degree Data
+- Illinois Community College Board — Demographic Data
+- Illinois Community College Board — Enrollment Data
+- Iowa (IA) — SNAP/TANF -Case Level Data
+- Iowa (IA) — SNAP/TANF -Client Level Data
+- Iowa (IA) — SNAP/TANF Denial Data
+- Montana (MT) — SNAP -Approvals Data
+- Montana (MT) — SNAP -Benefits Data
+- Montana (MT) — SNAP -Countable Income Data
+- Montana (MT) — SNAP -Denials Data
+- Montana (MT) — SNAP -Gross Earned Income Data
+- Montana (MT) — SNAP -Phone Number Data
+- Montana (MT) — SNAP -Residential Address Data
+- Montana (MT) — SNAP -Simplified Reporting Data
+- Montana (MT) — TANF -Approvals Data
+- Montana (MT) — TANF -Benefits Data
+- Montana (MT) — TANF -Countable Income Data
+- Montana (MT) — TANF -Denials Data
+- Montana (MT) — TANF -Gross Earned Income Data
+- Montana (MT) — TANF -Individuals Data
+- Montana (MT) — TANF -Mailing Address Data
+- Montana (MT) — TANF -Phone Number Data
+- Montana (MT) — TANF -Residential Address Data
+- Montana (MT) — TANF -Simplified Reporting Data
+- National Center for Science and Engineering Statistics — Study of Earned Doctorates
+- Nevada (NV) — TANF
+- Nevada (NV) — TANF -Case File
+- Nevada (NV) — TANF -Employer
+- Nevada (NV) — TANF -Member
+- New Jersey (NJ) — Case File
+- New Jersey (NJ) — Individual File
+- Number of Owners Data Public Use — Number of Owners Data -Public Use
+- Safegraph — Safegraph Place Brand Info File
+- Safegraph — Safegraph Place Core POI File
+- Safegraph — Safegraph Place Data
+- Safegraph — Safegraph Spend Patterns File
+- Safegraph — Safegraph Transaction Panel Summary File
+- Safegraph — Spending Patterns Data
+- Texas Higher Education Coordinating Board — Degree Data
+- Texas Higher Education Coordinating Board — Demographic Data
+- Texas Higher Education Coordinating Board — Enrollment Data
+- Texas and Utah — Post -Collegiate Earnings Research Project
+- U.S. Patent and Trademark Office* — Patent Applications*
+- USASpending — USA Spending Award Public Use Data
+- United States Department of Agriculture — Mortality Disparities & American Communities (MDAC) Public Use Data
+- University System of Georgia — PSEO Data
+- University of California, Irvine — Class Roster
+- University of California, Irvine — Graduates Data
+- University of California, Irvine — Student Data -9th Grade on Track
+- University of California, Irvine — Student Data -Annual ADM
+- University of California, Irvine — Student Data -Assessment Data
+- University of California, Irvine — Student Data -Cohort Graduation
+- University of California, Irvine — Student Data -Discipline Incidents
+- University of California, Irvine — Student Data -English Learners
+- University of California, Irvine — Student Data -Fall Membership
+- University of California, Irvine — Student Data -Homeless
+- University of California, Irvine — Student Data -Special Education
+- University of California, Irvine — Student Data -Spring Membership
+- VSGI — Household Member and Telephone Data
+- Virginia (VA) — SNAP
+- Western Governors University — US WGU PSEO Data
+
+### Removed (5)
+
+- Connecticut State Colleges and Universities — Standardized Test (SAT and ACT) Data
+- Department of Labor — Employment and Training Agency registered Apprenticeship Partners Information Data System (ETA RAPIDS)
+- Housing and Urban Development (HUD) — Federal Housing Authority Integrated Data Base
+- National Science Foundation — National Center for Science and Engineering Statistics Study of Earned Doctorates
+- Texas Higher Education Coordinating Board — Education Data
+
+### Modified (151)
+
+- Alabama (AL) — Unemployment Insurance
+  - `years_available`: '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022' → '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022; 2023'
+- Arizona (AZ) — SNAP
+  - `years_available`: '2009; 2010; 2011; 2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022' → '2009; 2010; 2011; 2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022; 2023'
+- Arizona (AZ) — Unemployment Insurance
+  - `years_available`: '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022' → '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022; 2023'
+  - `new_years_received`: '2022 202203a; 2022 202204' → ''
+- Black Knight — Assessment Data
+  - `years_available`: '2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022' → '2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022; 2023'
+  - `new_years_received`: '2013 ; 2014 ; 2015 ; 2016 ; 2017 ; 2018' → ''
+- Black Knight — Assignment of Mortgage Data
+  - `years_available`: '2019; 2020; 2021; 2022' → '2019; 2020; 2021; 2022; 2023'
+- Black Knight — Automated Valuation Models Data
+  - `years_available`: '2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022' → '2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022; 2023'
+  - `new_years_received`: '2013 ; 2014 ; 2015 ; 2016 ; 2017 ; 2018' → ''
+- Black Knight — Deeds Data
+  - `new_years_received`: '2023 202305' → ''
+- Black Knight — Loan Data
+  - `years_available`: '2019; 2020; 2021; 2022' → '2019; 2020; 2021; 2022; 2023'
+- Black Knight — Master Address Data
+  - `years_available`: '2019; 2020' → '2019; 2020; 2023'
+- Black Knight — Notice of Deliquency
+  - `years_available`: '2019; 2020; 2021; 2022' → '2019; 2020; 2021; 2022; 2023'
+- Black Knight — Parcel Boundary
+  - `years_available`: '2019; 2021; 2023' → '2019; 2021; 2023; 2023b; 2023c'
+  - `new_years_received`: '2023' → ''
+- Black Knight — Release of Mortgage Data
+  - `years_available`: '2019; 2020; 2021; 2022' → '2019; 2020; 2021; 2022; 2023'
+- Black Knight — Stand Alone Mortgage
+  - `years_available`: '2019; 2020; 2021; 2022' → '2019; 2020; 2021; 2022; 2023'
+- Bureau of Prisons — Inmate Central Records System
+  - `new_years_received`: '2023' → ''
+- California (CA) — Unemployment Insurance
+  - `years_available`: '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022' → '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022; 2023'
+- Census — Email Frame Extract
+  - `years_available`: '2021; 2021; 2022; 2023' → '2021; 2021; 2022; 2023; 2024'
+  - `new_years_received`: '' → '2024 202401'
+- Census — National Survey of College Graduates (NSCG)
+  - `years_available`: '2010; 2013; 2015; 2017; 2019' → '2010; 2013; 2015; 2017; 2019; 2021'
+- Census — SSA Administrative Records Linked to American Community Survey (ACS) -Detail Earnings
+  - `years_available`: '2017; 2018; 2019' → '2015; 2016; 2017; 2018; 2019'
+- Census — SSA Administrative Records Linked to American Community Survey (ACS) -Disability
+  - `years_available`: '2017; 2018; 2019' → '2015; 2016; 2017; 2018; 2019'
+- Census — SSA Administrative Records Linked to American Community Survey (ACS) -Member Beneficiary Record
+  - `years_available`: '2017; 2018; 2019' → '2015; 2015a; 2016; 2016a; 2017; 2018; 2018a; 2019'
+  - `new_years_received`: '' → '2015a ; 2016a'
+- Census — SSA Administrative Records Linked to American Community Survey (ACS) -Payment History Update System
+  - `years_available`: '2017; 2018; 2019' → '2015; 2015a; 2016; 2016a; 2017; 2018; 2018a; 2019'
+  - `new_years_received`: '' → '2015a ; 2016a'
+- Census — SSA Administrative Records Linked to American Community Survey (ACS) -Summary Earnings
+  - `years_available`: '2017; 2018; 2019' → '2015; 2016; 2017; 2018; 2019'
+- Census — SSA Administrative Records Linked to American Community Survey (ACS) -Supplemental Security Record
+  - `years_available`: '2017; 2018; 2019' → '2015; 2016; 2017; 2018; 2019'
+- Census — SSA Administrative Records Linked to Current Population Survey (CPS) -Detail Earnings
+  - `years_available`: '1973-2016; 1973-2018; 1973-2019; 1973-2020; 1973-2020a; 1973-2022; 1991-2001; 1991-2002; 1991-2003; 1991-2006; 1991-2008; 1991-2009; 1991-2011; 1991-2013' → '1973-2016; 1973-2018; 1973-2019; 1973-2020; 1973-2020a; 1973-2022; 1973-2023; 1991-2001; 1991-2002; 1991-2003; 1991-2006; 1991-2008; 1991-2009; 1991-2011; 1991-2013'
+  - `new_years_received`: '1973-2022' → ''
+- Census — SSA Administrative Records Linked to Current Population Survey (CPS) -Disability
+  - `years_available`: '1973-2016; 1973-2018; 1973-2019; 1973-2020; 1973-2020a; 1973-2022; 1991-2001; 1991-2002; 1991-2003; 1991-2006; 1991-2008; 1991-2009; 1991-2011; 1991-2013' → '1973-2016; 1973-2018; 1973-2019; 1973-2020; 1973-2020a; 1973-2022; 1973-2023; 1991-2001; 1991-2002; 1991-2003; 1991-2006; 1991-2008; 1991-2009; 1991-2011; 1991-2013'
+- Census — SSA Administrative Records Linked to Current Population Survey (CPS) -Member Beneficiary Record
+  - `years_available`: '1962-2016; 1973-2016; 1973-2018; 1973-2020; 1973-2020a; 1973-2020b; 1973-2022; 1991-2001; 1991-2002; 1991-2003; 1991-2006; 1991-2008; 1991-2009; 1991-2011; 1991-2013' → '1962-2016; 1973-2016; 1973-2018; 1973-2020; 1973-2020a; 1973-2020b; 1973-2022; 1973-2023; 1991-2001; 1991-2002; 1991-2003; 1991-2006; 1991-2008; 1991-2009; 1991-2011; 1991-2013'
+  - `new_years_received`: '' → '1973-2023'
+- Census — SSA Administrative Records Linked to Current Population Survey (CPS) -Payment History Update System
+  - `years_available`: '1973-2016; 1973-2018; 1973-2020; 1973-2020a; 1973-2020b; 1973-2022; 1984-2016; 1991-2001; 1991-2002; 1991-2003; 1991-2006; 1991-2008; 1991-2009; 1991-2011; 1991-2013' → '1973-2016; 1973-2018; 1973-2020; 1973-2020a; 1973-2020b; 1973-2022; 1973-2023; 1984-2016; 1991-2001; 1991-2002; 1991-2003; 1991-2006; 1991-2008; 1991-2009; 1991-2011; 1991-2013'
+  - `new_years_received`: '' → '1973-2023'
+- Census — SSA Administrative Records Linked to Current Population Survey (CPS) -Summary Earnings
+  - `years_available`: '1973-2016; 1973-2018; 1973-2019; 1973-2020; 1973-2020a; 1973-2022; 1991-2001; 1991-2002; 1991-2003; 1991-2006; 1991-2008; 1991-2009; 1991-2011; 1991-2013' → '1973-2016; 1973-2018; 1973-2019; 1973-2020; 1973-2020a; 1973-2022; 1973-2023; 1991-2001; 1991-2002; 1991-2003; 1991-2006; 1991-2008; 1991-2009; 1991-2011; 1991-2013'
+- Census — SSA Administrative Records Linked to Current Population Survey (CPS) -Supplemental Security Record
+  - `years_available`: '1973-2018; 1973-2020; 1973-2021; 1973-2021a; 1973-2022; 1991-2001; 1991-2002; 1991-2003; 1991-2006; 1991-2008; 1991-2009; 1991-2011; 1991-2013; 2018' → '1973-2018; 1973-2020; 1973-2021; 1973-2021a; 1973-2022; 1973-2023; 1991-2001; 1991-2002; 1991-2003; 1991-2006; 1991-2008; 1991-2009; 1991-2011; 1991-2013; 2018'
+  - `new_years_received`: '1973-2022' → ''
+- Census — SSA Administrative Records Linked to Survey of Income and Program Participation (SIPP) - Detail Earnings
+  - `years_available`: '1978-2017; 1978-2018; 1984-1996; 1984-2001; 1984-2008w1; 1984-2019; 1984-2020; 1984-2022; 84_08w1_16_ 2014w1_4; 84-01w1-5; 84-01w1-9; 84-04w1-3; 84-04w1-8; 84-08w1-11; 84-08w1-16_2014w1; 84-08w1-16_ 2014w1-3; 84-08w1-5; 84-08w1-5_2010' → '1978-2017; 1978-2018; 1984-1996; 1984-2001; 1984-2008w1; 1984-2019; 1984-2020; 1984-2022; 1984-2023; 84_ 08w1_16_2014w1_4; 84-01w1-5; 84-01w1-9; 84-04w1-3; 84-04w1-8; 84-08w1-11; 84-08w1-16_2014w1; 84-08w1-16_2014w1-3; 84-08w1-5; 84-08w1-5_2010'
+- Census — SSA Administrative Records Linked to Survey of Income and Program Participation (SIPP) - Summary Earnings
+  - `years_available`: '1937-2017; 1937-2018; 1984-1996; 1984-2001; 1984-2019; 1984-2020a; 1984-2022; 84_08w1_16_2014w1_4; 84-01w1-5; 84-01w1-9; 84-04w1-3; 84-04w1-8; 84-08w1; 84-08w1_11; 84-08w1_5; 84-08w1-16_2014w1; 84-08w1-16_2014w1-3; 84-08w1-5_ 2010' → '1937-2017; 1937-2018; 1984-1996; 1984-2001; 1984-2019; 1984-2020a; 1984-2022; 1984-2023; 84_08w1_16_ 2014w1_4; 84-01w1-5; 84-01w1-9; 84-04w1-3; 84-04w1-8; 84-08w1; 84-08w1_11; 84-08w1_5; 84-08w1-16_ 2014w1; 84-08w1-16_2014w1-3; 84-08w1-5_2010'
+- Center for Medicare and Medicaid Services — Medicare Enrollment Database (EDB)
+  - `years_available`: '1999; 2000; 2001; 2002; 2003; 2004; 2005; 2006; 2007; 2008; 2009; 2010; 2011; 2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022' → '1999; 2000; 2001; 2002; 2003; 2004; 2005; 2006; 2007; 2008; 2009; 2010; 2011; 2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022; 2023'
+- Center for Medicare and Medicaid Services — Transformed Medicaid Statistical Information System
+  - `new_years_received`: '2021' → ''
+- City University of New York — Degree Data
+  - `years_available`: '2001-2019' → '2001-2019; 2001-2023'
+- City University of New York — Demographic Data
+  - `years_available`: '2001-2020' → '2001-2020; 2001-2023'
+- City University of New York — Enrollment Data
+  - `years_available`: '2001-2020' → '2001-2020; 2001-2023'
+- Colorado (CO) — SNAP
+  - `years_available`: '2012; 2013; 2020' → '2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022'
+- Colorado (CO) — Unemployment Insurance
+  - `years_available`: '2009; 2010; 2011; 2015; 2016; 2017; 2020; 2021; 2022' → '2009; 2010; 2011; 2015; 2016; 2017; 2020; 2021; 2022; 2023'
+- Colorado Department of Higher Education — Degree Data
+  - `years_available`: '2016-2019; 2019-2022' → '2016-2019; 2019-2022; 2019-2022a'
+  - `new_years_received`: '' → '2019-2022a'
+- Colorado Department of Higher Education — Demographic Data
+  - `years_available`: '2016-2020' → '2016-2020; 2019-2022a'
+  - `new_years_received`: '' → '2019-2022a'
+- Colorado Department of Higher Education — Enrollment Data
+  - `years_available`: '2016-2020' → '2016-2020; 2019-2022a'
+  - `new_years_received`: '' → '2019-2022a'
+- Connecticut (CT) — Unemployment Insurance
+  - `years_available`: '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022' → '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022; 2023'
+  - `new_years_received`: '2022 202203a; 2022 202204' → ''
+- Connecticut State Colleges and Universities — Demographic Data
+  - `years_available`: '2019-2020; 2020/11; 2020-2021; 2020-2021; 2021/03; 2021/06; 2021/06' → '2020-2021; 2021; 2021-2022'
+- Connecticut State Colleges and Universities — Enrollment Data
+  - `years_available`: '2020-2021; 2021/03; 2021/06' → '2020-2021; 2021; 2021-2022'
+- Convenient Care Association — AGG Data Convenient Care Association
+  - `years_available`: '2010; 2013' → '2010; 2013; 2021a; 2021b; 2021c; 2022a; 2022b; 2022c; 2023'
+- Delaware (DE) — Unemployment Insurance
+  - `years_available`: '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022' → '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022; 2023'
+- Department of Defense — DMDC Service Transition Activity Research Data
+  - `years_available`: '2001-2022' → '2001-2022; 2001-2023'
+  - `new_years_received`: '2001-2022' → ''
+- Department of Defense — Reserve Personnel Transaction Data
+  - `new_years_received`: '2001-2020' → ''
+- District of Columbia (DC) — Unemployment Insurance
+  - `years_available`: '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022' → '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022; 2023'
+- First American — Homeowners Association
+  - `years_available`: '2020/09; 2020/12; 2021/03; 2021/06; 2021/09; 2021/12; 2022/03; 2022/06; 2022/09' → '2012; 2020/09; 2020/12; 2021/03; 2021/06; 2021/09; 2021/12; 2022/03; 2022/06; 2022/09'
+- First American — Property Data
+  - `years_available`: '2012; 2016; 2017' → '2016; 2017'
+- Florida (FL) — Unemployment Insurance
+  - `years_available`: '2010; 2011; 2015; 2016; 2017; 2021; 2022' → '2010; 2011; 2015; 2016; 2017; 2021; 2022; 2023'
+- Georgia (GA) — Unemployment Insurance
+  - `years_available`: '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022' → '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022; 2023'
+- Georgia Independent College Association — Degree Data
+  - `new_years_received`: '2013-2022' → ''
+- Georgia Independent College Association — Demographic Data
+  - `new_years_received`: '2013-2022' → ''
+- Georgia Independent College Association — Enrollment Data
+  - `new_years_received`: '2013-2022' → ''
+- Hawaii (HI) — Unemployment Insurance
+  - `years_available`: '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022' → '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022; 2023'
+  - `new_years_received`: '2022 202203a; 2022 202204' → ''
+- Housing and Urban Development (HUD) — Public Indian Housing and Tenant Rental Assistance Longitudinal Information
+  - `years_available`: '1995; 1996; 1997; 1998; 1999; 2000; 2001; 2002; 2003; 2004; 2005; 2006; 2007; 2008; 2009; 2010; 2011; 2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2020/04; 2021; 2022' → '1995; 1996; 1997; 1998; 1999; 2000; 2001; 2002; 2003; 2004; 2005; 2006; 2007; 2008; 2009; 2010; 2011; 2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2020/04; 2021; 2022; 2023'
+  - `new_years_received`: '' → '2023'
+- Idaho (ID) — Unemployment Insurance
+  - `years_available`: '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022' → '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022; 2023'
+- Illinois (IL) — Unemployment Insurance
+  - `years_available`: '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022' → '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022; 2023'
+- Illinois Board of Higher Education — Degree Data
+  - `years_available`: '2001-2022' → '2001-2022; 2001-2022a'
+- Indiana (IN) — Unemployment Insurance
+  - `years_available`: '2010; 2011; 2016; 2017; 2021; 2022' → '2010; 2011; 2016; 2017; 2021; 2022; 2023'
+- Internal Revenue Service (IRS) — Business Master File
+  - `years_available`: 'ty2021; ty2022' → 'ty2021; ty2022; ty2023'
+  - `new_years_received`: 'ty2022 202328' → 'ty2023 202407'
+- Internal Revenue Service (IRS) — Earned Income Tax Credit (EITC)
+  - `years_available`: '2018-2021; 2018a; 2019a; 2020' → '2018-2021; 2018a; 2019a; 2020; 2021; 2022'
+- Internal Revenue Service (IRS) — Form 1040 Returns
+  - `years_available`: '1969; 1974; 1979; 1984; 1989; 1989-1999; 1994; 1995; 1998; 1999; 2000; 2001; 2002; 2003; 2004; 2005; 2006; 2007; 2008; 2009; 2010; 2011; 2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022' → '1969; 1974; 1979; 1984; 1989; 1989-1999; 1994; 1995; 1998; 1999; 2000; 2001; 2002; 2003; 2004; 2005; 2006; 2007; 2008; 2009; 2010; 2011; 2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022; 2023; ty2023'
+  - `new_years_received`: '2022 202326' → '2023 202404'
+- Internal Revenue Service (IRS) — Form 1096 Summary of Information Returns (1099-MISC only)
+  - `years_available`: 'ty2011; ty2012; ty2013; ty2014; ty2015; ty2016; ty2017; ty2018; ty2019; ty2020; ty2021' → 'ty2011; ty2012; ty2013; ty2014; ty2015; ty2016; ty2017; ty2018; ty2019; ty2020; ty2021; ty2022'
+  - `new_years_received`: '' → 'ty2022 202404'
+- Internal Revenue Service (IRS) — Form 1099 Returns (Information Returns)
+  - `years_available`: 'ty2003; ty2004; ty2005; ty2006; ty2007; ty2008; ty2009; ty2010; ty2011; ty2012; ty2013; ty2014; ty2015; ty2016; ty2017; ty2018; ty2020; ty2021; ty2022' → 'ty2003; ty2004; ty2005; ty2006; ty2007; ty2008; ty2009; ty2010; ty2011; ty2012; ty2013; ty2014; ty2015; ty2016; ty2017; ty2018; ty2020; ty2021; ty2022; ty2023'
+  - `new_years_received`: 'ty2022 202326' → ''
+- Internal Revenue Service (IRS) — Form 1099-R Returns (Information Returns)
+  - `years_available`: 'ty1995; ty1996; ty1997; ty1998; ty1999; ty2000; ty2001; ty2002; ty2003; ty2004; ty2005; ty2006; ty2007; ty2008; ty2009; ty2010; ty2011; ty2012; ty2013; ty2014; ty2015; ty2016; ty2017; ty2018; ty2019; ty2020; ty2021; ty2022' → 'ty1995; ty1996; ty1997; ty1998; ty1999; ty2000; ty2001; ty2002; ty2003; ty2004; ty2005; ty2006; ty2007; ty2008; ty2009; ty2010; ty2011; ty2012; ty2013; ty2014; ty2015; ty2016; ty2017; ty2018; ty2019; ty2020; ty2021; ty2022; ty2023'
+  - `new_years_received`: 'ty2022 202323; ty2022 202326' → ''
+- Internal Revenue Service (IRS) — Form W-2
+  - `years_available`: 'ty2005; ty2006; ty2007; ty2008; ty2009; ty2010; ty2011; ty2012; ty2013; ty2014; ty2015; ty2016; ty2017; ty2018; ty2019; ty2020; ty2021; ty2022' → 'ty2005; ty2006; ty2007; ty2008; ty2009; ty2010; ty2011; ty2012; ty2013; ty2014; ty2015; ty2016; ty2017; ty2018; ty2019; ty2020; ty2021; ty2022; ty2023'
+  - `new_years_received`: 'ty2022 202326; ty2022 202329' → 'ty2022 202404; ty2023 202407'
+- Iowa (IA) — SNAP/TANF
+  - `years_available`: '2011; 2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2020/03; 2021; 2022' → '2011; 2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2020/03; 2021; 2022; 2023'
+- Iowa (IA) — Unemployment Insurance
+  - `years_available`: '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022' → '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022; 2023'
+- Iowa Community College — Degree Data
+  - `years_available`: '2001-2021; 2001-2021a; 2021-2022' → '2001-2021; 2001-2021a; 2017-2023; 2021-2022'
+- Iowa Community College — Demographic Data
+  - `years_available`: '2001-2021; 2021-2022' → '2001-2021; 2017-2023; 2021-2022'
+- Iowa Community College — Enrollment Data
+  - `years_available`: '2001-2021; 2021-2022' → '2001-2021; 2017-2023; 2021-2022'
+- Kansas (KS) — Unemployment Insurance
+  - `years_available`: '2009; 2010; 2011; 2015; 2016; 2017; 2020; 2021; 2022; 2022' → '2009; 2010; 2011; 2015; 2016; 2017; 2020; 2021; 2022; 2022; 2023'
+- Kentucky (KY) — Unemployment Insurance
+  - `years_available`: '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022' → '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022; 2023'
+- LA Board of Regents — Degree Data
+  - `years_available`: '2001-2019; 2002-2019' → '2001-2019; 2002-2019; 2019-2022'
+- LA Board of Regents — Demographic Data
+  - `years_available`: '2001-2019' → '2001-2019; 2019-2022'
+- LA Board of Regents — Enrollment Data
+  - `years_available`: '2001-2019' → '2001-2019; 2019-2022'
+- Lousiana (LA) — Unemployment Insurance
+  - `years_available`: '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022' → '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022; 2023'
+  - `new_years_received`: '2022 202203a; 2022 202204' → ''
+- Maine (ME) — Unemployment Insurance
+  - `years_available`: '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022' → '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022; 2023'
+- Maine Community College System — Degree Data
+  - `new_years_received`: '2019-2022' → ''
+- Maryland (MD) — Unemployment Insurance
+  - `years_available`: '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022' → '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022; 2023'
+  - `new_years_received`: '2022 202203a; 2022 202204' → ''
+- Massachusetts (MA) — Unemployment Insurance
+  - `years_available`: '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022' → '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022; 2023'
+- Minnesota (MN) — Unemployment Insurance
+  - `years_available`: '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022' → '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022; 2023'
+  - `new_years_received`: '2022 202203a; 2022 202204' → ''
+- Missouri (MO) — Unemployment Insurance
+  - `years_available`: '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022' → '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022; 2023'
+- Missouri Department of Higher Education — Degree Data
+  - `years_available`: '2005-2020' → '2005-2020; 2020-2023'
+  - `new_years_received`: '' → '2020-2023'
+- Missouri Department of Higher Education — Demographic Data
+  - `years_available`: '2005-2020a' → '2005-2020a; 2005-2023'
+  - `new_years_received`: '' → '2005-2023'
+- Missouri Department of Higher Education — Enrollment Data
+  - `years_available`: '2005-2020a' → '2005-2020a; 2005-2023'
+  - `new_years_received`: '' → '2005-2023'
+- Montana (MT) — Unemployment Insurance
+  - `years_available`: '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022' → '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022; 2023'
+- Montana (MT) — WIC
+  - `years_available`: '2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020' → '2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022'
+- National Archives and Records Administration — Japanese-American Redress Verification System (JARVIS)
+  - `new_years_received`: '' → '1980-1990'
+- Nebraska (NE) — Unemployment Insurance
+  - `years_available`: '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022' → '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022; 2023'
+  - `new_years_received`: '2022 202203a; 2022 202204' → ''
+- Nevada (NV) — Unemployment Insurance
+  - `years_available`: '2009; 2010; 2011; 2016; 2017; 2021; 2022' → '2009; 2010; 2011; 2016; 2017; 2021; 2022; 2023'
+  - `new_years_received`: '2022 202203a; 2022 202203b; 2022 202204; 2022 202204a' → ''
+- New Hampshire (NH) — Unemployment Insurance
+  - `years_available`: '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022' → '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022; 2023'
+- New Jersey (NJ) — SNAP/TANF
+  - `years_available`: '2006; 2007; 2008; 2009; 2010; 2011; 2011a; 2012; 2012a; 2013; 2013a; 2014; 2014a; 2015; 2015a; 2016; 2016a; 2017; 2017a; 2018; 2018a; 2019; 2020; 2020a; 2021; 2022' → '2006; 2007; 2008; 2009; 2010; 2011; 2011a; 2012; 2012a; 2013; 2013a; 2014; 2014a; 2015; 2015a; 2016; 2016a; 2017; 2017a; 2018; 2018a; 2019; 2020; 2020a; 2021; 2022; 2023'
+- New Jersey (NJ) — Unemployment Insurance
+  - `years_available`: '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022' → '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022; 2023'
+  - `new_years_received`: '2022 202203a; 2022 202204' → ''
+- New Mexico (NM) — Unemployment Insurance
+  - `years_available`: '2009; 2010; 2011; 2014; 2015; 2016; 2017; 2021; 2022' → '2009; 2010; 2011; 2014; 2015; 2016; 2017; 2021; 2022; 2023'
+- New York (NY) — Unemployment Insurance
+  - `years_available`: '2009; 2010; 2011; 2016; 2017; 2020; 2021; 2022' → '2009; 2010; 2011; 2016; 2017; 2020; 2021; 2022; 2023'
+- North Carolina (NC) — Unemployment Insurance
+  - `years_available`: '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022' → '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022; 2023'
+  - `new_years_received`: '2022 202203a' → ''
+- North Dakota (ND) — Unemployment Insurance
+  - `years_available`: '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022' → '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022; 2023'
+  - `new_years_received`: '2022 202203a; 2022 202204' → ''
+- Office of Personnel Management (OPM) — Dynamics File
+  - `years_available`: '1990; 1991; 1992; 1993; 1994; 1995; 1996; 1997; 1998; 1999; 2000; 2001; 2002; 2003; 2004; 2005; 2006; 2007; 2008; 2009; 2010; 2011; 2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022' → '1990; 1991; 1992; 1993; 1994; 1995; 1996; 1997; 1998; 1999; 2000; 2001; 2002; 2003; 2004; 2005; 2006; 2007; 2008; 2009; 2010; 2011; 2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022; 2023'
+  - `new_years_received`: '' → '2022 2022q4; 2023 2023q1; 2023 2023q2; 2023 2023q3'
+- Office of Personnel Management (OPM) — Personnel Office Identifier File
+  - `years_available`: '2007; 2008; 2009; 2010; 2011; 2012; 2013; 2014; 2015; 2019; 2020; 2021; 2022' → '2007; 2008; 2009; 2010; 2011; 2012; 2013; 2014; 2015; 2019; 2020; 2021; 2022; 2023; 2024'
+  - `new_years_received`: '' → '2024 202402'
+- Office of Personnel Management (OPM) — Standard Code Table File
+  - `years_available`: '2007; 2008; 2009; 2010; 2011; 2012; 2013; 2014; 2015; 2019; 2020; 2021; 2022' → '2007; 2008; 2009; 2010; 2011; 2012; 2013; 2014; 2015; 2019; 2020; 2021; 2022; 2023; 2024'
+  - `new_years_received`: '' → '2024 202402'
+- Office of Personnel Management (OPM) — Status File
+  - `years_available`: '1990; 1991; 1992; 1993; 1994; 1995; 1996; 1997; 1998; 1999; 2000; 2001; 2002; 2003; 2004; 2005; 2006; 2007; 2008; 2009; 2010; 2011; 2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022' → '1990; 1991; 1992; 1993; 1994; 1995; 1996; 1997; 1998; 1999; 2000; 2001; 2002; 2003; 2004; 2005; 2006; 2007; 2008; 2009; 2010; 2011; 2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022; 2023'
+  - `new_years_received`: '' → '2023 2023q1; 2023 2023q2; 2023 2023q3'
+- Ohio (OH) — Unemployment Insurance
+  - `years_available`: '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022' → '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022; 2023'
+- Oklahoma (OK) — Unemployment Insurance
+  - `years_available`: '2009; 2010; 2011; 2016; 2017; 2021; 2022' → '2009; 2010; 2011; 2016; 2017; 2021; 2022; 2023'
+- Oregon (OR) — Unemployment Insurance
+  - `years_available`: '2009; 2010; 2011; 2016; 2017; 2021; 2022' → '2009; 2010; 2011; 2016; 2017; 2021; 2022; 2023'
+- Pennsylvania (PA) — Unemployment Insurance
+  - `years_available`: '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022' → '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022; 2023'
+- Private Capital Research Institute — Impact Investment
+  - `entity_type`: 'Other' → 'Third Party'
+- Puerto Rico (PR) — Unemployment Insurance
+  - `years_available`: '2009; 2010; 2011; 2016; 2017; 2021; 2022' → '2009; 2010; 2011; 2016; 2017; 2021; 2022; 2023'
+- Rhode Island (RI) — Unemployment Insurance
+  - `years_available`: '2009; 2010; 2011; 2016; 2017; 2021; 2022' → '2009; 2010; 2011; 2016; 2017; 2021; 2022; 2023'
+- Social Security Administration (SSA) — Master Beneficiary Record
+  - `new_years_received`: '2023' → ''
+- Social Security Administration (SSA) — Numident
+  - `years_available`: 'Cumulative from 1998' → '2022; 2023; Cumulative from 1998'
+- Social Security Administration (SSA) — Payment History Update System
+  - `new_years_received`: '2023' → ''
+- Social Security Administration (SSA) — Supplemental Security Record (SSR) National Files
+  - `years_available`: '2010; 2011; 2012; 2013; 2014; 2015; 2019; 2020; 2021; 2022' → '2010; 2011; 2012; 2013; 2014; 2015; 2019; 2020; 2021; 2022; 2022a; 2023'
+- South Carolina (SC) — SNAP/TANF
+  - `new_years_received`: '2022' → ''
+- South Carolina (SC) — Unemployment Insurance
+  - `years_available`: '2009; 2010; 2011; 2016; 2017; 2021; 2022; 2022' → '2009; 2010; 2011; 2016; 2017; 2021; 2022; 2022; 2023'
+- South Dakota (SD) — Unemployment Insurance
+  - `years_available`: '2009; 2010; 2011; 2016; 2017; 2021; 2022' → '2009; 2010; 2011; 2016; 2017; 2021; 2022; 2023'
+- Stanford University — American Board of Family Medicine Clinical Data
+  - `new_years_received`: '2010-2022' → ''
+- State University of New York — Degree Data
+  - `years_available`: '2002-2019' → '2002-2019; 2019-2020; 2019-2023'
+- State University of New York — Demographic Data
+  - `years_available`: '2002-2020' → '2002-2020; 2019-2020; 2019-2023'
+- State University of New York — Enrollment Data
+  - `years_available`: '2002-2020' → '2002-2020; 2019-2020; 2019-2023'
+- Tennessee (TN) — Unemployment Insurance
+  - `years_available`: '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022' → '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022; 2023'
+- Texas (TX) — Unemployment Insurance
+  - `years_available`: '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022' → '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022; 2023'
+- The Oregon Higher Education Coordinating Commission — Degree Data
+  - `years_available`: '2001-2021; 2006-2021' → '2001-2021; 2001-2023; 2006-2021; 2006-2022'
+- The Oregon Higher Education Coordinating Commission — Demographic Data
+  - `years_available`: '2001-2021a; 2006-2021a' → '2001-2021a; 2001-2023; 2006-2021a; 2006-2022'
+- The Oregon Higher Education Coordinating Commission — Enrollment Data
+  - `years_available`: '2001-2021a; 2006-2021a' → '2001-2021a; 2001-2023; 2006-2021a; 2006-2022'
+- United States Postal Service — National Change of Address (NCOA)
+  - `years_available`: '2010; 2011; 2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022; 2023' → '2010; 2011; 2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022; 2023; 2024'
+  - `new_years_received`: '2023 07' → '2024 02'
+- University of Alabama — Degree Data
+  - `years_available`: '2001-2020; 2020-2021' → '2001-2020; 2020-2021; 2022'
+- University of Alabama — Demographic Data
+  - `years_available`: '2001-2020; 2020-2021' → '2001-2020; 2020-2021; 2022'
+- University of California, Irvine — OR Staff Assignment
+  - `entity_type`: 'Other' → 'State'
+- University of California, Irvine — Student Data
+  - `years_available`: '2010-2017' → '2010-2017; 2017-2022'
+- University of Iowa — Degree Data
+  - `years_available`: '2001-2019' → '2001-2019; 2020-2023'
+- University of Iowa — Demographic Data
+  - `years_available`: '2001-2019' → '2001-2019; 2020-2023'
+- University of Iowa — Enrollment Data
+  - `years_available`: '2001-2019' → '2001-2019; 2020-2023'
+- University of Michigan — Criminal Justice Administrative Records System (CJARS)
+  - `years_available`: '1970-2019; 2020; 2021; 2022' → '2019; 2020; 2021; 2022; 2023'
+- University of North Carolina — Health Care System
+  - `years_available`: '2003-2019; 2016-2019' → '2016-2019'
+- Utah (UT) — Unemployment Insurance
+  - `years_available`: '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022' → '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022; 2023'
+  - `new_years_received`: '2022 202203a; 2022 202204' → ''
+- Utah System of Higher Education — Degree Data
+  - `years_available`: '2011-2020; 2021-2022' → '2011-2020; 2021-2022; 2023'
+- Utah System of Higher Education — Demographic Data
+  - `years_available`: '2011-2020; 2021-2022' → '2011-2020; 2021-2022; 2023'
+- Utah System of Higher Education — Enrollment Data
+  - `years_available`: '2011-2020; 2021-2022' → '2011-2020; 2021-2022; 2023'
+- VSGI — Household Member and Telephone Data
+  - `years_available`: '2010; 2010; 2011; 2011; 2013; 2013; 2014; 2014; 2015; 2015; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022; 2023' → '2010; 2010; 2011; 2011; 2013; 2013; 2014; 2014; 2015; 2015; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022; 2023; 2024'
+- Vermont (VT) — Unemployment Insurance
+  - `years_available`: '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022' → '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022; 2023'
+- Virginia (VA) — Unemployment Insurance
+  - `years_available`: '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022' → '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022; 2023'
+- Washington (WA) — Unemployment Insurance
+  - `years_available`: '2009; 2010; 2011; 2016; 2017; 2021; 2022' → '2009; 2010; 2011; 2016; 2017; 2021; 2022; 2023'
+- West Virginia (WV) — Unemployment Insurance
+  - `years_available`: '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022' → '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022; 2023'
+- Wisconsin (WI) — SNAP
+  - `years_available`: '2016; 2017; 2018; 2019; 2020; 2021; 2022' → '2016; 2017; 2018; 2019; 2020; 2021; 2022; 2023'
+- Wisconsin (WI) — Unemployment Insurance
+  - `years_available`: '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022' → '2009; 2010; 2011; 2015; 2016; 2017; 2021; 2022; 2023'
+- World War II — WWII Public Use Data
+  - `new_years_received`: '1941-1945' → ''
+- Wyoming (WY) — Unemployment Insurance
+  - `years_available`: '2009; 2010; 2011; 2014; 2015; 2016; 2017; 2021; 2022' → '2009; 2010; 2011; 2014; 2015; 2016; 2017; 2021; 2022; 2023'
+
 ## 2023-08-31
 
 Initial snapshot: [`data-file-inventory-2023-08-31.pdf`](snapshots/data-file-inventory-2023-08-31.pdf) (390 rows). Nothing to diff against yet.
