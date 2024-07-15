@@ -2,6 +2,304 @@
 
 History of changes to the Census Bureau's administrative data file inventory PDF, newest first. See README.md for how row identity works and what a removed row does and does not mean.
 
+## 2024-07-15
+
+Compared [`data-file-inventory-2024-03-26.pdf`](snapshots/data-file-inventory-2024-03-26.pdf) (472 rows) to [`data-file-inventory-2024-07-15.pdf`](snapshots/data-file-inventory-2024-07-15.pdf) (575 rows).
+
+**120 added, 17 removed, 64 modified.**
+
+### Added (120)
+
+- Alabama (AL) — Employment and Wage (ES202)
+- Arizona (AZ) — Employment and Wage (ES202)
+- Arizona (AZ) — SNAP Case Data
+- Arizona (AZ) — SNAP Individual Data
+- Arizona (AZ) — TANF -Approvals Data
+- Arizona (AZ) — TANF -Benefits Data
+- Arizona (AZ) — TANF -Client Level Record Data
+- Arizona (AZ) — TANF -Countable Income Data
+- Arizona (AZ) — TANF -Denial Data
+- Arizona (AZ) — TANF -Gross Earned Income Data
+- Arizona (AZ) — TANF -Mailing Address Data
+- Arizona (AZ) — TANF -Phone Numbers Data
+- Arizona (AZ) — TANF -Residential Address Data
+- Arizona (AZ) — TANF -Simplified Reports Data
+- Arkansas (AR) — Employment and Wage (ES202)
+- Bryant University — Degree Data
+- Bryant University — Demographic Data
+- Bryant University — Enrollment Data
+- California (CA) — Employment and Wage (ES202)
+- Census — MBR SIPP P1 Variables
+- Census — MBR SIPP P2 Variables
+- Census — SSA Administrative Records Linked to Survey of Income and Program Participation (SIPP) - Member Beneficiary Record
+- Census — Title 13 Race and Ethnicity Extract
+- Center for Medicare and Medicaid Services — TMSIS Base
+- Center for Medicare and Medicaid Services — TMSIS Dates
+- Center for Medicare and Medicaid Services — TMSIS Disability
+- Center for Medicare and Medicaid Services — TMSIS Home Health and State Plan Options
+- Center for Medicare and Medicaid Services — TMSIS Managed Care Enrollment
+- Center for Medicare and Medicaid Services — TMSIS Money Follows Person
+- Center for Medicare and Medicaid Services — TMSIS TAF Vital Status
+- Center for Medicare and Medicaid Services — TMSIS Waiver Program Enrollment
+- Delaware (DE) — Employment and Wage (ES202)
+- Department of Defense — Air Force Loss Data
+- Department of Defense — Army Loss Data
+- Department of Defense — Coast Guard Loss Data
+- Department of Defense — Marine Corps Loss Data
+- Department of Defense — Navy Loss Data
+- Department of Defense — Space Force Loss Data
+- Department of Labor — ETA RAPIDS Apprentice Data
+- Department of Labor — ETA RAPIDS Davis Bacon Data
+- Department of Labor — ETA RAPIDS EEO Deficets Data
+- Department of Labor — ETA RAPIDS EEO Review Data
+- Department of Labor — ETA RAPIDS Employer Data
+- Department of Labor — ETA RAPIDS Program Contacts Data
+- Department of Labor — ETA RAPIDS Program Data
+- Department of Labor — ETA RAPIDS Program Occupation Data
+- Department of Labor — ETA RAPIDS QAA Review Data
+- Department of Labor — ETA RAPIDS RTI Provider Detail Data
+- Department of Labor — ETA RAPIDS Wage Schedule Data
+- District of Columbia (DC) ( - DC) — Employment and Wage (ES202)
+- Florida (FL) — Employment and Wage (ES202)
+- Florida (FL) — FL MVAC Citation
+- Florida (FL) — FL MVAC Crash Data Event
+- Florida (FL) — FL MVAC Crash Data Vehicle
+- Florida (FL) — FL MVAC Person Data All2
+- Florida (FL) — FL MVAC Person Data All3
+- Florida (FL) — FL MVAC Person Data to Pik
+- Florida (FL) — FL Motor Vehicle Crash and Citation (MVAC)
+- Georgia (GA) — Employment and Wage (ES202)
+- Georgia (GA) — SNAP
+- Hawaii (HI) — Employment and Wage (ES202)
+- Housing and Urban Development (HUD) — HUD ACS Basic Street Address File
+- Housing and Urban Development (HUD) — L2 Vote Main Data File
+- Housing and Urban Development (HUD) — L2 Vote Main Data File with Duplicates
+- Idaho (ID) — Employment and Wage (ES202)
+- Illinois (IL) — Employment and Wage (ES202)
+- Illinois (IL) — WIC Benefits
+- Illinois (IL) — WIC Demographic
+- Indiana (IN) — Employment and Wage (ES202)
+- Iowa (IA) — Employment and Wage (ES202)
+- Montana (MT) — SNAP -Individuals Data
+- Montana (MT) — SNAP -Mailing Address Data
+- Montana (MT) — SNAP Gross Earned Income Data
+- New Jersey (NJ) — SANP/TANF Case File
+- New Jersey (NJ) — SNAP/TANF Individual File
+- Pennsylvania State University — Degree Data
+- Social Security Administration (SSA) — Numident Death Data
+- Social Security Administration (SSA) — Numident SS5 Data
+- South Carolina (SC) — Case Data
+- South Carolina (SC) — Client Data
+- University of California, Irvine — OR Staff Positions
+- University of California, Irvine — OR Staff Roster
+- University of Michigan — CJARS Demographic Data
+- University of Michigan — CJARS Person Data
+- University of Michigan — CJARS Roster Data
+- University of North Carolina Health Care System — Electronic Health Records
+- University of North Carolina Health Care System — Electronic Health Records Areal Measures
+- University of North Carolina Health Care System — Electronic Health Records Care Site Geocode
+- University of North Carolina Health Care System — Electronic Health Records Concept
+- University of North Carolina Health Care System — Electronic Health Records Concept Ancestor
+- University of North Carolina Health Care System — Electronic Health Records Concept Relationship
+- University of North Carolina Health Care System — Electronic Health Records Condition Occurrence
+- University of North Carolina Health Care System — Electronic Health Records Death
+- University of North Carolina Health Care System — Electronic Health Records Drug Exposure
+- University of North Carolina Health Care System — Electronic Health Records Measurement
+- University of North Carolina Health Care System — Electronic Health Records Observation
+- University of North Carolina Health Care System — Electronic Health Records Payer Plan Period
+- University of North Carolina Health Care System — Electronic Health Records Person
+- University of North Carolina Health Care System — Electronic Health Records Person Linkage
+- University of North Carolina Health Care System — Electronic Health Records Procedure Occurrence
+- University of North Carolina Health Care System — Electronic Health Records Provider
+- University of North Carolina Health Care System — Electronic Health Records SDOH Code Mapping
+- University of North Carolina Health Care System — Electronic Health Records T2DM Cohort
+- University of North Carolina Health Care System — Electronic Health Records Visit Detail
+- University of North Carolina Health Care System — Electronic Health Records Visit Detail Payers
+- University of North Carolina Health Care System — Electronic Health Records Visit Occurrence
+- University of North Carolina Health Care System — Electronic Health Records Visit Occurrence Payers
+- University of North Carolina Health Care System — Electronic Health Records Visits Other
+- University of Wyoming — Degree Data
+- University of Wyoming — Demographic Data
+- University of Wyoming — Enrollment Data
+- Utah (UT) — SNAP/TANF -Case Data
+- Utah (UT) — SNAP/TANF Application Data
+- Utah (UT) — SNAP/TANF Client Data
+- Virginia (VA) — TANF
+- West Virginia Higher Education Policy Commission — Degree Data
+- West Virginia Higher Education Policy Commission — Demographic Data
+- Wisconsin (WI) — SNAP Case Data
+- Wisconsin (WI) — SNAP Individual Data
+- Wyoming (WY) — WIC
+
+### Removed (17)
+
+- Bureau of Labor Statistics — Job Openings and Labor Turnover
+- Department of Labor — Davis Bacon Data
+- Department of Labor — EEO Deficets Data
+- Department of Labor — EEO Review Data
+- Department of Labor — Employer Data
+- Department of Labor — Program Contacts Data
+- Department of Labor — Program Data
+- Department of Labor — Program Occupation Data
+- Department of Labor — QAA Review Data
+- Department of Labor — RTI Provider Detail Data
+- Department of Labor — Wage Schedule Data
+- Montana (MT) — SNAP -Gross Earned Income Data
+- New Jersey (NJ) — Case File
+- New Jersey (NJ) — Individual File
+- Safegraph — Safegraph Place Data
+- Safegraph — Spending Patterns Data
+- VSGI — Household Member and Telephone Data
+
+### Modified (64)
+
+- Arizona (AZ) — TANF
+  - `years_available`: '2009; 2010; 2011; 2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022' → '2009; 2010; 2011; 2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022; 2023'
+- Black Knight — Assessment Data
+  - `years_available`: '2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022; 2023' → '2013; 2013-2014; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022; 2023'
+- Census — Crosswalk CUF Island Areas
+  - `new_years_received`: '2020' → ''
+- Census — Email Frame Extract
+  - `years_available`: '2021; 2021; 2022; 2023; 2024' → '2021; 2021; 2022; 2023; 2024; 2024'
+  - `new_years_received`: '2024 202401' → '2024 202404'
+- Census — MBR ACS P1 Variables
+  - `years_available`: '2015a; 2016a' → '2015a; 2015b; 2016a; 2016b'
+  - `new_years_received`: '2015a ; 2016a' → ''
+- Census — MBR ACS P2 Variables
+  - `years_available`: '2015a; 2016a' → '2015a; 2015b; 2016a; 2016b'
+  - `new_years_received`: '2015a ; 2016a' → ''
+- Census — MBR CPS P1 Variables
+  - `years_available`: '1973-2023' → '1973-2023; 1973-2023a'
+  - `new_years_received`: '1973-2023' → ''
+- Census — MBR CPS P2 Variables
+  - `years_available`: '1973-2023' → '1973-2023; 1973-2023a'
+  - `new_years_received`: '1973-2023' → ''
+- Census — SSA Administrative Records Linked to American Community Survey (ACS) -Member Beneficiary Record
+  - `years_available`: '2015; 2015a; 2016; 2016a; 2017; 2018; 2018a; 2019' → '2015; 2015a; 2015b; 2016; 2016a; 2016b; 2017; 2018; 2018a; 2019'
+  - `new_years_received`: '2015a ; 2016a' → ''
+- Census — SSA Administrative Records Linked to American Community Survey (ACS) -Payment History Update System
+  - `new_years_received`: '2015a ; 2016a' → ''
+- Census — SSA Administrative Records Linked to Current Population Survey (CPS) -Member Beneficiary Record
+  - `years_available`: '1962-2016; 1973-2016; 1973-2018; 1973-2020; 1973-2020a; 1973-2020b; 1973-2022; 1973-2023; 1991-2001; 1991-2002; 1991-2003; 1991-2006; 1991-2008; 1991-2009; 1991-2011; 1991-2013' → '1962-2016; 1973-2016; 1973-2018; 1973-2020; 1973-2020a; 1973-2020b; 1973-2022; 1973-2023; 1973-2023a; 1991-2001; 1991-2002; 1991-2003; 1991-2006; 1991-2008; 1991-2009; 1991-2011; 1991-2013'
+  - `new_years_received`: '1973-2023' → ''
+- Census — SSA Administrative Records Linked to Current Population Survey (CPS) -Payment History Update System
+  - `new_years_received`: '1973-2023' → ''
+- Center for Medicare and Medicaid Services — Transformed Medicaid Statistical Information System
+  - `years_available`: '2014; 2014-2016; 2015; 2016; 2017-2018; 2018; 2019; 2020; 2021' → '2014; 2014-2016; 2015; 2016; 2017-2018; 2018; 2019; 2020; 2021; 2022'
+- Colorado (CO) — SNAP
+  - `years_available`: '2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022' → '2012; 2013; 2014; 2015; 2016; 2017; 2018; 2018a; 2019; 2020; 2021; 2022; 2023'
+- Colorado (CO) — SNAP Case Data
+  - `years_available`: '2014; 2015; 2016; 2017; 2018a' → '2014; 2015; 2016; 2017; 2018a; 2023'
+- Colorado (CO) — SNAP Individual Data
+  - `years_available`: '2014; 2015; 2016; 2017' → '2014; 2015; 2016; 2017; 2023'
+- Colorado Department of Higher Education — Degree Data
+  - `new_years_received`: '2019-2022a' → ''
+- Colorado Department of Higher Education — Demographic Data
+  - `new_years_received`: '2019-2022a' → ''
+- Colorado Department of Higher Education — Enrollment Data
+  - `new_years_received`: '2019-2022a' → ''
+- Connecticut (CT) — WIC
+  - `years_available`: '2016; 2017; 2018; 2019; 2020; 2021; 2022' → '2016; 2017; 2018; 2019; 2020; 2021; 2022; 2023'
+- Department of Defense — DMDC Service Transition Activity Research Data
+  - `years_available`: '2001-2022; 2001-2023' → '2001-2022; 2001-2023; 2001-2023a; 2022-2023'
+- Department of Defense — DOD DMDC Military Files
+  - `years_available`: '2018; 2019; 2019/03; 2019/03a; 2020; 2021/03; 2021/0323; 2021/08; 2021/09' → '2018; 2019; 2019/03; 2019/03a; 2020; 2021/03; 2021/0323; 2021/08; 2021/09; 2022'
+  - `new_years_received`: '' → '2022'
+- Department of Veteran's Affairs — US Veteran's Data
+  - `years_available`: '2013; 2015; 2017; 2018; 2019; 2020' → '2013; 2015; 2017; 2018; 2019; 2020; 2021; 2023'
+  - `new_years_received`: '' → '2023'
+- Housing and Urban Development (HUD) — Member File
+  - `years_available`: '2023' → '2020; 2023'
+- Housing and Urban Development (HUD) — Public Indian Housing and Tenant Rental Assistance Longitudinal Information
+  - `new_years_received`: '2023' → ''
+- Illinois Board of Higher Education — Degree Data
+  - `years_available`: '2001-2022; 2001-2022a' → '2001-2022; 2001-2022a; 2001-2023'
+- Illinois Community College Board — Degree Data
+  - `new_years_received`: '2004-2023' → ''
+- Illinois Community College Board — Demographic Data
+  - `new_years_received`: '2004-2023' → ''
+- Illinois Community College Board — Enrollment Data
+  - `new_years_received`: '2004-2023' → ''
+- Internal Revenue Service (IRS) — Business Master File
+  - `years_available`: 'ty2021; ty2022; ty2023' → 'ty2021; ty2022; ty2023; ty2023'
+  - `new_years_received`: 'ty2023 202407' → ''
+- Internal Revenue Service (IRS) — Business Master Files (Annual)
+  - `years_available`: 'ty2021; ty2022' → 'ty2021; ty2022; ty2023'
+- Internal Revenue Service (IRS) — Form 1040 Returns
+  - `years_available`: '1969; 1974; 1979; 1984; 1989; 1989-1999; 1994; 1995; 1998; 1999; 2000; 2001; 2002; 2003; 2004; 2005; 2006; 2007; 2008; 2009; 2010; 2011; 2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022; 2023; ty2023' → '1969; 1974; 1979; 1984; 1989; 1989-1999; 1994; 1995; 1998; 1999; 2000; 2001; 2002; 2003; 2004; 2005; 2006; 2007; 2008; 2009; 2010; 2011; 2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022; 2023; 2023'
+  - `new_years_received`: '2023 202404' → '2023 202426'
+- Internal Revenue Service (IRS) — Form 1096 Summary of Information Returns (1099-MISC only)
+  - `new_years_received`: 'ty2022 202404' → ''
+- Internal Revenue Service (IRS) — Form W-2
+  - `years_available`: 'ty2005; ty2006; ty2007; ty2008; ty2009; ty2010; ty2011; ty2012; ty2013; ty2014; ty2015; ty2016; ty2017; ty2018; ty2019; ty2020; ty2021; ty2022; ty2023' → '2023; ty2005; ty2006; ty2007; ty2008; ty2009; ty2010; ty2011; ty2012; ty2013; ty2014; ty2015; ty2016; ty2017; ty2018; ty2019; ty2020; ty2021; ty2022; ty2023'
+  - `new_years_received`: 'ty2022 202404; ty2023 202407' → '2023 202426; ty2023 202423'
+- Missouri Department of Higher Education — Degree Data
+  - `new_years_received`: '2020-2023' → ''
+- Missouri Department of Higher Education — Demographic Data
+  - `new_years_received`: '2005-2023' → ''
+- Missouri Department of Higher Education — Enrollment Data
+  - `new_years_received`: '2005-2023' → ''
+- National Archives and Records Administration — Japanese-American Redress Verification System (JARVIS)
+  - `new_years_received`: '1980-1990' → ''
+- Office of Personnel Management (OPM) — Dynamics File
+  - `new_years_received`: '2022 2022q4; 2023 2023q1; 2023 2023q2; 2023 2023q3' → ''
+- Office of Personnel Management (OPM) — Personnel Office Identifier File
+  - `new_years_received`: '2024 202402' → ''
+- Office of Personnel Management (OPM) — Standard Code Table File
+  - `new_years_received`: '2024 202402' → ''
+- Office of Personnel Management (OPM) — Status File
+  - `new_years_received`: '2023 2023q1; 2023 2023q2; 2023 2023q3' → ''
+- Pennsylvania State University — Demographic Data
+  - `years_available`: '2000-2019a' → '2000-2019a; 2001-2022'
+- Pennsylvania State University — Enrollment Data
+  - `years_available`: '2000-2019a' → '2000-2019a; 2001-2022'
+- Safegraph — Safegraph Place Brand Info File
+  - `years_available`: '2023; 2024' → '2023; 2024; 2024'
+  - `new_years_received`: '2024 02' → '2024 06; 2024 07'
+- Safegraph — Safegraph Place Core POI File
+  - `years_available`: '2023; 2024' → '2023; 2024; 2024'
+  - `new_years_received`: '2024 02' → '2024 06; 2024 07'
+- Safegraph — Safegraph Spend Patterns File
+  - `years_available`: '2019; 2020; 2021; 2022; 2023; 2024' → '2019; 2020; 2021; 2022; 2023; 2024; 2024'
+  - `new_years_received`: '2024 202402' → '2024 202406'
+- Safegraph — Safegraph Transaction Panel Summary File
+  - `years_available`: '2019; 2020; 2021; 2022; 2023; 2024' → '2019; 2020; 2021; 2022; 2023; 2024; 2024'
+  - `new_years_received`: '2024 202402' → '2024 202406'
+- Social Security Administration (SSA) — Death Master File
+  - `years_available`: '2000-2016; 2020; 2021; 2022' → '2020; 2021; 2022'
+- Social Security Administration (SSA) — Numident
+  - `years_available`: '2022; 2023; Cumulative from 1998' → '2022; 2023; 2024; Cumulative from 1998'
+- South Carolina (SC) — SNAP/TANF
+  - `years_available`: '2004; 2005; 2006; 2007; 2008; 2009; 2010; 2011; 2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2020a; 2021; 2021a; 2022' → '2004; 2005; 2006; 2007; 2008; 2009; 2010; 2011; 2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2020a; 2021; 2021a; 2022; 2023'
+  - `new_years_received`: '' → '2023'
+- South Dakota Board of Technical Education — Degree Data
+  - `years_available`: '2001-2020; 2021-2022' → '2001-2020; 2021-2022; 2022-2023'
+- South Dakota Board of Technical Education — Demographic Data
+  - `years_available`: '2001-2020; 2021-2022' → '2001-2020; 2021-2022; 2022-2023'
+- South Dakota Board of Technical Education — Enrollment Data
+  - `years_available`: '2001-2020; 2021-2022' → '2001-2020; 2021-2022; 2022-2023'
+- Stanford University — American Board of Family Medicine Clinical Data
+  - `years_available`: '2010-2022' → '2010-2022; All'
+- Texas Higher Education Coordinating Board — Degree Data
+  - `years_available`: '2018-2020' → '2018-2020; 2019-2021'
+- Texas Higher Education Coordinating Board — Demographic Data
+  - `years_available`: '2000-2019; 2018-2020' → '2000-2019; 2018-2020; 2019-2021'
+- Texas Higher Education Coordinating Board — Enrollment Data
+  - `years_available`: '2018-2020' → '2018-2020; 2019-2021'
+- The Connecticut Conference of Independent Colleges — Degree Data
+  - `years_available`: '2001-2021; 2002-2022' → '2001-2021; 2002-2022; 2021-2023'
+- United States Postal Service — National Change of Address (NCOA)
+  - `new_years_received`: '2024 02' → ''
+- University of California, Irvine — OR Staff Assignment
+  - `years_available`: '2006-2017' → '2006-2017; 2017-2023'
+- University of Michigan — Criminal Justice Administrative Records System (CJARS)
+  - `years_available`: '2019; 2020; 2021; 2022; 2023' → '2019q1; 2020; 2021; 2022; 2023'
+- Utah (UT) — SNAP/TANF
+  - `years_available`: '2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022' → '2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022; 2023'
+- Virginia (VA) — SNAP
+  - `years_available`: '2009-2013; 2014; 2014-2016; 2015; 2016' → '2009-2013; 2014; 2014-2016; 2015; 2016; 2023'
+  - `new_years_received`: '' → '2023'
+
 ## 2024-03-26
 
 Compared [`data-file-inventory-2023-08-31.pdf`](snapshots/data-file-inventory-2023-08-31.pdf) (390 rows) to [`data-file-inventory-2024-03-26.pdf`](snapshots/data-file-inventory-2024-03-26.pdf) (472 rows).
