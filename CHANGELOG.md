@@ -2,6 +2,225 @@
 
 History of changes to the Census Bureau's administrative data file inventory PDF, newest first. See README.md for how row identity works and what a removed row does and does not mean.
 
+## 2024-12-04
+
+Compared [`data-file-inventory-2024-07-15.pdf`](snapshots/data-file-inventory-2024-07-15.pdf) (575 rows) to [`data-file-inventory-2024-12-04.pdf`](snapshots/data-file-inventory-2024-12-04.pdf) (635 rows).
+
+**61 added, 1 removed, 59 modified.**
+
+### Added (61)
+
+- Census — BOC MAFARF Multiple MAFIDs per PIK
+- Commercial — PSEO Data
+- Florida (FL) — FL MVAC Event2 File
+- Florida (FL) — Florida MVAC Vehicle 2 Data
+- Georgia (GA) — TANF
+- Journal of Environmental Economics and Management Shale Data — Journal of Environment Economics and Management Shale Data -Public Use
+- Kansas (KS) — Employment and Wage (ES202)
+- Kentucky (KY) — Employment and Wage (ES202)
+- Louisiana (LA) — Employment and Wage (ES202)
+- Maine (ME) — Employment and Wage (ES202)
+- Maryland (MD) — Employment and Wage (ES202)
+- Massachusetts (MA) — Employment and Wage (ES202)
+- Minnesota (MN) — Employment and Wage (ES202)
+- Mississippi (MS) — Case Data
+- Mississippi (MS) — Client Data
+- Mississippi (MS) — Employer Data
+- Mississippi (MS) — Employment and Wage (ES202)
+- Mississippi (MS) — Self Employer Data
+- Missouri (MO) — Employment and Wage (ES202)
+- Montana (MT) — Employment and Wage (ES202)
+- Nebraska (NE) — Employment and Wage (ES202)
+- Nevada (NV) — Employment and Wage (ES202)
+- New Hampshire (NH) — Employment and Wage (ES202)
+- New Jersey (NJ) — Employment and Wage (ES202)
+- New Mexico (NM) — Employment and Wage (ES202)
+- New York (NY) — Employment and Wage (ES202)
+- North Carolina (NC) — Employment and Wage (ES202)
+- North Dakota (ND) — Employment and Wage (ES202)
+- Ohio (OH) — Employment and Wage (ES202)
+- Oklahoma (OK) — Employment and Wage (ES202)
+- Oregon (OR) — Employment and Wage (ES202)
+- Pennsylvania (PA) — Employment and Wage (ES202)
+- Population Race — User Provided Population Race Data
+- Providence College — Degree Data
+- Public Use Data — Medicare Provider Main File
+- Public Use Data — Medicare Provider Main Registry
+- Public Use Data — Medicare Provider National Provider Identifier
+- Public Use Data — Medicare Provider Other Business Names
+- Public Use Data — Medicare Provider Secondary Addresses
+- Public Use Data — Medicare Provider Utilization and Payment Data
+- Puerto Rico (PR) — Employment and Wage (ES202)
+- Reveal Global Consulting — CJARS Coverage File
+- Reveal Global Consulting — CJARS Crosswalk
+- Reveal Global Consulting — CJARS Movement File
+- Reveal Global Consulting — CJARS Roster File
+- Rhode Island (RI) — Employment and Wage (ES202)
+- Safegraph — Safegraph Place Data
+- South Carolina (SC) — Employment and Wage (ES202)
+- South Dakota (SD) — Employment and Wage (ES202)
+- Stanford University — Infutor Data
+- Tennessee (TN) — Employment and Wage (ES202)
+- Texas (TX) — Employment and Wage (ES202)
+- University of Michigan — Panel Study of Income Dynamics
+- Utah (UT) — Employment and Wage (ES202)
+- VSGI — Household Member and Telephone Data
+- Vermont (VT) — Employment and Wage (ES202)
+- Virginia (VA) — Employment and Wage (ES202)
+- Washington (WA) — Employment and Wage (ES202)
+- West Virginia (WV) — Employment and Wage (ES202)
+- Wisconsin (WI) — Employment and Wage (ES202)
+- Wyoming (WY) — Employment and Wage (ES202)
+
+### Removed (1)
+
+- U.S. Patent and Trademark Office* — Patent Applications*
+
+### Modified (59)
+
+- Alabama (AL) — Employment and Wage (ES202)
+  - `years_available`: '2023' → '2023; 2024'
+  - `new_years_received`: '2023 202302; 2023 202302a' → '2023 202304a; 2024 202401'
+- Arizona (AZ) — Employment and Wage (ES202)
+  - `years_available`: '2023' → '2023; 2024'
+  - `new_years_received`: '2023 202302a; 2023 202303' → '2023 202304a; 2024 202401'
+- Arkansas (AR) — Employment and Wage (ES202)
+  - `years_available`: '2018; 2019; 2020; 2021; 2022; 2023' → '2018; 2019; 2020; 2021; 2022; 2023; 2024'
+  - `new_years_received`: '2018 201801; 2018 201802; 2018 201803; 2018 201804; 2019 201901; 2019 201902; 2019 201903; 2019 201904; 2020 202001; 2020 202002; 2020 202003; 2020 202004; 2021 202101; 2021 202102; 2021 202103; 2021 202104; 2022 202201; 2022 202202; 2022 202203; 2022 202' → '2024 202401'
+- California (CA) — Employment and Wage (ES202)
+  - `years_available`: '2023' → '2023; 2024'
+  - `new_years_received`: '' → '2023 202304a; 2024 202401'
+- Census — Crosswalk CUF Island Areas
+  - `years_available`: '2020' → '2020; 2020'
+- Census — Email Frame Extract
+  - `new_years_received`: '2024 202404' → ''
+- Center for Medicare and Medicaid Services — Medicare Enrollment Database (EDB)
+  - `years_available`: '1999; 2000; 2001; 2002; 2003; 2004; 2005; 2006; 2007; 2008; 2009; 2010; 2011; 2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022; 2023' → '1999; 2000; 2001; 2002; 2003; 2004; 2005; 2006; 2007; 2008; 2009; 2010; 2011; 2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022; 2023; 2024'
+- Delaware (DE) — Employment and Wage (ES202)
+  - `years_available`: '2023; 2023' → '2023; 2024'
+  - `new_years_received`: '' → '2023 202304a; 2024 202401'
+- Department of Defense — DMDC Service Transition Activity Research Data
+  - `new_years_received`: '' → '2001-2022'
+- Department of Defense — DOD DMDC Military Files
+  - `years_available`: '2018; 2019; 2019/03; 2019/03a; 2020; 2021/03; 2021/0323; 2021/08; 2021/09; 2022' → '2018; 2019; 2019/03; 2019/03a; 2020; 2021/03; 2021/0323; 2021/08; 2021/09; 2022; 2023'
+  - `new_years_received`: '2022' → ''
+- Department of Labor — ETA RAPIDS EEO Deficets Data
+  - `years_available`: '2024' → '2024; 202403'
+- Department of Labor — ETA RAPIDS EEO Review Data
+  - `years_available`: '2024' → '2024; 202403'
+- Department of Labor — ETA RAPIDS Employer Data
+  - `years_available`: '2024' → '2024; 202403'
+- Department of Labor — ETA RAPIDS Program Data
+  - `years_available`: '2024' → '2024; 202403'
+- Department of Labor — ETA RAPIDS Program Occupation Data
+  - `years_available`: '2024' → '2024; 202403'
+- Department of Labor — ETA RAPIDS QAA Review Data
+  - `years_available`: '2024' → '2024; 202403'
+- Department of Labor — Employment and Training Agency Registered Apprenticeship Partners Information Data System (ETA RAPIDS)
+  - `years_available`: '2022; 2023; 2024' → '2022; 2023; 2024; 2024; 202403'
+  - `new_years_received`: '' → '2024 202404'
+- Department of Veteran's Affairs — US Veteran's Data
+  - `new_years_received`: '2023' → ''
+- District of Columbia (DC) ( - DC) — Employment and Wage (ES202)
+  - `years_available`: '2023' → '2023; 2024'
+  - `new_years_received`: '' → '2023 202304a; 2024 202401'
+- Florida (FL) — Employment and Wage (ES202)
+  - `years_available`: '2023; 2023' → '2023; 2024'
+  - `new_years_received`: '' → '2023 202304a; 2024 202401'
+- Georgia (GA) — Employment and Wage (ES202)
+  - `years_available`: '2023; 2023' → '2023; 2024'
+  - `new_years_received`: '' → '2023 202304a; 2024 202401'
+- Georgia (GA) — SNAP
+  - `years_available`: '2018; 2019' → '2018; 2019; 2023'
+  - `new_years_received`: '2018 ; 2019' → ''
+- Hawaii (HI) — Employment and Wage (ES202)
+  - `years_available`: '2023' → '2023; 2024'
+  - `new_years_received`: '' → '2023 202304a; 2024 202401'
+- Idaho (ID) — Employment and Wage (ES202)
+  - `years_available`: '2023' → '2023; 2024'
+  - `new_years_received`: '' → '2023 202304a; 2024 202401'
+- Illinois (IL) — Employment and Wage (ES202)
+  - `years_available`: '2023; 2023' → '2023; 2024'
+  - `new_years_received`: '' → '2023 202304a; 2024 202401'
+- Indiana (IN) — Employment and Wage (ES202)
+  - `years_available`: '2023' → '2023; 2024'
+  - `new_years_received`: '' → '2023 202304a; 2024 202401'
+- Indiana Commission For Higher Education — Degree Data
+  - `years_available`: '2002-2019; 2002-2021' → '2002-2019; 2002-2021; 2021'
+- Indiana Commission For Higher Education — Demographic Data
+  - `years_available`: '2002-2019; 2002-2021' → '2002-2019; 2002-2021; 2021'
+- Indiana Commission For Higher Education — Enrollment Data
+  - `years_available`: '2002-2019; 2002-2021' → '2002-2019; 2002-2021; 2021'
+- Internal Revenue Service (IRS) — Business Master File
+  - `years_available`: 'ty2021; ty2022; ty2023; ty2023' → '2024; ty2021; ty2022; ty2023; ty2023'
+  - `new_years_received`: '' → 'ty2023 202445'
+- Internal Revenue Service (IRS) — Earned Income Tax Credit (EITC)
+  - `years_available`: '2018-2021; 2018a; 2019a; 2020; 2021; 2022' → '2018-2021; 2018a; 2019a; 2020; 2021; 2022; ty2022; TY2023'
+- Internal Revenue Service (IRS) — Form 1040 Returns
+  - `years_available`: '1969; 1974; 1979; 1984; 1989; 1989-1999; 1994; 1995; 1998; 1999; 2000; 2001; 2002; 2003; 2004; 2005; 2006; 2007; 2008; 2009; 2010; 2011; 2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022; 2023; 2023' → '1969; 1974; 1979; 1984; 1989; 1989-1999; 1994; 1995; 1998; 1999; 2000; 2001; 2002; 2003; 2004; 2005; 2006; 2007; 2008; 2009; 2010; 2011; 2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022; 2023; 2023; 2024; ty2023; TY2023'
+  - `new_years_received`: '2023 202426' → 'ty2023 202443'
+- Internal Revenue Service (IRS) — Form 1040 Returns -Master Electronic File
+  - `years_available`: 'ty2011; ty2012; ty2013; ty2014; TY2015; ty2016; ty2017; ty2018; ty2019; ty2020; ty2021' → 'ty2011; ty2012; ty2013; ty2014; TY2015; ty2016; ty2017; ty2018; ty2019; ty2020; ty2021; TY2022'
+- Internal Revenue Service (IRS) — Form 1099 Returns (Information Returns)
+  - `years_available`: 'ty2003; ty2004; ty2005; ty2006; ty2007; ty2008; ty2009; ty2010; ty2011; ty2012; ty2013; ty2014; ty2015; ty2016; ty2017; ty2018; ty2020; ty2021; ty2022; ty2023' → '2023; ty2003; ty2004; ty2005; ty2006; ty2007; ty2008; ty2009; ty2010; ty2011; ty2012; ty2013; ty2014; ty2015; ty2016; ty2017; ty2018; ty2020; ty2021; ty2022; ty2023; TY2023'
+  - `new_years_received`: '' → 'ty2023 202445'
+- Internal Revenue Service (IRS) — Form 1099-R Returns (Information Returns)
+  - `years_available`: 'ty1995; ty1996; ty1997; ty1998; ty1999; ty2000; ty2001; ty2002; ty2003; ty2004; ty2005; ty2006; ty2007; ty2008; ty2009; ty2010; ty2011; ty2012; ty2013; ty2014; ty2015; ty2016; ty2017; ty2018; ty2019; ty2020; ty2021; ty2022; ty2023' → '2023; 2024; ty1995; ty1996; ty1997; ty1998; ty1999; ty2000; ty2001; ty2002; ty2003; ty2004; ty2005; ty2006; ty2007; ty2008; ty2009; ty2010; ty2011; ty2012; ty2013; ty2014; ty2015; ty2016; ty2017; ty2018; ty2019; ty2020; ty2021; ty2022; ty2023; TY2023'
+  - `new_years_received`: '' → 'ty2017 201837'
+- Internal Revenue Service (IRS) — Form W-2
+  - `years_available`: '2023; ty2005; ty2006; ty2007; ty2008; ty2009; ty2010; ty2011; ty2012; ty2013; ty2014; ty2015; ty2016; ty2017; ty2018; ty2019; ty2020; ty2021; ty2022; ty2023' → '2023; ty1999; ty2000; ty2001; ty2002; ty2003; ty2004; ty2005; ty2006; ty2007; ty2008; ty2009; ty2010; ty2011; ty2012; ty2013; ty2014; ty2015; ty2016; ty2017; ty2018; ty2019; ty2020; ty2021; ty2022; ty2023; TY2023'
+  - `new_years_received`: '2023 202426; ty2023 202423' → 'ty2023 202445'
+- Iowa (IA) — Employment and Wage (ES202)
+  - `years_available`: '2023' → '2023; 2024'
+  - `new_years_received`: '2023 202302a; 2023 202303' → '2023 202304a; 2024 202401'
+- Minnesota Office of Higher Education — Degree Data
+  - `years_available`: '2006-2021; 2006-2021a; 2006-2021b; 2006-2021c' → '2006-2021; 2006-2021a; 2006-2021b; 2006-2021c; 2021-2022; 2021-2022a'
+- Mississippi (MS) — SNAP/TANF
+  - `years_available`: '2010; 2011; 2012; 2013; 2014; 2015; 2016; 2017; 2018; 2018a; 2019; 2019a; 2020; 2020/06; 2021' → '2010; 2011; 2012; 2013; 2014; 2015; 2016; 2017; 2018; 2018a; 2019; 2019a; 2020; 2020/06; 2021; 2022'
+- Montana (MT) — WIC
+  - `years_available`: '2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022' → '2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022; 2023'
+- Safegraph — Safegraph Place Brand Info File
+  - `years_available`: '2023; 2024; 2024' → '2023; 2024; 2024; 202409; 202410'
+  - `new_years_received`: '2024 06; 2024 07' → '2024 11'
+- Safegraph — Safegraph Place Core POI File
+  - `years_available`: '2023; 2024; 2024' → '2023; 2024; 2024; 202409; 202410'
+  - `new_years_received`: '2024 06; 2024 07' → '2024 11'
+- Safegraph — Safegraph Spend Patterns File
+  - `new_years_received`: '2024 202406' → '2024 11; 2024 202406'
+- Safegraph — Safegraph Transaction Panel Summary File
+  - `new_years_received`: '2024 202406' → '2024 11'
+- Selective Service System (SSS) — Registration File
+  - `years_available`: '1999; 2000; 2001; 2002; 2003; 2004; 2005; 2006; 2007; 2008; 2009; 2010; 2011; 2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022; 2023' → '1999; 2000; 2001; 2002; 2003; 2004; 2005; 2006; 2007; 2008; 2009; 2010; 2011; 2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022; 2023; 2024'
+- Small Business Administration (SBA) — COVID Economic Injury Disaster Loan
+  - `years_available`: '2020-2021; 2020-2021a' → '2020-2021; 2020-2021a; 2020-2023'
+- Social Security Administration (SSA) — Master Beneficiary Record
+  - `years_available`: '2015; 2019; 2020; 2021; 2022; 2023' → '2015; 2019; 2020; 2021; 2022; 2023; 2024'
+- Social Security Administration (SSA) — Payment History Update System
+  - `years_available`: '2019; 2020; 2021; 2022; 2023' → '2019; 2020; 2021; 2022; 2023; 2024'
+- Social Security Administration (SSA) — Supplemental Security Record (SSR) National Files
+  - `years_available`: '2010; 2011; 2012; 2013; 2014; 2015; 2019; 2020; 2021; 2022; 2022a; 2023' → '2010; 2011; 2012; 2013; 2014; 2015; 2019; 2020; 2021; 2022; 2022a; 2023; 2024'
+- South Carolina (SC) — SNAP/TANF
+  - `new_years_received`: '2023' → ''
+- Stanford University — American Board of Family Medicine Clinical Data
+  - `years_available`: '2010-2022; All' → 'All'
+- United States Postal Service — National Change of Address (NCOA)
+  - `years_available`: '2010; 2011; 2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022; 2023; 2024' → '2010; 2011; 2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022; 2023; 2024; 2024; 202410'
+  - `new_years_received`: '' → '2024 202411'
+- University of Connecticut — Degree Data
+  - `years_available`: '2004-2021' → '2004-2021; 2021-2023'
+- University of Hawaii — Degree Data
+  - `years_available`: '2005-2020; 2005-2021' → '2005-2020; 2005-2021; 2021-2022'
+- University of Hawaii — Demographic Data
+  - `years_available`: '2005-2020' → '2005-2020; 2021-2022'
+- University of Hawaii — Enrollment Data
+  - `years_available`: '2005-2020; 2005-2021' → '2005-2020; 2005-2021; 2021-2022'
+- University of Minnesota — IPUMS Data
+  - `years_available`: '1850; 1860; 1870; 1880; 1900; 1910; 1920; 1930; 1940' → '1850; 1860; 1870; 1880; 1900; 1910; 1920; 1930; 1940; 1950'
+- VSGI — Household Member and Telephone Data
+  - `years_available`: '2010; 2010; 2011; 2011; 2013; 2013; 2014; 2014; 2015; 2015; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022; 2023; 2024' → '2010; 2010; 2011; 2011; 2013; 2013; 2014; 2014; 2015; 2015; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022; 2023; 2024; 2024'
+- Virginia (VA) — SNAP
+  - `new_years_received`: '2023' → ''
+
 ## 2024-07-15
 
 Compared [`data-file-inventory-2024-03-26.pdf`](snapshots/data-file-inventory-2024-03-26.pdf) (472 rows) to [`data-file-inventory-2024-07-15.pdf`](snapshots/data-file-inventory-2024-07-15.pdf) (575 rows).
