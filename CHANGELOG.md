@@ -2,6 +2,215 @@
 
 History of changes to the Census Bureau's administrative data file inventory PDF, newest first. See README.md for how row identity works and what a removed row does and does not mean.
 
+## 2025-02-02
+
+Compared [`data-file-inventory-2024-12-04.pdf`](snapshots/data-file-inventory-2024-12-04.pdf) (635 rows) to [`data-file-inventory-2025-02-02.pdf`](snapshots/data-file-inventory-2025-02-02.pdf) (656 rows).
+
+**29 added, 8 removed, 74 modified.**
+
+### Added (29)
+
+- Arizona (AZ) — SNAP -Clients Data
+- Arkansas (AR) — SNAP
+- Arkansas (AR) — SNAP Case File
+- Arkansas (AR) — SNAP Individual Client File
+- Georgia (GA) — SNAP Case File
+- Georgia (GA) — SNAP Individual Client File
+- Harvard University — Harvard Work Advance Data
+- Iowa (IA) — Drivers License Data
+- Nevada (NV) — SNAP
+- Nevada (NV) — SNAP -Case File
+- Nevada (NV) — SNAP -Individual File
+- Public Use Data — National Downloadable File of Care Compare Facility Affiliation
+- Public Use Data — National Downloadable File of Care Compare Main File
+- Public Use Data — National Provider Identifier
+- Public Use Data — National Provider Identifier Main Registry
+- Public Use Data — National Provider Identifier Other Business Names
+- Public Use Data — National Provider Identifier Secondary Addresses
+- South Dakota Board of Regents — Degree Data
+- South Dakota Board of Regents — Demographic Data
+- South Dakota Board of Regents — Enrollment Data
+- Stanford University — Stanford California Department of Public Health Data
+- University Employee — Employee Names
+- University of Michigan — CJARS Adjudication
+- University of Michigan — CJARS Arrest
+- University of Michigan — CJARS Coverage
+- University of Michigan — CJARS Incarceration
+- University of Michigan — CJARS Parole
+- University of Michigan — CJARS Probation
+- University of Michigan — Degree Data
+
+### Removed (8)
+
+- Public Use Data — Medicare Provider Main File
+- Public Use Data — Medicare Provider Main Registry
+- Public Use Data — Medicare Provider National Provider Identifier
+- Public Use Data — Medicare Provider Other Business Names
+- Public Use Data — Medicare Provider Secondary Addresses
+- Stanford University — American Board of Family Medicine Clinical Data
+- University of California, Irvine — Stanford California Department of Public Health Data
+- VSGI — Household Member and Telephone Data
+
+### Modified (74)
+
+- Alabama (AL) — Employment and Wage (ES202)
+  - `new_years_received`: '2023 202304a; 2024 202401' → ''
+- Arizona (AZ) — Employment and Wage (ES202)
+  - `new_years_received`: '2023 202304a; 2024 202401' → ''
+- Arizona (AZ) — WIC
+  - `years_available`: '2014; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022' → '2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022; 2023'
+  - `new_years_received`: '' → '2023'
+- Arkansas (AR) — Employment and Wage (ES202)
+  - `new_years_received`: '2024 202401' → ''
+- California (CA) — Employment and Wage (ES202)
+  - `new_years_received`: '2023 202304a; 2024 202401' → ''
+- Connecticut (CT) — WIC
+  - `new_years_received`: '' → '2023'
+- Delaware (DE) — Employment and Wage (ES202)
+  - `new_years_received`: '2023 202304a; 2024 202401' → ''
+- Department of Defense — DMDC Service Transition Activity Research Data
+  - `new_years_received`: '2001-2022' → ''
+- Department of Labor — Employment and Training Agency Registered Apprenticeship Partners Information Data System (ETA RAPIDS)
+  - `new_years_received`: '2024 202404' → ''
+- District of Columbia (DC) ( - DC) — Employment and Wage (ES202)
+  - `new_years_received`: '2023 202304a; 2024 202401' → ''
+- Florida (FL) — Employment and Wage (ES202)
+  - `new_years_received`: '2023 202304a; 2024 202401' → ''
+- Georgia (GA) — Employment and Wage (ES202)
+  - `new_years_received`: '2023 202304a; 2024 202401' → ''
+- Hawaii (HI) — Employment and Wage (ES202)
+  - `new_years_received`: '2023 202304a; 2024 202401' → ''
+- Idaho (ID) — Employment and Wage (ES202)
+  - `new_years_received`: '2023 202304a; 2024 202401' → ''
+- Illinois (IL) — Employment and Wage (ES202)
+  - `new_years_received`: '2023 202304a; 2024 202401' → ''
+- Illinois (IL) — WIC
+  - `years_available`: '2017; 2018; 2019; 2020; 2020a; 2021; 2022' → '2017; 2018; 2019; 2020; 2020a; 2021; 2022; 2023'
+  - `new_years_received`: '' → '2023'
+- Illinois (IL) — WIC Benefits
+  - `years_available`: '2022' → '2022; 2023'
+  - `new_years_received`: '' → '2023'
+- Illinois (IL) — WIC Demographic
+  - `years_available`: '2022' → '2022; 2023'
+  - `new_years_received`: '' → '2023'
+- Indiana (IN) — Employment and Wage (ES202)
+  - `new_years_received`: '2023 202304a; 2024 202401' → ''
+- Internal Revenue Service (IRS) — Business Master File
+  - `new_years_received`: 'ty2023 202445' → ''
+- Internal Revenue Service (IRS) — Form 1040 Returns
+  - `new_years_received`: 'ty2023 202443' → 'ty2023 202447'
+- Internal Revenue Service (IRS) — Form 1099 Returns (Information Returns)
+  - `new_years_received`: 'ty2023 202445' → 'ty2023 202449'
+- Internal Revenue Service (IRS) — Form 1099-R Returns (Information Returns)
+  - `new_years_received`: 'ty2017 201837' → ''
+- Internal Revenue Service (IRS) — Form W-2
+  - `new_years_received`: 'ty2023 202445' → 'ty2023 202449'
+- Iowa (IA) — Drivers License Data
+  - `years_available`: '2019; 2020; 2021; 2022' → '2019; 2020; 2021; 2022; 2024'
+- Iowa (IA) — Employment and Wage (ES202)
+  - `new_years_received`: '2023 202304a; 2024 202401' → ''
+- Kansas (KS) — Employment and Wage (ES202)
+  - `new_years_received`: '2023 202304a; 2024 202401' → ''
+- Kentucky (KY) — Employment and Wage (ES202)
+  - `new_years_received`: '2023 202304a; 2024 202401' → ''
+- Louisiana (LA) — Employment and Wage (ES202)
+  - `new_years_received`: '2023 202304a; 2024 202401' → ''
+- Maine (ME) — Employment and Wage (ES202)
+  - `new_years_received`: '2023 202304a; 2024 202401' → ''
+- Maryland (MD) — Employment and Wage (ES202)
+  - `new_years_received`: '2024 202401' → ''
+- Massachusetts (MA) — Employment and Wage (ES202)
+  - `new_years_received`: '2023 202304a; 2024 202401' → ''
+- Minnesota (MN) — Employment and Wage (ES202)
+  - `new_years_received`: '2023 202304a; 2024 202401' → ''
+- Mississippi (MS) — Employment and Wage (ES202)
+  - `new_years_received`: '2018 201802; 2018 201803; 2018 201804; 2019 201901; 2019 201902; 2019 201903; 2019 201904; 2020 202001; 2020 202002; 2020 202003; 2020 202004; 2021 202101; 2021 202102; 2021 202103; 2021 202104; 2022 202201; 2022 202202; 2022 202203; 2022 202204; 2023 202' → ''
+- Missouri (MO) — Employment and Wage (ES202)
+  - `new_years_received`: '2023 202304a; 2024 202401' → ''
+- Montana (MT) — Employment and Wage (ES202)
+  - `new_years_received`: '2023 202304a; 2024 202401' → ''
+- Nebraska (NE) — Employment and Wage (ES202)
+  - `new_years_received`: '2023 202304a; 2024 202401' → ''
+- Nevada (NV) — Employment and Wage (ES202)
+  - `new_years_received`: '2023 202304a; 2024 202401' → ''
+- New Hampshire (NH) — Employment and Wage (ES202)
+  - `new_years_received`: '2023 202304a; 2024 202401' → ''
+- New Jersey (NJ) — Employment and Wage (ES202)
+  - `new_years_received`: '2023 202304a; 2024 202401' → ''
+- New Mexico (NM) — Employment and Wage (ES202)
+  - `new_years_received`: '2023 202304a; 2024 202401' → ''
+- New York (NY) — Employment and Wage (ES202)
+  - `new_years_received`: '2023 202304a; 2024 202401' → ''
+- North Dakota (ND) — Employment and Wage (ES202)
+  - `new_years_received`: '2023 202304a; 2024 202401' → ''
+- Ohio (OH) — Employment and Wage (ES202)
+  - `new_years_received`: '2023 202304a; 2024 202401' → ''
+- Oklahoma (OK) — Employment and Wage (ES202)
+  - `new_years_received`: '2023 202304a; 2024 202401' → ''
+- Oregon (OR) — Employment and Wage (ES202)
+  - `new_years_received`: '2023 202304a; 2024 202401' → ''
+- Pennsylvania (PA) — Employment and Wage (ES202)
+  - `new_years_received`: '2023 202304a; 2024 202401' → ''
+- Public Use Data — Medicare Provider Utilization and Payment Data
+  - `entity_type`: 'Other' → 'Federal'
+  - `agency_or_program`: 'National Provider Identifier' → 'Center for Medicare & Medicaid Services'
+- Puerto Rico (PR) — Employment and Wage (ES202)
+  - `new_years_received`: '2023 202304a; 2024 202401' → ''
+- Rhode Island (RI) — Employment and Wage (ES202)
+  - `new_years_received`: '2023 202304a; 2024 202401' → ''
+- Safegraph — Safegraph Place Brand Info File
+  - `new_years_received`: '2024 11' → '2024 12'
+- Safegraph — Safegraph Place Core POI File
+  - `new_years_received`: '2024 11' → '2024 12'
+- Safegraph — Safegraph Place Data
+  - `years_available`: '2024' → '2023; 2023; 2024'
+  - `new_years_received`: '' → '2024 12'
+- Safegraph — Safegraph Spend Patterns File
+  - `new_years_received`: '2024 11; 2024 202406' → '2024 202406; 2024 202412'
+- Safegraph — Safegraph Transaction Panel Summary File
+  - `new_years_received`: '2024 11' → '2024 202412'
+- Social Security Administration (SSA) — Numident
+  - `new_years_received`: '' → '2024 202412'
+- South Carolina (SC) — Employment and Wage (ES202)
+  - `new_years_received`: '2024 202401' → ''
+- South Dakota (SD) — Employment and Wage (ES202)
+  - `new_years_received`: '2023 202304a; 2024 202401' → ''
+- Stanford University — Infutor Data
+  - `years_available`: '2017; 2017' → '2017'
+- Tennessee (TN) — Employment and Wage (ES202)
+  - `new_years_received`: '2023 202304a; 2024 202401' → ''
+- Texas (TX) — Employment and Wage (ES202)
+  - `new_years_received`: '2023 202304a; 2024 202401' → ''
+- United States Postal Service — National Change of Address (NCOA)
+  - `new_years_received`: '2024 202411' → '2024 12'
+- University of Michigan — CJARS Demographic Data
+  - `years_available`: '2020q4; 2021q1; 2022q2; 2022q4; 2023q3' → '2020q4; 2021q1; 2022q2; 2022q4; 2023q3; 2024q4'
+- University of Michigan — CJARS Person Data
+  - `years_available`: '2019' → '2019q1'
+  - `new_years_received`: '' → '2019q1'
+- University of Michigan — CJARS Roster Data
+  - `years_available`: '2020q4; 2021q1; 2022q2; 2022q4; 2023q3' → '2020q4; 2021q1; 2022q2; 2022q4; 2023q3; 2024q4'
+  - `new_years_received`: '' → '2020q4 ; 2021q1 ; 2022q2 ; 2023q3'
+- University of Michigan — Criminal Justice Administrative Records System (CJARS)
+  - `years_available`: '2019q1; 2020; 2021; 2022; 2023' → '2019q1; 2020; 2020q4; 2021q1; 2022; 2022q2; 2022q4; 2023q3; 2024q4'
+  - `new_years_received`: '' → '2019q1 ; 2020q4 ; 2021q1 ; 2022q2 ; 2023q3'
+- University of Michigan — Panel Study of Income Dynamics
+  - `new_years_received`: '1968-2021' → ''
+- Utah (UT) — Employment and Wage (ES202)
+  - `new_years_received`: '2023 202304a; 2024 202401' → ''
+- Vermont (VT) — Employment and Wage (ES202)
+  - `new_years_received`: '2023 202304a; 2024 202401' → ''
+- Virginia (VA) — Employment and Wage (ES202)
+  - `new_years_received`: '2023 202304a; 2024 202401' → ''
+- Washington (WA) — Employment and Wage (ES202)
+  - `new_years_received`: '2023 202304a; 2024 202401' → ''
+- West Virginia (WV) — Employment and Wage (ES202)
+  - `new_years_received`: '2023 202304a; 2024 202401' → ''
+- Wisconsin (WI) — Employment and Wage (ES202)
+  - `new_years_received`: '2024 202401' → ''
+- Wyoming (WY) — Employment and Wage (ES202)
+  - `new_years_received`: '2023 202304a; 2024 202401a' → ''
+
 ## 2024-12-04
 
 Compared [`data-file-inventory-2024-07-15.pdf`](snapshots/data-file-inventory-2024-07-15.pdf) (575 rows) to [`data-file-inventory-2024-12-04.pdf`](snapshots/data-file-inventory-2024-12-04.pdf) (635 rows).
