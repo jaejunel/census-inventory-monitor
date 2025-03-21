@@ -2,6 +2,424 @@
 
 History of changes to the Census Bureau's administrative data file inventory PDF, newest first. See README.md for how row identity works and what a removed row does and does not mean.
 
+## 2025-03-21
+
+Compared [`data-file-inventory-2025-02-20.pdf`](snapshots/data-file-inventory-2025-02-20.pdf) (666 rows) to [`data-file-inventory-2025-03-21.pdf`](snapshots/data-file-inventory-2025-03-21.pdf) (673 rows).
+
+**7 added, 0 removed, 187 modified.**
+
+### Added (7)
+
+- Census — National Surveys of Children’s Health Longitudinal Cohort
+- United States (US) — US Voter History
+- United States (US) — Voter Demographic 1 Information
+- United States (US) — Voter Demographic 2 Information
+- United States (US) — Voter Demographic 3 Information
+- United States (US) — Voter Demographic 4 Information
+- United States (US) — Voter Demographic 5 Information
+
+### Modified (187)
+
+- Arizona (AZ) — SNAP
+  - `new_years_received`: '' → '2024'
+- Arizona (AZ) — SNAP Case Data
+  - `new_years_received`: '' → '2024'
+- Arizona (AZ) — SNAP Individual Data
+  - `new_years_received`: '' → '2024'
+- Arkansas (AR) — SNAP
+  - `years_available`: '2021; 2022; 2023' → '2021; 2022; 2023; 2024'
+  - `new_years_received`: '' → '2024'
+- Arkansas (AR) — SNAP Case File
+  - `years_available`: '2017; 2018; 2019; 2020; 2021; 2022; 2023' → '2017; 2018; 2019; 2020; 2021; 2022; 2023; 2024'
+  - `new_years_received`: '' → '2024'
+- Arkansas (AR) — SNAP Individual Client File
+  - `years_available`: '2017; 2018; 2019; 2020; 2021; 2022; 2023' → '2017; 2018; 2019; 2020; 2021; 2022; 2023; 2024'
+  - `new_years_received`: '' → '2024'
+- Census — BOC MAFARF Multiple MAFIDs per PIK
+  - `years_available`: '2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2023' → '2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2023; 2024'
+  - `new_years_received`: '' → '2024'
+- Census — SSA Administrative Records Linked to Current Population Survey (CPS) -Detail Earnings
+  - `years_available`: '1973-2016; 1973-2018; 1973-2019; 1973-2020; 1973-2020a; 1973-2022; 1973-2023; 1991-2001; 1991-2002; 1991-2003; 1991-2006; 1991-2008; 1991-2009; 1991-2011; 1991-2013' → '1973-2016; 1973-2018; 1973-2019; 1973-2020; 1973-2020a; 1973-2022; 1973-2023; 1973-2024; 1991-2001; 1991-2002; 1991-2003; 1991-2006; 1991-2008; 1991-2009; 1991-2011; 1991-2013'
+  - `new_years_received`: '' → '1973-2024'
+- Census — SSA Administrative Records Linked to Current Population Survey (CPS) -Disability
+  - `years_available`: '1973-2016; 1973-2018; 1973-2019; 1973-2020; 1973-2020a; 1973-2022; 1973-2023; 1991-2001; 1991-2002; 1991-2003; 1991-2006; 1991-2008; 1991-2009; 1991-2011; 1991-2013' → '1973-2016; 1973-2018; 1973-2019; 1973-2020; 1973-2020a; 1973-2022; 1973-2023; 1973-2024; 1991-2001; 1991-2002; 1991-2003; 1991-2006; 1991-2008; 1991-2009; 1991-2011; 1991-2013'
+  - `new_years_received`: '' → '1973-2024'
+- Census — SSA Administrative Records Linked to Current Population Survey (CPS) -Summary Earnings
+  - `years_available`: '1973-2016; 1973-2018; 1973-2019; 1973-2020; 1973-2020a; 1973-2022; 1973-2023; 1991-2001; 1991-2002; 1991-2003; 1991-2006; 1991-2008; 1991-2009; 1991-2011; 1991-2013' → '1973-2016; 1973-2018; 1973-2019; 1973-2020; 1973-2020a; 1973-2022; 1973-2023; 1973-2024; 1991-2001; 1991-2002; 1991-2003; 1991-2006; 1991-2008; 1991-2009; 1991-2011; 1991-2013'
+- Census — SSA Administrative Records Linked to Survey of Income and Program Participation (SIPP) - Detail Earnings
+  - `years_available`: '1978-2017; 1978-2018; 1984-1996; 1984-2001; 1984-2008w1; 1984-2019; 1984-2020; 1984-2022; 1984-2023; 84_ 08w1_16_2014w1_4; 84-01w1-5; 84-01w1-9; 84-04w1-3; 84-04w1-8; 84-08w1-11; 84-08w1-16_2014w1; 84-08w1-16_2014w1-3; 84-08w1-5; 84-08w1-5_2010' → '1978-2017; 1978-2018; 1984-1996; 1984-2001; 1984-2008w1; 1984-2019; 1984-2020; 1984-2022; 1984-2023; 1984-2024; 84_08w1_16_2014w1_4; 84-01w1-5; 84-01w1-9; 84-04w1-3; 84-04w1-8; 84-08w1-11; 84-08w1-16_ 2014w1; 84-08w1-16_2014w1-3; 84-08w1-5; 84-08w1-5_2010'
+  - `new_years_received`: '' → '1984-2024'
+- Census — SSA Administrative Records Linked to Survey of Income and Program Participation (SIPP) - Summary Earnings
+  - `years_available`: '1937-2017; 1937-2018; 1984-1996; 1984-2001; 1984-2019; 1984-2020a; 1984-2022; 1984-2023; 84_08w1_16_ 2014w1_4; 84-01w1-5; 84-01w1-9; 84-04w1-3; 84-04w1-8; 84-08w1; 84-08w1_11; 84-08w1_5; 84-08w1-16_ 2014w1; 84-08w1-16_2014w1-3; 84-08w1-5_2010' → '1937-2017; 1937-2018; 1984-1996; 1984-2001; 1984-2019; 1984-2020a; 1984-2022; 1984-2023; 1984-2024; 84_ 08w1_16_2014w1_4; 84-01w1-5; 84-01w1-9; 84-04w1-3; 84-04w1-8; 84-08w1; 84-08w1_11; 84-08w1_5; 84-08w1-16_2014w1; 84-08w1-16_ 2014w1-3; 84-08w1-5_2010'
+- Department of Defense — Air Force Military-Civilian Transition Office
+  - `new_years_received`: '2016-2024' → ''
+- Department of Defense — Army Military-Civilian Transition Office
+  - `new_years_received`: '2016-2024' → ''
+- Department of Defense — Coast Guard Military-Civilian Transition Office
+  - `new_years_received`: '2016-2024' → ''
+- Department of Defense — Marine Corps Military-Civilian Transition Office
+  - `new_years_received`: '2016-2024' → ''
+- Department of Defense — Military-Civilian Transition Office
+  - `new_years_received`: '2016-2024' → ''
+- Department of Defense — Navy Military-Civilian Transition Office
+  - `new_years_received`: '2016-2024' → ''
+- Department of Defense — Space Force Military-Civilian Transition Office
+  - `new_years_received`: '2016-2024a' → ''
+- Georgia Independent College Association — Degree Data
+  - `years_available`: '2008-2022; 2013-2022' → '2007-2027; 2008-2022; 2013-2022'
+- Georgia Independent College Association — Demographic Data
+  - `years_available`: '2008-2022; 2013-2022' → '2007-2024; 2008-2022; 2013-2022'
+- Georgia Independent College Association — Enrollment Data
+  - `years_available`: '2008-2022; 2013-2022' → '2007-2024; 2008-2022; 2013-2022'
+- Guam (GU) — Voter Registration Data
+  - `new_years_received`: '2014 ; 2016 ; 2018 ; 2020 ; 2022 ; 2024' → ''
+- Housing and Urban Development (HUD) — FHA Integrated Data Base
+  - `years_available`: '2010-2016; 2010-2017; 2010-2018; 2010-2019; 2010-2020; 2010-2021; 2010-2022; 2010-2023;2020' → '2010-2016; 2010-2017; 2010-2018; 2010-2019; 2010-2020; 2010-2021; 2010-2022; 2010-2023; 2020'
+- Housing and Urban Development (HUD) — Family Options Data
+  - `new_years_received`: '2020' → ''
+- Housing and Urban Development (HUD) — Low-Income Housing Tax Credit
+  - `years_available`: '2018;2019' → '2018; 2019'
+- Housing and Urban Development (HUD) — Member File
+  - `years_available`: '2020;2023' → '2020; 2023'
+- Illinois Board of Higher Education — Degree Data
+  - `years_available`: '2001-2022; 2001-2022a;2001-2023' → '2001-2022; 2001-2022a; 2001-2023'
+- Indian Health Service (IHS) — Patient Registration
+  - `years_available`: '1999; 2000; 2001; 2002; 2003; 2004; 2005; 2006; 2007; 2008; 2009; 2010; 2011; 2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019;2020' → '1999; 2000; 2001; 2002; 2003; 2004; 2005; 2006; 2007; 2008; 2009; 2010; 2011; 2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020'
+- Indiana Commission For Higher Education — Degree Data
+  - `years_available`: '2002-2019; 2002-2021;2021' → '2002-2019; 2002-2021; 2021'
+- Indiana Commission For Higher Education — Demographic Data
+  - `years_available`: '2002-2019; 2002-2021;2021' → '2002-2019; 2002-2021; 2021'
+- Indiana Commission For Higher Education — Enrollment Data
+  - `years_available`: '2002-2019; 2002-2021;2021' → '2002-2019; 2002-2021; 2021'
+- Internal Revenue Service (IRS) — Business Master File
+  - `years_available`: '2024; ty2021; ty2022; ty2023; ty2023' → '2024; ty2021; ty2022; ty2023; ty2023; ty2024'
+  - `new_years_received`: 'ty2023 202449; ty2023 202452' → 'ty2024 202507'
+- Internal Revenue Service (IRS) — Form 1040 Returns
+  - `new_years_received`: 'ty2023 202452; ty2024 202504' → 'ty2024 202504; ty2024 202508'
+- Internal Revenue Service (IRS) — Form 1096 Summary of Information Returns (1099-MISC only)
+  - `years_available`: 'ty2011; ty2012; ty2013; ty2014; ty2015; ty2016; ty2017; ty2018; ty2019; ty2020; ty2021; ty2022' → 'ty2011; ty2012; ty2013; ty2014; ty2015; ty2016; ty2017; ty2018; ty2019; ty2020; ty2021; ty2022; ty2023'
+  - `new_years_received`: '' → 'ty2023 202504'
+- Internal Revenue Service (IRS) — Form 1099 Returns (Information Returns)
+  - `years_available`: '2023; ty2003; ty2004; ty2005; ty2006; ty2007; ty2008; ty2009; ty2010; ty2011; ty2012; ty2013; ty2014; ty2015; ty2016; ty2017; ty2018; ty2020; ty2021; ty2022; ty2023; TY2023' → '2023; ty2003; ty2004; ty2005; ty2006; ty2007; ty2008; ty2009; ty2010; ty2011; ty2012; ty2013; ty2014; ty2015; ty2016; ty2017; ty2018; ty2020; ty2021; ty2022; ty2023; TY2023; ty2024'
+  - `new_years_received`: 'ty2023 202452; ty2023 202504' → 'ty2023 202504; ty2024 202507'
+- Internal Revenue Service (IRS) — Form 1099-R Returns (Information Returns)
+  - `years_available`: '2023; 2024; ty1995; ty1996; ty1997; ty1998; ty1999; ty2000; ty2001; ty2002; ty2003; ty2004; ty2005; ty2006; ty2007; ty2008; ty2009; ty2010; ty2011; ty2012; ty2013; ty2014; ty2015; ty2016; ty2017; ty2018; ty2019; ty2020; ty2021; ty2022; ty2023; TY2023' → '2023; 2024; ty1995; ty1996; ty1997; ty1998; ty1999; ty2000; ty2001; ty2002; ty2003; ty2004; ty2005; ty2006; ty2007; ty2008; ty2009; ty2010; ty2011; ty2012; ty2013; ty2014; ty2015; ty2016; ty2017; ty2018; ty2019; ty2020; ty2021; ty2022; ty2023; TY2023; ty2'
+  - `new_years_received`: 'ty2023 202449; ty2023 202445; ty2023 202452' → 'ty2023 202452; ty2024 202507'
+- Internal Revenue Service (IRS) — Form W-2
+  - `years_available`: '2023; ty1999; ty2000; ty2001; ty2002; ty2003; ty2004; ty2005; ty2006; ty2007; ty2008; ty2009; ty2010; ty2011; ty2012; ty2013; ty2014; ty2015; ty2016; ty2017; ty2018; ty2019; ty2020; ty2021; ty2022; ty2023; TY2023' → '2023; ty1999; ty2000; ty2001; ty2002; ty2003; ty2004; ty2005; ty2006; ty2007; ty2008; ty2009; ty2010; ty2011; ty2012; ty2013; ty2014; ty2015; ty2016; ty2017; ty2018; ty2019; ty2020; ty2021; ty2022; ty2023; TY2023; ty2024'
+  - `new_years_received`: 'ty2023 202452; ty2023 202504' → 'ty2024 202507'
+- Iowa Community College — Demographic Data
+  - `years_available`: '2001-2021; 2017-2023;2021-2022' → '2001-2021; 2017-2023; 2021-2022'
+- Iowa Community College — Enrollment Data
+  - `years_available`: '2001-2021; 2017-2023;2021-2022' → '2001-2021; 2017-2023; 2021-2022'
+- LA Board of Regents — Degree Data
+  - `years_available`: '2001-2019; 2002-2019;2019-2022' → '2001-2019; 2002-2019; 2019-2022'
+- LA Board of Regents — Demographic Data
+  - `years_available`: '2001-2019;2019-2022' → '2001-2019; 2019-2022'
+- LA Board of Regents — Enrollment Data
+  - `years_available`: '2001-2019;2019-2022' → '2001-2019; 2019-2022'
+- Legal Services Corporation — Eviction Data
+  - `years_available`: '2016-2022;2016-2023' → '2016-2022; 2016-2023'
+- Legal Services Corporation — Evictions Data
+  - `years_available`: '2016-2022;2016-2023' → '2016-2022; 2016-2023'
+- Maine Community College System — Degree Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- Manpower Demonstration Research Corporation (MDRC) — Florida Family Transition Program
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- Manpower Demonstration Research Corporation (MDRC) — New Hope for the Working Poor
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- Massachusetts Department of Higher Education — Degree Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- Massachusetts Department of Higher Education — Demographic Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- Massachusetts Department of Higher Education — Enrollment Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- Minnesota Office of Higher Education — Degree Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- Minnesota Office of Higher Education — Demographic Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- Minnesota Office of Higher Education — Enrollment Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- Missouri Department of Higher Education — Degree Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- Missouri Department of Higher Education — Demographic Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- Missouri Department of Higher Education — Enrollment Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- Montana (MT) — WIC
+  - `new_years_received`: '2023' → ''
+- Montana University System — Degree Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- Montana University System — Demographic Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- Montana University System — Enrollment Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- Naphsis — Naphsis Data -Ohio
+  - `new_years_received`: '2023 ; 2024' → ''
+- Naphsis — Naphsis Data -Wisconsin
+  - `new_years_received`: '2020 ; 2021' → ''
+- Nevada (NV) — SNAP
+  - `new_years_received`: '2017 ; 2018 ; 2019' → '2020 ; 2021'
+- Nevada (NV) — SNAP -Case File
+  - `new_years_received`: '2017 ; 2018 ; 2019' → '2020 ; 2021'
+- Nevada (NV) — SNAP -Individual File
+  - `new_years_received`: '2017 ; 2018 ; 2019' → '2020 ; 2021'
+- Nevada (NV) — TANF
+  - `years_available`: '2023' → '2023; 2024'
+- Nevada (NV) — TANF -Case File
+  - `years_available`: '2023' → '2023; 2024'
+- Nevada (NV) — TANF -Member
+  - `years_available`: '2023' → '2023; 2024'
+- New Jersey (NJ) — SANP/TANF Case File
+  - `years_available`: '2023' → '2023; 2024'
+- New Jersey (NJ) — SNAP/TANF
+  - `years_available`: '2006; 2007; 2008; 2009; 2010; 2011; 2011a; 2012; 2012a; 2013; 2013a; 2014; 2014a; 2015; 2015a; 2016; 2016a; 2017; 2017a; 2018; 2018a; 2019; 2020; 2020a; 2021; 2022; 2023' → '2006; 2007; 2008; 2009; 2010; 2011; 2011a; 2012; 2012a; 2013; 2013a; 2014; 2014a; 2015; 2015a; 2016; 2016a; 2017; 2017a; 2018; 2018a; 2019; 2020; 2020a; 2021; 2022; 2023; 2024'
+- New Jersey (NJ) — SNAP/TANF Individual File
+  - `years_available`: '2023' → '2023; 2024'
+- Office of Personnel Management (OPM) — Dynamics File
+  - `years_available`: '1990; 1991; 1992; 1993; 1994; 1995; 1996; 1997; 1998; 1999; 2000; 2001; 2002; 2003; 2004; 2005; 2006; 2007; 2008; 2009; 2010; 2011; 2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022; 2023; 2023q4; 2024q1' → '1990; 1991; 1992; 1993; 1994; 1995; 1996; 1997; 1998; 1999; 2000; 2001; 2002; 2003; 2004; 2005; 2006; 2007; 2008; 2009; 2010; 2011; 2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022; 2023; 2023; 2024'
+  - `new_years_received`: '' → '2023 2023q4; 2024 2024q1'
+- Office of Personnel Management (OPM) — Status File
+  - `years_available`: '1990; 1991; 1992; 1993; 1994; 1995; 1996; 1997; 1998; 1999; 2000; 2001; 2002; 2003; 2004; 2005; 2006; 2007; 2008; 2009; 2010; 2011; 2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022; 2023; 2023q4; 2024q1' → '1990; 1991; 1992; 1993; 1994; 1995; 1996; 1997; 1998; 1999; 2000; 2001; 2002; 2003; 2004; 2005; 2006; 2007; 2008; 2009; 2010; 2011; 2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022; 2023; 2023; 2024'
+  - `new_years_received`: '' → '2023 2023q4; 2024 2024q1'
+- Ohio Department of Higher Education — Degree Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- Ohio Department of Higher Education — Demographic Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- Ohio Department of Higher Education — Enrollment Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- Ohio Department of Higher Education — Financial Aid Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- Oklahoma State Regents for Higher Education — Demographic Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+  - `new_years_received`: '2021-2022' → ''
+- Oklahoma State Regents for Higher Education — Enrollment Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+  - `new_years_received`: '2021-2022' → ''
+- Pennsylvania State University — Degree Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- Pennsylvania State University — Demographic Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- Pennsylvania State University — Enrollment Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- Private Capital Research Institute — Enhanced PE Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- Providence College — Degree Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- Revelio Labs — Worker Qualifications
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- Safegraph — Safegraph Place Brand Info File
+  - `new_years_received`: '2025 01' → ''
+- Safegraph — Safegraph Place Core POI File
+  - `new_years_received`: '2025 01' → ''
+- Safegraph — Safegraph Place Data
+  - `new_years_received`: '2025 01' → ''
+- Safegraph — Safegraph Spend Patterns File
+  - `new_years_received`: '2024 202406; 2025 202501' → '2024 202406'
+- Safegraph — Safegraph Transaction Panel Summary File
+  - `new_years_received`: '2025 202501' → ''
+- Sloan School of Management — MIT Sloan Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- South Carolina Commission on Higher Education — Degree Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- South Carolina Commission on Higher Education — Demographic Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- South Carolina Commission on Higher Education — Enrollment Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- South Dakota Board of Regents — Degree Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- South Dakota Board of Regents — Demographic Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- South Dakota Board of Regents — Enrollment Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- South Dakota Board of Technical Education — Degree Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- South Dakota Board of Technical Education — Demographic Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- South Dakota Board of Technical Education — Enrollment Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- Stanford University — Infutor Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- Stanford University — Stanford California Department of Public Health Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- State University of New York — Degree Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- State University of New York — Demographic Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- State University of New York — Enrollment Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- State University of New York — Financial Aid Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- Texas Higher Education Coordinating Board — Degree Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- Texas Higher Education Coordinating Board — Demographic Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- Texas Higher Education Coordinating Board — Enrollment Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- Texas and Utah — Post -Collegiate Earnings Research Project
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- The Connecticut Conference of Independent Colleges — Degree Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- The Oregon Higher Education Coordinating Commission — Degree Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- The Oregon Higher Education Coordinating Commission — Demographic Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- The Oregon Higher Education Coordinating Commission — Enrollment Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- The University of Wisconsin — Degree Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- The University of Wisconsin — Demographic Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- The University of Wisconsin — Enrollment Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- UMETRICS — University Employee Research
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- United States Postal Service — National Change of Address (NCOA)
+  - `new_years_received`: '2025 202501' → '2025 202502'
+- University Employee — Employee Names
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- University Maine System — Degree Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- University Maine System — Demographic Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- University Maine System — Enrollment Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- University System of Georgia — Degree Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+  - `years_available`: '2001-2021; 2001-2022; 2023-2024' → '2001-2021; 2023-2024'
+  - `new_years_received`: '' → '2023-2024'
+- University System of Georgia — Demographic Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+  - `years_available`: '2001-2022a; 2023-2023' → '2001-2022a; 2023-2024'
+  - `new_years_received`: '' → '2023-2024'
+- University System of Georgia — Enrollment Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+  - `new_years_received`: '' → '2023-2024'
+- University System of Georgia — PSEO Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- University of Alabama — Degree Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+  - `years_available`: '2001-2020; 2020-2021;2022' → '2001-2020; 2020-2021; 2022'
+- University of Alabama — Demographic Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+  - `years_available`: '2001-2020; 2020-2021;2022' → '2001-2020; 2020-2021; 2022'
+- University of California, Irvine — Class Roster
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- University of California, Irvine — Graduates Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- University of California, Irvine — Student Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+  - `years_available`: '2010-2017;2017-2022' → '2010-2017; 2017-2022'
+- University of California, Irvine — Student Data -9th Grade on Track
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- University of California, Irvine — Student Data -Annual ADM
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- University of California, Irvine — Student Data -Assessment Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- University of California, Irvine — Student Data -Cohort Graduation
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+  - `years_available`: '2010-2017;2017-2022' → '2010-2017; 2017-2022'
+- University of California, Irvine — Student Data -Discipline Incidents
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- University of California, Irvine — Student Data -English Learners
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- University of California, Irvine — Student Data -Fall Membership
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- University of California, Irvine — Student Data -Homeless
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- University of California, Irvine — Student Data -Special Education
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- University of California, Irvine — Student Data -Spring Membership
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- University of Chicago — L2 National Voter Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- University of Chicago — New Mexico Corrections Department
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- University of Connecticut — Degree Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- University of Hawaii — Degree Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- University of Hawaii — Demographic Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- University of Hawaii — Enrollment Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- University of Iowa — Degree Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- University of Iowa — Demographic Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- University of Iowa — Enrollment Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- University of Michigan — CJARS Adjudication
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- University of Michigan — CJARS Arrest
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- University of Michigan — CJARS Coverage
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- University of Michigan — CJARS Demographic Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- University of Michigan — CJARS Incarceration
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- University of Michigan — CJARS Parole
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- University of Michigan — CJARS Person Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- University of Michigan — CJARS Probation
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- University of Michigan — CJARS Roster Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- University of Michigan — Criminal Justice Administrative Records System (CJARS)
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- University of Michigan — Degree Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- University of Michigan — Panel Study of Income Dynamics
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- University of Minnesota — IPUMS Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- University of North Carolina — Health Care System
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- University of North Carolina — NC-UNC General Administration
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- University of Notre Dame - Lab for Economic Opportunities (LEO) — Homeless Prevention Call Center (HPCC) Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- University of Texas — Degree Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- University of Texas — Demographic Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- University of Texas — Enrollment Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- University of Wyoming — Degree Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- University of Wyoming — Demographic Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- University of Wyoming — Enrollment Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- Utah System of Higher Education — Degree Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- Utah System of Higher Education — Demographic Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- Utah System of Higher Education — Enrollment Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- VA State Council of Higher Education — Degree Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- VA State Council of Higher Education — Demographic Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- VA State Council of Higher Education — Enrollment Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- West Virginia Higher Education Policy Commission — Degree Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- West Virginia Higher Education Policy Commission — Demographic Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- Western Governors University — US WGU PSEO Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- World War II — WWII Public Use Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- Wyoming Community College Commission — Degree Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- Wyoming Community College Commission — Demographic Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+- Wyoming Community College Commission — Enrollment Data
+  - `entity_type`: 'Thursday, February 13, 2025' → 'Other'
+
 ## 2025-02-20
 
 Compared [`data-file-inventory-2025-02-02.pdf`](snapshots/data-file-inventory-2025-02-02.pdf) (656 rows) to [`data-file-inventory-2025-02-20.pdf`](snapshots/data-file-inventory-2025-02-20.pdf) (666 rows).
