@@ -2,6 +2,14 @@
 
 History of changes to the Census Bureau's administrative data file inventory PDF, newest first. See README.md for how row identity works and what a removed row does and does not mean.
 
+## 2025-03-22
+
+Compared [`data-file-inventory-2025-03-21.pdf`](snapshots/data-file-inventory-2025-03-21.pdf) (673 rows) to [`data-file-inventory-2025-03-22.pdf`](snapshots/data-file-inventory-2025-03-22.pdf) (673 rows).
+
+**0 added, 0 removed, 0 modified.**
+
+No changes detected (content hash differed, but rows matched).
+
 ## 2025-03-21
 
 Compared [`data-file-inventory-2025-02-20.pdf`](snapshots/data-file-inventory-2025-02-20.pdf) (666 rows) to [`data-file-inventory-2025-03-21.pdf`](snapshots/data-file-inventory-2025-03-21.pdf) (673 rows).
