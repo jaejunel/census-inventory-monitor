@@ -2,6 +2,1043 @@
 
 History of changes to the Census Bureau's administrative data file inventory PDF, newest first. See README.md for how row identity works and what a removed row does and does not mean.
 
+## 2026-02-03
+
+Compared [`data-file-inventory-2025-05-08.pdf`](snapshots/data-file-inventory-2025-05-08.pdf) (695 rows) to [`data-file-inventory-2026-02-03.pdf`](snapshots/data-file-inventory-2026-02-03.pdf) (801 rows).
+
+**119 added, 13 removed, 384 modified.**
+
+### Added (119)
+
+- Alabama Board of Nursing — Advanced Practice Registered Nurses
+- Arizona Board of Regents (AZBOR) Northern Arizona University — Degree Data
+- Arizona Board of Regents (AZBOR) Northern Arizona University — Demographic Data
+- Arizona Board of Regents (AZBOR) Northern Arizona University — Enrollment Data
+- Bryant University — Degree Data
+- Census — EMPUNITID MAFID Crosswalk
+- Center for Medicare and Medicaid Services — Medicare Master Beneficiary Summary File (MBSF)
+- City University of New York — Degree Data
+- Colorado (CO) — Employment and Wage (ES202)
+- Colorado Board of Nursing — Nursing Data –Advanced Practice Registered Nurse (APRN)
+- Connecticut (CT) — Employment and Wage (ES202)
+- Connecticut Board of Nursing — Nursing Data –Advanced Practice Registered Nurse (APRN)
+- Connecticut Board of Nursing — Nursing Data –Advanced Practice Registered Nurses 2 (APRN2)
+- Connecticut Board of Nursing — Nursing Data –Registered Nurses
+- Connecticut State Colleges and Universities — Degree Data
+- Department of Justice — Fair Chance Act
+- Department of Veteran's Affairs — VA Homeless Assessment File
+- Department of Veteran's Affairs — VA Homeless Clinical File
+- Department of Veteran's Affairs — VA Homeless Demographic File
+- Department of Veteran's Affairs — VA Homeless Entries and Exits File
+- Department of Veteran's Affairs — VA Homeless SSVF File
+- District of Columbia Board of Nursing — Nursing Data –Advanced Practice Registered Nurse (APRN)
+- Florida Division of Emergency Management — Elevation Data
+- Georgia Independent College Association — Degree Data
+- Harvard University — Long Term Charter (LTC)
+- Harvard University — Workforce Data -Active Work File
+- Harvard University — Workforce Data -Combined file (CMBD)
+- Harvard University — Workforce Data -FSS File
+- Harvard University — Workforce Data -FSS Services File
+- Harvard University — Workforce Data -JVS File
+- Harvard University — Workforce Data -Per Scholas (PS)
+- Harvard University — Workforce Data -Tech Impact File
+- Harvard University — Workforce Data -WGU File
+- Hawaii Board of Nursing — Nursing Data –Advanced Practice Registered Nurse (APRN)
+- Idaho Higher Education Data — Degree Data
+- Idaho Higher Education Data — Demographic Data
+- Idaho Higher Education Data — Enrollment Data
+- Illinois Community College Board — Degree Data
+- Indiana Commission For Higher Education — Degree Data
+- Internal Revenue Service (IRS) — Form 1040 Returns Supplemental Data
+- Internal Revenue Service (IRS) — Form 6765 -Credit for Increasing Research Activities
+- Internal Revenue Service (IRS) — Form 851- Affiliations Schedule
+- Iowa Community College — Degree Data
+- Kentucky (KY) — SNAP Case Data
+- Kentucky (KY) — SNAP Individual Data
+- Maine Community College System — Degree Data
+- Maine Community College System — Demographic Data
+- Maine Community College System — Enrollment Data
+- Maine Department of Nursing — Nursing Data – Advanced Practice Registered Nurse (APRN)
+- Maine Department of Nursing — Nursing Data –Address File
+- Massachusetts Board of Nursing — Nursing Data –Advanced Practice Registered Nurse (APRN)
+- Massachusetts Department of Higher Education — Degree Data
+- Minnesota Office of Higher Education — Degree Data
+- New Hampshire Board of Nursing — Nursing Data -Advanced Practice Registered Nurse (APRN)
+- New Jersey Board of Nursing — Nursing Data –Advanced Practice Registered Nurse (APRN)
+- New Mexico Higher Education Data — Degree Data
+- New Mexico Higher Education Data — Demographic Data
+- New Mexico Higher Education Data — Enrollment Data
+- New Yord State Education Department — Registered Nurses
+- New York City Department of Education — Enrollment Data
+- Ohio Department of Higher Education — Degree Data
+- Oklahoma State Regents for Higher Education — Degree Data
+- Oregon Board of Nursing — Nursing Data –Advanced Practice Registered Nurse (APRN)
+- Oregon Higher Education Coordinating Commission — Demographic Data
+- Oregon Higher Education Coordinating Commission — Enrollment Data
+- Pennsylvania State University — Degree Data
+- Prevention Services Division Primary Care Office — All Address Export File
+- Prevention Services Division Primary Care Office — Gold Clinician Extract File
+- Prevention Services Division Primary Care Office — Linkage File
+- Providence College — Degree Data
+- Puerto Rico — Hacienda Administrative Tax Form 480
+- Puerto Rico — Hacienda Administrative Tax Form 482
+- Revelio Labs — CPA License Data
+- Revelio Labs — Wasatch Person Location
+- Revelio Labs — Wasatch Person Time Invariant
+- Rhode Island Board of Nursing — Nursing Data –Advanced Practice Registered Nurse (APRN)
+- Safegraph Spend MAFMatch — SAFEGRAPH Place MAFMatch
+- Safegraph — Spending Patterns Data
+- South Carolina Board of Nursing — Nursing Data -Advanced Practice Registered Nurse (APRN)
+- South Carolina Board of Nursing — Nursing Data -Registered Nurse (RN)
+- South Carolina Commission on Higher Education — Degree Data
+- South Dakota Board of Nursing — Nursing Data –Advanced Practice Registered Nurse (APRN)
+- South Dakota Board of Regents — Degree Data
+- South Dakota Board of Technical Education — Degree Data
+- State University of New York — Degree Data
+- Tennessee (TN) — Education Degree Data
+- Tennessee Board of Nursing — Nursing Data –Advanced Practice Registered Nurse (APRN)
+- Texas Board of Nursing — Nursing Data –Advanced Practice Registered Nurse (APRN)
+- Texas Higher Education Coordinating Board — Degree Data
+- The Connecticut Conference of Independent Colleges — Degree Data
+- The Oregon Higher Education Coordinating Commission — Degree Data
+- The Oregon Higher Education Coordinating Commission — Degree Data
+- The University of Wisconsin — Degree Data
+- The University of Wisconsin — PSEO Enrollment Data
+- US Naval Academy Midshipmen — United State Naval Academy Midshipmen Data
+- University System of Georgia — Degree Data
+- University of Alabama — Degree Data
+- University of California, Irvine — Eugene Staff Data
+- University of California, Irvine — Oregon Teacher Data
+- University of Connecticut — Degree Data
+- University of Hawaii — Degree Data
+- University of Michigan — Degree Data
+- University of North Carolina Health Care System — Electronic Health Records CCI Yearly
+- University of North Carolina Health Care System — Electronic Health Records t2dm a1c
+- University of Texas Systems — Demographic Data
+- University of Texas Systems — Enrollment Data
+- University of Texas Systems — Post -Collegiate Earnings Research Project
+- University of Texas Systems — University of Texas UI Wage
+- University of Wyoming — Degree Data
+- University of the District of Columbia — Degree Data
+- University of the District of Columbia — Enrollment Data
+- Utah Board of Nursing — Advanced Practice Registered Nurses
+- Utah System of Higher Education — Degree Data
+- VA State Council of Higher Education — Degree Data
+- Western Governors University — Demographic Data
+- Western Governors University — Enrollment Data
+- Western Governors University — PSEO Degree Data
+- Wisconsin Board of Nursing — Nursing Data –Advanced Practice Registered Nurse (APRN)
+- Wyoming Community College Commission — Degree Data
+
+### Removed (13)
+
+- City University of New York — Financial Aid Data
+- Housing and Urban Development (HUD) — HUD ACS Basic Street Address File
+- Iconectiv — Telephone Numbers Wireless to Wireline Data
+- Iconectiv — Telephone Numbers Wireless to Wireline No Range Data
+- Iconectiv — Telephone Numbers Wireline to Wireless Data
+- Iconectiv — Telephone Numbers Wireline to Wireless No Range Data
+- Ohio Department of Higher Education — Financial Aid Data
+- State University of New York — Financial Aid Data
+- Texas and Utah — Post -Collegiate Earnings Research Project
+- The University of Wisconsin — Enrollment Data
+- University of Texas — Demographic Data
+- University of Texas — Enrollment Data
+- Western Governors University — US WGU PSEO Data
+
+### Modified (384)
+
+- Alabama (AL) — Drivers License Data
+  - `entity_type`: 'State' → 'state'
+- Alabama (AL) — Employment and Wage (ES202)
+  - `entity_type`: 'State' → 'state'
+  - `new_years_received`: '2024 202401a; 2024 202402' → ''
+- Alabama (AL) — Unemployment Insurance
+  - `entity_type`: 'State' → 'state'
+- Alabama (AL) — WIC
+  - `entity_type`: 'State' → 'state'
+- Alaska (AK) — Permanent Fund Data
+  - `entity_type`: 'State' → 'state'
+- Alaska (AK) — Unemployment Insurance
+  - `entity_type`: 'State' → 'state'
+- All Chicago — Homeless Management Information System
+  - `entity_type`: 'State' → 'state'
+- Arizona (AZ) — Employment and Wage (ES202)
+  - `entity_type`: 'State' → 'state'
+  - `new_years_received`: '2024 202401a; 2024 202402' → ''
+- Arizona (AZ) — SNAP
+  - `entity_type`: 'State' → 'state'
+- Arizona (AZ) — SNAP -Clients Data
+  - `entity_type`: 'State' → 'state'
+  - `years_available`: '2014; 2023' → '2014; 2023; 2024'
+  - `new_years_received`: '' → '2024'
+- Arizona (AZ) — SNAP Case Data
+  - `entity_type`: 'State' → 'state'
+- Arizona (AZ) — SNAP Individual Data
+  - `entity_type`: 'State' → 'state'
+- Arizona (AZ) — TANF
+  - `entity_type`: 'State' → 'state'
+- Arizona (AZ) — TANF -Approvals Data
+  - `entity_type`: 'State' → 'state'
+- Arizona (AZ) — TANF -Benefits Data
+  - `entity_type`: 'State' → 'state'
+- Arizona (AZ) — TANF -Client Level Record Data
+  - `entity_type`: 'State' → 'state'
+- Arizona (AZ) — TANF -Countable Income Data
+  - `entity_type`: 'State' → 'state'
+- Arizona (AZ) — TANF -Denial Data
+  - `entity_type`: 'State' → 'state'
+- Arizona (AZ) — TANF -Gross Earned Income Data
+  - `entity_type`: 'State' → 'state'
+- Arizona (AZ) — TANF -Mailing Address Data
+  - `entity_type`: 'State' → 'state'
+- Arizona (AZ) — TANF -Phone Numbers Data
+  - `entity_type`: 'State' → 'state'
+- Arizona (AZ) — TANF -Residential Address Data
+  - `entity_type`: 'State' → 'state'
+- Arizona (AZ) — TANF -Simplified Reports Data
+  - `entity_type`: 'State' → 'state'
+- Arizona (AZ) — Unemployment Insurance
+  - `entity_type`: 'State' → 'state'
+- Arizona (AZ) — WIC
+  - `entity_type`: 'State' → 'state'
+  - `years_available`: '2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022; 2023' → '2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022; 2023; 2024'
+- Arizona Board of Regents (AZBOR) Arizona State University — Degree Data
+  - `years_available`: '2000-2018; 2009-2019; 2019; 2020; 2021; 2022-2024' → '2000-2018; 2001-2008; 2001-2020; 2009-2019; 2009-2019; 2019; 2020; 2020; 2021; 2021; 2022; 2022-2024; 2023-2024'
+- Arizona Board of Regents (AZBOR) Arizona State University — Demographic Data
+  - `years_available`: '2001-2019; 2001-2019; 2001-2019; 2001-2024; 2020; 2020; 2020; 2021; 2021; 2021; 2022; 2022' → '2001-2019; 2001-2019; 2001-2024; 2007-2024; 2020; 2020; 2021; 2021; 2022'
+- Arizona Board of Regents (AZBOR) Arizona State University — Enrollment Data
+  - `years_available`: '2001-2019; 2001-2019; 2003-2019; 2020; 2020; 2020; 2021; 2021; 2021; 2022; 2022; 2022-2024' → '2001-2019; 2001-2019; 2020; 2020; 2021; 2021; 2022; 2022-2024; 2023-2024'
+- Arkansas (AR) — Employment and Wage (ES202)
+  - `entity_type`: 'State' → 'state'
+  - `new_years_received`: '2024 202401a' → ''
+- Arkansas (AR) — SNAP
+  - `entity_type`: 'State' → 'state'
+- Arkansas (AR) — SNAP Case File
+  - `entity_type`: 'State' → 'state'
+- Arkansas (AR) — SNAP Individual Client File
+  - `entity_type`: 'State' → 'state'
+- Arkansas (AR) — Unemployment Insurance
+  - `entity_type`: 'State' → 'state'
+- Bryant University — Demographic Data
+  - `years_available`: '2001-2023' → '2001-2023; 2001-2024'
+- Bryant University — Enrollment Data
+  - `years_available`: '2001-2023' → '2001-2023; 2001-2024'
+- California (CA) — Employment and Wage (ES202)
+  - `entity_type`: 'State' → 'state'
+  - `new_years_received`: '2024 202401a; 2024 202402' → ''
+- California (CA) — Tax Data
+  - `entity_type`: 'State' → 'state'
+- California (CA) — Unemployment Insurance
+  - `entity_type`: 'State' → 'state'
+- Census — MBR CPS P1 Variables
+  - `new_years_received`: '1973-2024' → ''
+- Census — MBR CPS P2 Variables
+  - `new_years_received`: '1973-2024' → ''
+- Census — MBR SIPP P1 Variables
+  - `new_years_received`: '1984-2024' → ''
+- Census — MBR SIPP P1 Variables for Legacy File
+  - `new_years_received`: '1984-2023b' → ''
+- Census — MBR SIPP P2 Variables
+  - `new_years_received`: '1984-2024' → ''
+- Census — SSA Administrative Records Linked to Current Population Survey (CPS) -Disability
+  - `new_years_received`: '1973-2024' → ''
+- Census — SSA Administrative Records Linked to Current Population Survey (CPS) -Member Beneficiary Record
+  - `years_available`: '1962-2016; 1973-2016; 1973-2018; 1973-2020; 1973-2020a; 1973-2020b; 1973-2022; 1973-2023; 1973-2023a; 1973-2024; 1991-2001; 1991-2002; 1991-2003; 1991-2006; 1991-2008; 1991-2009; 1991-2011; 1991-2013' → '1962-2016; 1973_2024; 1973-2016; 1973-2018; 1973-2020; 1973-2020a; 1973-2020b; 1973-2022; 1973-2023; 1973-2023a; 1973-2024; 1991-2001; 1991-2002; 1991-2003; 1991-2006; 1991-2008; 1991-2009; 1991-2011; 1991-2013'
+  - `new_years_received`: '1973-2024' → ''
+- Census — SSA Administrative Records Linked to Current Population Survey (CPS) -Payment History Update System
+  - `years_available`: '1973-2016; 1973-2018; 1973-2020; 1973-2020a; 1973-2020b; 1973-2022; 1973-2023; 1973-2024; 1984-2016; 1991-2001; 1991-2002; 1991-2003; 1991-2006; 1991-2008; 1991-2009; 1991-2011; 1991-2013' → '1973_2024; 1973-2016; 1973-2018; 1973-2020; 1973-2020a; 1973-2020b; 1973-2022; 1973-2023; 1973-2024; 1984-2016; 1991-2001; 1991-2002; 1991-2003; 1991-2006; 1991-2008; 1991-2009; 1991-2011; 1991-2013'
+  - `new_years_received`: '1973-2024' → ''
+- Census — SSA Administrative Records Linked to Current Population Survey (CPS) -Summary Earnings
+  - `new_years_received`: '1973-2024' → ''
+- Census — SSA Administrative Records Linked to Current Population Survey (CPS) -Supplemental Security Record
+  - `years_available`: '1973-2018; 1973-2020; 1973-2021; 1973-2021a; 1973-2022; 1973-2023; 1973-2024; 1991-2001; 1991-2002; 1991-2003; 1991-2006; 1991-2008; 1991-2009; 1991-2011; 1991-2013; 2018' → '1973-2018; 1973-2020; 1973-2021; 1973-2021a; 1973-2022; 1973-2023; 1973-2024; 1973-2025; 1991-2001; 1991-2002; 1991-2003; 1991-2006; 1991-2008; 1991-2009; 1991-2011; 1991-2013; 2018'
+  - `new_years_received`: '1973-2024' → '1973-2025'
+- Census — SSA Administrative Records Linked to Survey of Income and Program Participation (SIPP) - Disability
+  - `new_years_received`: '1984-2024' → ''
+- Census — SSA Administrative Records Linked to Survey of Income and Program Participation (SIPP) - Member Beneficiary Record
+  - `new_years_received`: '1984-2023b ; 1984- 2024' → ''
+- Census — SSA Administrative Records Linked to Survey of Income and Program Participation (SIPP) - Summary Earnings
+  - `new_years_received`: '1984-2024' → ''
+- Census — SSA MBR SIPP P1 Variables for MRAI File
+  - `new_years_received`: '1984-2023b' → ''
+- Census — SSA MBR SIPP P2 Variables for Legacy File
+  - `new_years_received`: '1984-2023b' → ''
+- Census — SSA MBR SIPP P2 Variables for MRAI File
+  - `new_years_received`: '1984-2023b' → ''
+- Center for Medicare and Medicaid Services — Medicare Enrollment Database (EDB)
+  - `years_available`: '1999; 2000; 2001; 2002; 2003; 2004; 2005; 2006; 2007; 2008; 2009; 2010; 2011; 2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022; 2023; 2024' → '1999; 2000; 2001; 2002; 2003; 2004; 2005; 2006; 2007; 2008; 2009; 2010; 2011; 2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022; 2023; 2024; 2025'
+- Charlotte, NC — Homeless Management Information System
+  - `entity_type`: 'State' → 'state'
+- City University of New York — Demographic Data
+  - `years_available`: '2001-2020; 2001-2023' → '2001-2020; 2001-2023; 2001-2024'
+- City University of New York — Enrollment Data
+  - `years_available`: '2001-2020; 2001-2023' → '2001-2020; 2001-2023; 2023-2024'
+- Colorado (CO) — Low Income Energy Assistance Program (LEAP)
+  - `entity_type`: 'State' → 'state'
+- Colorado (CO) — SNAP
+  - `entity_type`: 'State' → 'state'
+  - `years_available`: '2012; 2013; 2014; 2015; 2016; 2017; 2018; 2018a; 2019; 2020; 2021; 2022; 2023' → '2012; 2013; 2014; 2015; 2016; 2017; 2018; 2018a; 2019; 2020; 2021; 2022; 2023; 2024'
+- Colorado (CO) — SNAP Case Data
+  - `entity_type`: 'State' → 'state'
+  - `years_available`: '2014; 2015; 2016; 2017; 2018a; 2023' → '2014; 2015; 2016; 2017; 2018a; 2023; 2024'
+- Colorado (CO) — SNAP Individual Data
+  - `entity_type`: 'State' → 'state'
+  - `years_available`: '2014; 2015; 2016; 2017; 2023' → '2014; 2015; 2016; 2017; 2023; 2024'
+- Colorado (CO) — Unemployment Insurance
+  - `entity_type`: 'State' → 'state'
+- Colorado (CO) — WIC
+  - `entity_type`: 'State' → 'state'
+- Connecticut (CT) — SNAP/TANF
+  - `entity_type`: 'State' → 'state'
+- Connecticut (CT) — Unemployment Insurance
+  - `entity_type`: 'State' → 'state'
+- Connecticut (CT) — WIC
+  - `entity_type`: 'State' → 'state'
+- Convenient Care Association — AGG Data Convenient Care Association
+  - `years_available`: '2010; 2013; 2021a; 2021b; 2021c; 2022a; 2022b; 2022c; 2023' → '2013; 2021a; 2021b; 2021c; 2022a; 2022b; 2022c; 2023'
+- Delaware (DE) — Employment and Wage (ES202)
+  - `entity_type`: 'State' → 'state'
+  - `new_years_received`: '2024 202401a; 2024 202402' → ''
+- Delaware (DE) — Unemployment Insurance
+  - `entity_type`: 'State' → 'state'
+- District of Columbia (DC) ( - DC) — Employment and Wage (ES202)
+  - `entity_type`: 'State' → 'state'
+  - `new_years_received`: '2024 202401a; 2024 202402' → ''
+- District of Columbia (DC) — Unemployment Insurance
+  - `entity_type`: 'State' → 'state'
+- Florida (FL) — Employment and Wage (ES202)
+  - `entity_type`: 'State' → 'state'
+  - `new_years_received`: '2024 202401a; 2024 202402' → ''
+- Florida (FL) — FL MVAC Citation
+  - `entity_type`: 'State' → 'state'
+- Florida (FL) — FL MVAC Crash Data Event
+  - `entity_type`: 'State' → 'state'
+- Florida (FL) — FL MVAC Crash Data Vehicle
+  - `entity_type`: 'State' → 'state'
+- Florida (FL) — FL MVAC Event2 File
+  - `entity_type`: 'State' → 'state'
+- Florida (FL) — FL MVAC Person Data All2
+  - `entity_type`: 'State' → 'state'
+- Florida (FL) — FL MVAC Person Data All3
+  - `entity_type`: 'State' → 'state'
+- Florida (FL) — FL MVAC Person Data to Pik
+  - `entity_type`: 'State' → 'state'
+- Florida (FL) — FL Motor Vehicle Crash and Citation (MVAC)
+  - `entity_type`: 'State' → 'state'
+- Florida (FL) — Florida MVAC Vehicle 2 Data
+  - `entity_type`: 'State' → 'state'
+- Florida (FL) — TANF
+  - `entity_type`: 'State' → 'state'
+- Florida (FL) — Unemployment Insurance
+  - `entity_type`: 'State' → 'state'
+- Flroida (FL) — SNAP
+  - `entity_type`: 'State' → 'state'
+- Georgia (GA) — Employment and Wage (ES202)
+  - `entity_type`: 'State' → 'state'
+  - `new_years_received`: '2024 202401a; 2024 202402' → ''
+- Georgia (GA) — SNAP
+  - `entity_type`: 'State' → 'state'
+  - `years_available`: '2018; 2019; 2023' → '2018; 2019; 2023; 2024'
+- Georgia (GA) — SNAP Case File
+  - `entity_type`: 'State' → 'state'
+  - `years_available`: '2020; 2021; 2022; 2023' → '2020; 2021; 2022; 2023; 2024'
+- Georgia (GA) — SNAP Individual Client File
+  - `entity_type`: 'State' → 'state'
+  - `years_available`: '2020; 2021; 2022; 2023' → '2020; 2021; 2022; 2023; 2024'
+- Georgia (GA) — TANF
+  - `entity_type`: 'State' → 'state'
+  - `years_available`: '2023' → '2023; 2024'
+- Georgia (GA) — Unemployment Insurance
+  - `entity_type`: 'State' → 'state'
+- Greater Cleveland area, Ohio — United Way 211 Data
+  - `entity_type`: 'State' → 'state'
+- Hawaii (HI) — Employment and Wage (ES202)
+  - `entity_type`: 'State' → 'state'
+  - `new_years_received`: '2024 202401a; 2024 202402' → ''
+- Hawaii (HI) — SNAP
+  - `entity_type`: 'State' → 'state'
+- Hawaii (HI) — TANF
+  - `entity_type`: 'State' → 'state'
+- Hawaii (HI) — Unemployment Insurance
+  - `entity_type`: 'State' → 'state'
+- Housing and Urban Development (HUD) — Family Options Data
+  - `years_available`: '2010-2012; 2020' → '2010-2012; 2018; 2020; 2025'
+  - `new_years_received`: '2020' → ''
+- Housing and Urban Development (HUD) — Household File
+  - `new_years_received`: '2024' → ''
+- Housing and Urban Development (HUD) — Member File
+  - `new_years_received`: '2024' → ''
+- Housing and Urban Development (HUD) — Public Indian Housing and Tenant Rental Assistance Longitudinal Information
+  - `new_years_received`: '2024' → ''
+- Houston, TX — Homeless Management Information System
+  - `entity_type`: 'State' → 'state'
+- Idaho (ID) — Employment and Wage (ES202)
+  - `entity_type`: 'State' → 'state'
+  - `new_years_received`: '2024 202401a; 2024 202402' → ''
+- Idaho (ID) — SNAP/TANF
+  - `entity_type`: 'State' → 'state'
+- Idaho (ID) — Unemployment Insurance
+  - `entity_type`: 'State' → 'state'
+- Idaho (ID) — WIC
+  - `entity_type`: 'State' → 'state'
+- Illinois (IL) — Employment and Wage (ES202)
+  - `entity_type`: 'State' → 'state'
+  - `new_years_received`: '2024 202401a; 2024 202402' → ''
+- Illinois (IL) — SNAP
+  - `entity_type`: 'State' → 'state'
+- Illinois (IL) — Unemployment Insurance
+  - `entity_type`: 'State' → 'state'
+- Illinois (IL) — WIC
+  - `entity_type`: 'State' → 'state'
+- Illinois (IL) — WIC Benefits
+  - `entity_type`: 'State' → 'state'
+- Illinois (IL) — WIC Demographic
+  - `entity_type`: 'State' → 'state'
+- Illinois Community College Board — Demographic Data
+  - `years_available`: '2004-2023' → '2003-2024; 2004-2023'
+- Illinois Community College Board — Enrollment Data
+  - `years_available`: '2004-2023' → '2004-2023; 2023-2024'
+- Indiana (IN) — Employment and Wage (ES202)
+  - `entity_type`: 'State' → 'state'
+  - `new_years_received`: '2024 202401a; 2024 202402' → ''
+- Indiana (IN) — SNAP
+  - `entity_type`: 'State' → 'state'
+- Indiana (IN) — TANF
+  - `entity_type`: 'State' → 'state'
+- Indiana (IN) — Unemployment Insurance
+  - `entity_type`: 'State' → 'state'
+- Indiana (IN) — WIC
+  - `entity_type`: 'State' → 'state'
+- Indiana Commission For Higher Education — Demographic Data
+  - `years_available`: '2002-2019; 2002-2021; 2021' → '2001-2024; 2002-2019; 2002-2021; 2021'
+- Indiana Commission For Higher Education — Enrollment Data
+  - `years_available`: '2002-2019; 2002-2021; 2021' → '2002-2019; 2002-2021; 2021; 2022-2024'
+- Internal Revenue Service (IRS) — Business Master File
+  - `new_years_received`: 'ty2024 202511' → '202549'
+- Internal Revenue Service (IRS) — Business Master Files (Annual)
+  - `years_available`: 'ty2021; ty2022; ty2023' → 'ty2021; ty2022; ty2023; ty2024'
+- Internal Revenue Service (IRS) — Earned Income Tax Credit (EITC)
+  - `years_available`: '2018-2021; 2018a; 2019a; 2020; 2021; 2022; ty2022; TY2023' → '2018-2021; 2018a; 2019a; 2020; 2021; 2022; 2024; ty2014_2016; ty2014_ 2023; ty2022; TY2023'
+- Internal Revenue Service (IRS) — Form 1040 Returns
+  - `years_available`: '1969; 1974; 1979; 1984; 1989; 1989-1999; 1994; 1995; 1998; 1999; 2000; 2001; 2002; 2003; 2004; 2005; 2006; 2007; 2008; 2009; 2010; 2011; 2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022; 2023; 2023; 2024; ty2023; ty2023; ty2024' → '1969; 1974; 1979; 1984; 1989; 1989-1999; 1994; 1995; 1996; 1997; 1998; 1999; 2000; 2001; 2002; 2003; 2004; 2005; 2006; 2007; 2008; 2009; 2010; 2011; 2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022; 2023; 2023; 2024; ty2023; ty2023; ty2024'
+  - `new_years_received`: 'ty2024 202513' → '2024 202547; ty2024 202543'
+- Internal Revenue Service (IRS) — Form 1099 Returns (Information Returns)
+  - `years_available`: '2023; ty2003; ty2004; ty2005; ty2006; ty2007; ty2008; ty2009; ty2010; ty2011; ty2012; ty2013; ty2014; ty2015; ty2016; ty2017; ty2018; ty2020; ty2021; ty2022; ty2023; ty2023; ty2024' → '2023; 2025; ty2003; ty2004; ty2005; ty2006; ty2007; ty2008; ty2009; ty2010; ty2011; ty2012; ty2013; ty2014; ty2015; ty2016; ty2017; ty2018; ty2020; ty2021; ty2022; ty2023; ty2023; ty2024'
+  - `new_years_received`: 'ty2024 202511' → 'TY2024 202541; TY2024 202545; ty2024 202549'
+- Internal Revenue Service (IRS) — Form 1099-R Returns (Information Returns)
+  - `years_available`: '2023; 2024; ty1995; ty1996; ty1997; ty1998; ty1999; ty2000; ty2001; ty2002; ty2003; ty2004; ty2005; ty2006; ty2007; ty2008; ty2009; ty2010; ty2011; ty2012; ty2013; ty2014; ty2015; ty2016; ty2017; ty2018; ty2019; ty2020; ty2021; ty2022; ty2023; ty2023; ty2' → '2023; 2024; ty1995; ty1996; ty1997; ty1998; ty1999; ty2000; ty2001; ty2002; ty2003; ty2004; ty2005; ty2006; ty2007; ty2008; ty2009; ty2010; ty2011; ty2012; ty2013; ty2014; ty2015; ty2016; ty2017; ty2018; ty2019; ty2020; ty2020; ty2021; ty2022; ty2023; ty2'
+  - `new_years_received`: 'ty2024 202511' → 'TY2024 202545'
+- Internal Revenue Service (IRS) — Form W-2
+  - `new_years_received`: 'ty2024 202511' → 'ty2024 202549'
+- Internal Revenue Service (IRS) — Forms 1120, 1120F, 1120L, 1120- PC, 1120-RIC, 1120-REIT, 990-R (formerly 990), 990-RZ (formerly 990-EZ), 990-PF, 1120-C (formerly 990-C), 6765, 851, 1096, 990-N
+  - `years_available`: '(current)' → '(current); 2024; 202444; 2025; 202539; 202540; 202541; 202542; 202545; 202547; 202549'
+  - `new_years_received`: '' → '2025 202550; 2025 202551; 202547 202547; 202549 202549'
+- Internal Revenue Service (IRS) — Forms 941, 941PR, 941SS, 943, 943PR, 944, 944-SP, 944-PR, 944- SS
+  - `years_available`: '(current)' → '2025; 202539; 202540; 202541; 202542; 202543; 202544; 202545; 202546; 202549'
+  - `new_years_received`: '' → '2025 202547; 2025 202548; 2025 202550; 2025 202551; 202549 202549'
+- Iowa (IA) — Drivers License Data
+  - `entity_type`: 'State' → 'state'
+- Iowa (IA) — Employment and Wage (ES202)
+  - `entity_type`: 'State' → 'state'
+  - `new_years_received`: '2024 202401a; 2024 202402' → ''
+- Iowa (IA) — SNAP/TANF
+  - `entity_type`: 'State' → 'state'
+- Iowa (IA) — SNAP/TANF -Case Level Data
+  - `entity_type`: 'State' → 'state'
+- Iowa (IA) — SNAP/TANF -Client Level Data
+  - `entity_type`: 'State' → 'state'
+- Iowa (IA) — SNAP/TANF Denial Data
+  - `entity_type`: 'State' → 'state'
+- Iowa (IA) — Unemployment Insurance
+  - `entity_type`: 'State' → 'state'
+- Iowa Community College — Demographic Data
+  - `years_available`: '2001-2021; 2017-2023; 2021-2022' → '2001-2021; 2010-2024; 2017-2023; 2021-2022'
+- Iowa Community College — Enrollment Data
+  - `years_available`: '2001-2021; 2017-2023; 2021-2022' → '2001-2021; 2017-2023; 2021-2022; 2023-2024'
+- Kansas (KS) — Employment and Wage (ES202)
+  - `entity_type`: 'State' → 'state'
+  - `new_years_received`: '2024 202401a; 2024 202402' → ''
+- Kansas (KS) — Unemployment Insurance
+  - `entity_type`: 'State' → 'state'
+- Kansas (KS) — WIC
+  - `entity_type`: 'State' → 'state'
+- Kentucky (KY) — Employment and Wage (ES202)
+  - `entity_type`: 'State' → 'state'
+  - `new_years_received`: '2024 202401a; 2024 202402' → ''
+- Kentucky (KY) — SNAP/TANF
+  - `entity_type`: 'State' → 'state'
+- Kentucky (KY) — Unemployment Insurance
+  - `entity_type`: 'State' → 'state'
+- Los Angeles County, CA — SNAP
+  - `entity_type`: 'State' → 'state'
+- Los Angeles, CA — Homeless Management Information System
+  - `entity_type`: 'State' → 'state'
+- Louisiana (LA) — Employment and Wage (ES202)
+  - `entity_type`: 'State' → 'state'
+  - `new_years_received`: '2024 202401a; 2024 202402' → ''
+- Lousiana (LA) — Unemployment Insurance
+  - `entity_type`: 'State' → 'state'
+- Maine (ME) — Employment and Wage (ES202)
+  - `entity_type`: 'State' → 'state'
+  - `new_years_received`: '2024 202401a; 2024 202402' → ''
+- Maine (ME) — Lottery Data
+  - `entity_type`: 'State' → 'state'
+- Maine (ME) — Unemployment Insurance
+  - `entity_type`: 'State' → 'state'
+- Maine (ME) — WIC
+  - `entity_type`: 'State' → 'state'
+- Marketing Systems Group (MSG) — Prepaid Cell (PPC)
+  - `new_years_received`: '2024' → ''
+- Maryland (MD) — Employment and Wage (ES202)
+  - `entity_type`: 'State' → 'state'
+  - `new_years_received`: '2024 202402' → ''
+- Maryland (MD) — SNAP
+  - `entity_type`: 'State' → 'state'
+- Maryland (MD) — TANF
+  - `entity_type`: 'State' → 'state'
+- Maryland (MD) — Unemployment Insurance
+  - `entity_type`: 'State' → 'state'
+- Massachusetts (MA) — Employment and Wage (ES202)
+  - `entity_type`: 'State' → 'state'
+  - `new_years_received`: '2024 202401a; 2024 202402' → ''
+- Massachusetts (MA) — SNAP
+  - `entity_type`: 'State' → 'state'
+- Massachusetts (MA) — TANF
+  - `entity_type`: 'State' → 'state'
+- Massachusetts (MA) — Unemployment Insurance
+  - `entity_type`: 'State' → 'state'
+- Michigan (MI) — SNAP
+  - `entity_type`: 'State' → 'state'
+- Michigan (MI) — TANF
+  - `entity_type`: 'State' → 'state'
+- Michigan (MI) — Unemployment Insurance
+  - `entity_type`: 'State' → 'state'
+- Michigan (MI) — WIC
+  - `entity_type`: 'State' → 'state'
+- Minnesota (MN) — Employment and Wage (ES202)
+  - `entity_type`: 'State' → 'state'
+  - `new_years_received`: '2024 202401a; 2024 202402' → ''
+- Minnesota (MN) — TANF
+  - `entity_type`: 'State' → 'state'
+- Minnesota (MN) — Unemployment Insurance
+  - `entity_type`: 'State' → 'state'
+- Minnesota (MT) — SNAP
+  - `entity_type`: 'State' → 'state'
+- Mississippi (MS) — Case Data
+  - `entity_type`: 'State' → 'state'
+  - `years_available`: '2022' → '2022; 2024'
+- Mississippi (MS) — Client Data
+  - `entity_type`: 'State' → 'state'
+  - `years_available`: '2022' → '2022; 2024'
+- Mississippi (MS) — Employer Data
+  - `entity_type`: 'State' → 'state'
+  - `years_available`: '2022' → '2022; 2024'
+- Mississippi (MS) — Employment and Wage (ES202)
+  - `entity_type`: 'State' → 'state'
+  - `new_years_received`: '2024 202401a; 2024 202402' → ''
+- Mississippi (MS) — SNAP/TANF
+  - `entity_type`: 'State' → 'state'
+  - `years_available`: '2010; 2011; 2012; 2013; 2014; 2015; 2016; 2017; 2018; 2018a; 2019; 2019a; 2020; 2020/06; 2021; 2022' → '2010; 2011; 2012; 2013; 2014; 2015; 2016; 2017; 2018; 2018a; 2019; 2019a; 2020; 2020/06; 2021; 2022; 2024'
+- Mississippi (MS) — Self Employer Data
+  - `entity_type`: 'State' → 'state'
+  - `years_available`: '2022' → '2022; 2024'
+- Mississippi (MS) — Unemployment Insurance
+  - `entity_type`: 'State' → 'state'
+- Missouri (MO) — Employment and Wage (ES202)
+  - `entity_type`: 'State' → 'state'
+  - `new_years_received`: '2024 202401a; 2024 202402' → ''
+- Missouri (MO) — Unemployment Insurance
+  - `entity_type`: 'State' → 'state'
+- Missouri Department of Higher Education — Demographic Data
+  - `years_available`: '2005-2020a; 2005-2023' → '2005-2020a; 2005-2023; 2005-2024'
+- Missouri Department of Higher Education — Enrollment Data
+  - `years_available`: '2005-2020a; 2005-2023' → '2005-2020a; 2005-2023; 2005-2024'
+- Montana (MT) — Employment and Wage (ES202)
+  - `entity_type`: 'State' → 'state'
+  - `new_years_received`: '2024 202401a; 2024 202402' → ''
+- Montana (MT) — SNAP
+  - `entity_type`: 'State' → 'state'
+- Montana (MT) — SNAP -Approvals Data
+  - `entity_type`: 'State' → 'state'
+- Montana (MT) — SNAP -Benefits Data
+  - `entity_type`: 'State' → 'state'
+- Montana (MT) — SNAP -Countable Income Data
+  - `entity_type`: 'State' → 'state'
+- Montana (MT) — SNAP -Denials Data
+  - `entity_type`: 'State' → 'state'
+- Montana (MT) — SNAP -Individuals Data
+  - `entity_type`: 'State' → 'state'
+- Montana (MT) — SNAP -Mailing Address Data
+  - `entity_type`: 'State' → 'state'
+- Montana (MT) — SNAP -Phone Number Data
+  - `entity_type`: 'State' → 'state'
+- Montana (MT) — SNAP -Residential Address Data
+  - `entity_type`: 'State' → 'state'
+- Montana (MT) — SNAP -Simplified Reporting Data
+  - `entity_type`: 'State' → 'state'
+- Montana (MT) — SNAP Gross Earned Income Data
+  - `entity_type`: 'State' → 'state'
+- Montana (MT) — TANF
+  - `entity_type`: 'State' → 'state'
+- Montana (MT) — TANF -Approvals Data
+  - `entity_type`: 'State' → 'state'
+- Montana (MT) — TANF -Benefits Data
+  - `entity_type`: 'State' → 'state'
+- Montana (MT) — TANF -Countable Income Data
+  - `entity_type`: 'State' → 'state'
+- Montana (MT) — TANF -Denials Data
+  - `entity_type`: 'State' → 'state'
+- Montana (MT) — TANF -Gross Earned Income Data
+  - `entity_type`: 'State' → 'state'
+- Montana (MT) — TANF -Individuals Data
+  - `entity_type`: 'State' → 'state'
+- Montana (MT) — TANF -Mailing Address Data
+  - `entity_type`: 'State' → 'state'
+- Montana (MT) — TANF -Phone Number Data
+  - `entity_type`: 'State' → 'state'
+- Montana (MT) — TANF -Residential Address Data
+  - `entity_type`: 'State' → 'state'
+- Montana (MT) — TANF -Simplified Reporting Data
+  - `entity_type`: 'State' → 'state'
+- Montana (MT) — Unemployment Insurance
+  - `entity_type`: 'State' → 'state'
+- Montana (MT) — WIC
+  - `entity_type`: 'State' → 'state'
+  - `new_years_received`: '2023' → ''
+- Naphsis — Naphsis Data -Ohio
+  - `entity_type`: 'State' → 'state'
+- Naphsis — Naphsis Data -Wisconsin
+  - `entity_type`: 'State' → 'state'
+- Nebraska (NE) — Drivers License Data
+  - `entity_type`: 'State' → 'state'
+- Nebraska (NE) — Employment and Wage (ES202)
+  - `entity_type`: 'State' → 'state'
+  - `new_years_received`: '2024 202401a; 2024 202402' → ''
+- Nebraska (NE) — SNAP/TANF
+  - `entity_type`: 'State' → 'state'
+- Nebraska (NE) — Unemployment Insurance
+  - `entity_type`: 'State' → 'state'
+- Nevada (NV) — Employment and Wage (ES202)
+  - `entity_type`: 'State' → 'state'
+  - `new_years_received`: '2024 202401a; 2024 202402' → ''
+- Nevada (NV) — SNAP
+  - `entity_type`: 'State' → 'state'
+  - `years_available`: '2017; 2018; 2019; 2020; 2021' → '2017; 2018; 2019; 2020; 2021; 2022; 2023; 2024'
+- Nevada (NV) — SNAP -Case File
+  - `entity_type`: 'State' → 'state'
+  - `years_available`: '2017; 2018; 2019; 2020; 2021' → '2017; 2018; 2019; 2020; 2021; 2022; 2023; 2024'
+- Nevada (NV) — SNAP -Individual File
+  - `entity_type`: 'State' → 'state'
+  - `years_available`: '2017; 2018; 2019; 2020; 2021' → '2017; 2018; 2019; 2020; 2021; 2022; 2023; 2024'
+- Nevada (NV) — SNAP/TANF
+  - `entity_type`: 'State' → 'state'
+- Nevada (NV) — TANF
+  - `entity_type`: 'State' → 'state'
+- Nevada (NV) — TANF -Case File
+  - `entity_type`: 'State' → 'state'
+- Nevada (NV) — TANF -Employer
+  - `entity_type`: 'State' → 'state'
+  - `years_available`: '2023' → '2023; 2024'
+- Nevada (NV) — TANF -Member
+  - `entity_type`: 'State' → 'state'
+- Nevada (NV) — Unemployment Insurance
+  - `entity_type`: 'State' → 'state'
+- Nevada (NV) — WIC
+  - `entity_type`: 'State' → 'state'
+- Nevada and Sierra Pacific Power Company — Nevada Gas and Electric Utility Service Records
+  - `entity_type`: 'State' → 'state'
+- New Hampshire (NH) — Employment and Wage (ES202)
+  - `entity_type`: 'State' → 'state'
+  - `new_years_received`: '2024 202401a; 2024 202402' → ''
+- New Hampshire (NH) — Unemployment Insurance
+  - `entity_type`: 'State' → 'state'
+- New Jersey (NJ) — Employment and Wage (ES202)
+  - `entity_type`: 'State' → 'state'
+  - `new_years_received`: '2024 202401a; 2024 202402' → ''
+- New Jersey (NJ) — SANP/TANF Case File
+  - `entity_type`: 'State' → 'state'
+  - `new_years_received`: '2024' → ''
+- New Jersey (NJ) — SNAP/TANF
+  - `entity_type`: 'State' → 'state'
+  - `new_years_received`: '2024' → ''
+- New Jersey (NJ) — SNAP/TANF Individual File
+  - `entity_type`: 'State' → 'state'
+  - `new_years_received`: '2024' → ''
+- New Jersey (NJ) — Unemployment Insurance
+  - `entity_type`: 'State' → 'state'
+- New Mexico (NM) — Employment and Wage (ES202)
+  - `entity_type`: 'State' → 'state'
+  - `new_years_received`: '2024 202401a; 2024 202402' → ''
+- New Mexico (NM) — Unemployment Insurance
+  - `entity_type`: 'State' → 'state'
+- New York (NY) — Employment and Wage (ES202)
+  - `entity_type`: 'State' → 'state'
+  - `new_years_received`: '2024 202401a; 2024 202402' → ''
+- New York (NY) — SNAP
+  - `entity_type`: 'State' → 'state'
+- New York (NY) — SNAP/TANF
+  - `entity_type`: 'State' → 'state'
+- New York (NY) — Unemployment Insurance
+  - `entity_type`: 'State' → 'state'
+- North Carolina (NC) — Employment and Wage (ES202)
+  - `entity_type`: 'State' → 'state'
+  - `years_available`: '2023' → '2023; 2023; 2024'
+- North Carolina (NC) — SNAP/TANF
+  - `entity_type`: 'State' → 'state'
+- North Carolina (NC) — Unemployment Insurance
+  - `entity_type`: 'State' → 'state'
+- North Dakota (ND) — Employment and Wage (ES202)
+  - `entity_type`: 'State' → 'state'
+  - `new_years_received`: '2024 202401a; 2024 202402' → ''
+- North Dakota (ND) — SNAP/TANF
+  - `entity_type`: 'State' → 'state'
+- North Dakota (ND) — Unemployment Insurance
+  - `entity_type`: 'State' → 'state'
+- Office of Personnel Management (OPM) — Status File
+  - `new_years_received`: '2023 2023q4; 2024 2024q1' → ''
+- Ohio (OH) — Employment and Wage (ES202)
+  - `entity_type`: 'State' → 'state'
+  - `new_years_received`: '2024 202401a; 2024 202402' → ''
+- Ohio (OH) — Unemployment Insurance
+  - `entity_type`: 'State' → 'state'
+- Ohio Department of Higher Education — Demographic Data
+  - `years_available`: '2002-2019; 2019-2022' → '2001-2024; 2002-2019; 2019-2022'
+- Ohio Department of Higher Education — Enrollment Data
+  - `years_available`: '2002-2019; 2019-2022' → '2002-2019; 2019-2022; 2023-2024'
+- Oklahoma (OK) — Employment and Wage (ES202)
+  - `entity_type`: 'State' → 'state'
+  - `new_years_received`: '2024 202401a; 2024 202402' → ''
+- Oklahoma (OK) — Unemployment Insurance
+  - `entity_type`: 'State' → 'state'
+- Oklahoma (OK) — WIC
+  - `entity_type`: 'State' → 'state'
+- Oregon (OR) — Employment and Wage (ES202)
+  - `entity_type`: 'State' → 'state'
+  - `new_years_received`: '2024 202401a; 2024 202402' → ''
+- Oregon (OR) — SNAP
+  - `entity_type`: 'State' → 'state'
+- Oregon (OR) — Unemployment Insurance
+  - `entity_type`: 'State' → 'state'
+- Oregon (OR) — WIC
+  - `entity_type`: 'State' → 'state'
+- Pennsylvania (PA) — Employment and Wage (ES202)
+  - `entity_type`: 'State' → 'state'
+  - `new_years_received`: '2024 202401a; 2024 202402' → ''
+- Pennsylvania (PA) — Unemployment Insurance
+  - `entity_type`: 'State' → 'state'
+- Pennsylvania (PA) — WIC
+  - `entity_type`: 'State' → 'state'
+- Puerto Rico (PR) — Employment and Wage (ES202)
+  - `entity_type`: 'State' → 'state'
+  - `new_years_received`: '2024 202401a; 2024 202402' → ''
+- Puerto Rico (PR) — Unemployment Insurance
+  - `entity_type`: 'State' → 'state'
+- Puerto Rico — Tax Data
+  - `entity_type`: 'State' → 'state'
+- Reveal Global Consulting — CJARS Coverage File
+  - `years_available`: '2023q3; 202403' → '2023q3; 202403; 2025'
+- Reveal Global Consulting — CJARS Crosswalk
+  - `years_available`: '202403' → '202403; 2025'
+- Reveal Global Consulting — CJARS Movement File
+  - `years_available`: '2023q3; 202403' → '2023q3; 202403; 2025'
+- Reveal Global Consulting — CJARS Roster File
+  - `years_available`: '2023q3; 202403' → '2023q3; 202403; 2025'
+- Rhode Island (RI) — Employment and Wage (ES202)
+  - `entity_type`: 'State' → 'state'
+  - `new_years_received`: '2024 202401a; 2024 202402' → ''
+- Rhode Island (RI) — Unemployment Insurance
+  - `entity_type`: 'State' → 'state'
+- Safegraph — Safegraph Place Brand Info File
+  - `new_years_received`: '2025 02; 2025 03' → '2025 202510; 2025 202511; 2025 202512'
+- Safegraph — Safegraph Place Core POI File
+  - `new_years_received`: '2025 02; 2025 03' → '2025 202510; 2025 202511; 2025 202512'
+- Safegraph — Safegraph Place Data
+  - `new_years_received`: '2025 02; 2025 03' → ''
+- Safegraph — Safegraph Spend Patterns File
+  - `new_years_received`: '2024 202406; 2025 202502; 2025 202503' → '2025 202510; 2025 202511'
+- Safegraph — Safegraph Transaction Panel Summary File
+  - `new_years_received`: '2025 202502; 2025 202503' → '2025 202510; 2025 202511'
+- Selective Service System (SSS) — Registration File
+  - `years_available`: '1999; 2000; 2001; 2002; 2003; 2004; 2005; 2006; 2007; 2008; 2009; 2010; 2011; 2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022; 2023; 2024' → '1999; 2000; 2001; 2002; 2003; 2004; 2005; 2006; 2007; 2008; 2009; 2010; 2011; 2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022; 2023; 2024; 2025'
+- Social Security Administration (SSA) — Master Beneficiary Record
+  - `years_available`: '2015; 2019; 2020; 2021; 2022; 2023; 2024' → '2015; 2019; 2020; 2021; 2022; 2023; 2024; 2025'
+- Social Security Administration (SSA) — Payment History Update System
+  - `years_available`: '2019; 2020; 2021; 2022; 2023; 2024' → '2019; 2020; 2021; 2022; 2023; 2024; 2025'
+- Social Security Administration (SSA) — Supplemental Security Record (SSR) National Files
+  - `years_available`: '2010; 2011; 2012; 2013; 2014; 2015; 2019; 2020; 2021; 2022; 2022a; 2023; 2024' → '2010; 2011; 2012; 2013; 2014; 2015; 2019; 2020; 2021; 2022; 2022a; 2023; 2024; 2025'
+- South Carolina (SC) — Case Data
+  - `entity_type`: 'State' → 'state'
+  - `years_available`: '2023' → '2023; 2024'
+- South Carolina (SC) — Client Data
+  - `entity_type`: 'State' → 'state'
+  - `years_available`: '2023' → '2023; 2024'
+- South Carolina (SC) — Drivers License Data
+  - `entity_type`: 'State' → 'state'
+- South Carolina (SC) — Employment and Wage (ES202)
+  - `entity_type`: 'State' → 'state'
+  - `new_years_received`: '2024 202402' → ''
+- South Carolina (SC) — SNAP/TANF
+  - `entity_type`: 'State' → 'state'
+  - `years_available`: '2004; 2005; 2006; 2007; 2008; 2009; 2010; 2011; 2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2020a; 2021; 2021a; 2022; 2023' → '2004; 2005; 2006; 2007; 2008; 2009; 2010; 2011; 2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2020a; 2021; 2021a; 2022; 2023; 2024'
+- South Carolina (SC) — Unemployment Insurance
+  - `entity_type`: 'State' → 'state'
+- South Carolina Commission on Higher Education — Demographic Data
+  - `years_available`: '2001-2021' → '2001-2021; 2001-2023'
+- South Carolina Commission on Higher Education — Enrollment Data
+  - `years_available`: '2001-2021' → '2001-2021; 2022-2023'
+- South Dakota (SD) — Drivers License Data
+  - `entity_type`: 'State' → 'state'
+- South Dakota (SD) — Employment and Wage (ES202)
+  - `entity_type`: 'State' → 'state'
+  - `new_years_received`: '2024 202401a; 2024 202402' → ''
+- South Dakota (SD) — SNAP/TANF
+  - `entity_type`: 'State' → 'state'
+- South Dakota (SD) — Unemployment Insurance
+  - `entity_type`: 'State' → 'state'
+- South Dakota (SD) — WIC
+  - `entity_type`: 'State' → 'state'
+- South Dakota Board of Regents — Demographic Data
+  - `years_available`: '2001-2023' → '2000-2024; 2001-2023'
+- South Dakota Board of Regents — Enrollment Data
+  - `years_available`: '2001-2023' → '2001-2023; 2023-2024'
+- South Dakota Board of Technical Education — Demographic Data
+  - `years_available`: '2001-2020; 2021-2022; 2022-2023' → '2001-2020; 2021-2022; 2022-2023; 2023-2024a'
+- South Dakota Board of Technical Education — Enrollment Data
+  - `years_available`: '2001-2020; 2021-2022; 2022-2023' → '2001-2020; 2021-2022; 2022-2023; 2023-2024a'
+- Tennessee (TN) — Employment and Wage (ES202)
+  - `entity_type`: 'State' → 'state'
+  - `new_years_received`: '2024 202401a; 2024 202402' → ''
+- Tennessee (TN) — SNAP/TANF
+  - `entity_type`: 'State' → 'state'
+- Tennessee (TN) — Unemployment Insurance
+  - `entity_type`: 'State' → 'state'
+- Texas (TX) — Employment and Wage (ES202)
+  - `entity_type`: 'State' → 'state'
+  - `new_years_received`: '2024 202401a; 2024 202402' → ''
+- Texas (TX) — Unemployment Insurance
+  - `entity_type`: 'State' → 'state'
+- Texas Higher Education Coordinating Board — Demographic Data
+  - `years_available`: '2000-2019; 2018-2020; 2019-2021' → '2000-2019; 2000-2024; 2018-2020; 2019-2021'
+- Texas Higher Education Coordinating Board — Enrollment Data
+  - `years_available`: '2018-2020; 2019-2021' → '2018-2020; 2019-2021; 2021-2024'
+- The Oregon Higher Education Coordinating Commission — Demographic Data
+  - `years_available`: '2001-2021a; 2001-2023; 2006-2021a; 2006-2022' → '2001-2021a; 2001-2023'
+- The Oregon Higher Education Coordinating Commission — Enrollment Data
+  - `years_available`: '2001-2021a; 2001-2023; 2006-2021a; 2006-2022' → '2001-2021a; 2001-2023'
+- The University of Wisconsin — Demographic Data
+  - `years_available`: '2001-2022' → '2001-2022; 2001-2024'
+- United States (US) — US Voter History
+  - `new_years_received`: '2018 ; 2019 ; 2020 ; 2021 ; 2022 ; 2023 ; 2024' → ''
+- United States (US) — Voter Demographic 1 Information
+  - `years_available`: '2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022; 2023; 2024' → '2015; 2016; 2018; 2019; 2020; 2021; 2022; 2023; 2024'
+  - `new_years_received`: '2018 ; 2019 ; 2020 ; 2021 ; 2022 ; 2023 ; 2024' → ''
+- United States (US) — Voter Demographic 2 Information
+  - `years_available`: '2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022; 2023; 2024' → '2015; 2016; 2018; 2019; 2020; 2021; 2022; 2023; 2024'
+  - `new_years_received`: '2018 ; 2019 ; 2020 ; 2021 ; 2022 ; 2023 ; 2024' → ''
+- United States (US) — Voter Demographic 3 Information
+  - `years_available`: '2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022; 2023; 2024' → '2015; 2016; 2018; 2019; 2020; 2021; 2022; 2023; 2024'
+  - `new_years_received`: '2018 ; 2019 ; 2020 ; 2021 ; 2022 ; 2023 ; 2024' → ''
+- United States (US) — Voter Demographic 4 Information
+  - `years_available`: '2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022; 2023; 2024' → '2015; 2016; 2018; 2019; 2020; 2021; 2022; 2023; 2024'
+  - `new_years_received`: '2018 ; 2019 ; 2020 ; 2021 ; 2022 ; 2023 ; 2024' → ''
+- United States (US) — Voter Demographic 5 Information
+  - `years_available`: '2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022; 2023; 2024' → '2015; 2016; 2018; 2019; 2020; 2021; 2022; 2023; 2024'
+  - `new_years_received`: '2018 ; 2019 ; 2020 ; 2021 ; 2022 ; 2023 ; 2024' → ''
+- United States Department of Agriculture — Mortality Disparities & American Communities (MDAC) Public Use Data
+  - `years_available`: '2009; 2010; 2010-2018; 2015' → '2009; 2010; 2010-2018; 2011; 2015'
+- United States Postal Service — National Change of Address (NCOA)
+  - `years_available`: '2010; 2011; 2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022; 2023; 2024; 2024; 202410; 2025' → '2010; 2011; 2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022; 2023; 2024; 2024; 202410; 2025; 202510; 202511'
+  - `new_years_received`: '2025 202502; 2025 202503' → '2025 202512'
+- United States — Voter Data Voter 1
+  - `years_available`: '2014; 2015; 2016' → '2014; 2015; 2016; 2017'
+  - `new_years_received`: '2016' → ''
+- United States — Voter Data Voter 2
+  - `years_available`: '2014; 2015; 2016' → '2014; 2015; 2016; 2017'
+  - `new_years_received`: '2014 ; 2016' → ''
+- United States — Voter Data Voter 3
+  - `years_available`: '2014; 2015; 2016' → '2014; 2015; 2016; 2017'
+  - `new_years_received`: '2014 ; 2016' → ''
+- United States — Voter Data Voter 4
+  - `years_available`: '2014; 2015; 2016' → '2014; 2015; 2016; 2017'
+  - `new_years_received`: '2014 ; 2016' → ''
+- United States — Voter Data Voter 5
+  - `years_available`: '2014; 2015; 2016' → '2014; 2015; 2016; 2017'
+  - `new_years_received`: '2014 ; 2016' → ''
+- University Data — Award Names
+  - `years_available`: '2023q4; 2024; 2024q4' → '2023q4; 2024; 2024q4; 2025'
+  - `new_years_received`: '2024q4' → '2025 202502'
+- University Data — Award Transaction File
+  - `years_available`: '2023q4; 2024; 2024q4' → '2023q4; 2024; 2024q4; 2025'
+  - `new_years_received`: '2024q4' → '2025 202502'
+- University Data — Employee Names
+  - `years_available`: '2023q4; 2024q2; 2024q4' → '2023q4; 2024q2; 2024q4; 2025'
+  - `new_years_received`: '2024q4' → '2025 202502'
+- University Data — Employee Transaction File
+  - `years_available`: '2023q4; 2024; 2024q4' → '2023q4; 2024; 2024q4; 2025'
+  - `new_years_received`: '2024q4' → '2025 202502'
+- University Data — Institution Names
+  - `years_available`: '2023q4; 2024; 2024q4' → '2023q4; 2024; 2024q4; 2025'
+  - `new_years_received`: '2024q4' → '2025 202502'
+- University Data — Institution Profile Table
+  - `years_available`: '2023q4; 2024; 2024q4' → '2023q4; 2024; 2024q4; 2025'
+  - `new_years_received`: '2024q4' → '2025 202502'
+- University Data — Subaward Transaction File
+  - `years_available`: '2023q4; 2024q4' → '2023q4; 2024q4; 2025'
+  - `new_years_received`: '2024q4' → '2025 202502'
+- University Data — Vendor Transaction File
+  - `years_available`: '2023q4; 2024q4' → '2023q4; 2024q4; 2025'
+  - `new_years_received`: '2024q4' → '2025 202502'
+- University System of Georgia — Demographic Data
+  - `new_years_received`: '2023-2024' → ''
+- University of California, Irvine — Class Roster
+  - `years_available`: '2017-2018; 2018-2019; 2020-2021; 2021-2022' → '2017-2018; 2018-2019; 2020-2021; 2021-2022; 2022_2023'
+- University of California, Irvine — OR Staff Assignment
+  - `entity_type`: 'State' → 'state'
+- University of California, Irvine — OR Staff Positions
+  - `entity_type`: 'State' → 'state'
+- University of California, Irvine — OR Staff Roster
+  - `entity_type`: 'State' → 'state'
+- University of California, Irvine — Student Data -Annual ADM
+  - `years_available`: '2017-2022' → '2016-2021; 2017-2022'
+  - `new_years_received`: '' → '2016-2021'
+- University of Michigan — CJARS Adjudication
+  - `years_available`: '2024q4' → '2024q4; 2025'
+  - `new_years_received`: '2024q4' → ''
+- University of Michigan — CJARS Arrest
+  - `years_available`: '2024q4' → '2024q4; 2025'
+  - `new_years_received`: '2024q4' → ''
+- University of Michigan — CJARS Coverage
+  - `years_available`: '2024q4' → '2024q4; 2025'
+  - `new_years_received`: '2024q4' → ''
+- University of Michigan — CJARS Demographic Data
+  - `years_available`: '2020q4; 2021q1; 2022q2; 2022q4; 2023q3; 2024q4' → '2020q4; 2021q1; 2022q2; 2022q4; 2023q3; 2024q4; 2025'
+  - `new_years_received`: '2024q4' → ''
+- University of Michigan — CJARS Incarceration
+  - `years_available`: '2024q4' → '2024q4; 2025'
+  - `new_years_received`: '2024q4' → ''
+- University of Michigan — CJARS Parole
+  - `years_available`: '2024q4' → '2024q4; 2025'
+  - `new_years_received`: '2024q4' → ''
+- University of Michigan — CJARS Probation
+  - `years_available`: '2024q4' → '2024q4; 2025'
+  - `new_years_received`: '2024q4' → ''
+- University of Michigan — CJARS Roster Data
+  - `years_available`: '2020q4; 2021q1; 2022q2; 2022q4; 2023q3; 2024q4' → '2020q4; 2021q1; 2022q2; 2022q4; 2023q3; 2024q4; 2025'
+  - `new_years_received`: '2024q4' → ''
+- University of Michigan — Criminal Justice Administrative Records System (CJARS)
+  - `years_available`: '2019q1; 2020; 2020q4; 2021q1; 2022; 2022q2; 2022q4; 2023q3; 2024q4' → '2019q1; 2020; 2020q4; 2021q1; 2022; 2022q2; 2022q4; 2023q3; 2024q4; 2025'
+  - `new_years_received`: '2024q4' → ''
+- University of North Carolina Health Care System — Electronic Health Records
+  - `years_available`: '2018-2022' → '2018-2022; 2018-2022; 2025'
+- University of North Carolina Health Care System — Electronic Health Records Visit Detail
+  - `years_available`: '2018-2022' → '2018-2022; 2025'
+- University of North Carolina Health Care System — Electronic Health Records Visit Detail Payers
+  - `years_available`: '2018-2022' → '2018-2022; 2025'
+- University of North Carolina Health Care System — Electronic Health Records Visit Occurrence
+  - `years_available`: '2018-2022' → '2018-2022; 2025'
+- University of North Carolina Health Care System — Electronic Health Records Visit Occurrence Payers
+  - `years_available`: '2018-2022' → '2018-2022; 2025'
+- University of North Carolina — Health Care System
+  - `years_available`: '2016-2019' → '2016-2019; 2018_2022'
+- Utah (UT) — Emergency Department Encounter Records
+  - `entity_type`: 'State' → 'state'
+- Utah (UT) — Employment and Wage (ES202)
+  - `entity_type`: 'State' → 'state'
+  - `new_years_received`: '2024 202401a; 2024 202402' → ''
+- Utah (UT) — SNAP/TANF
+  - `entity_type`: 'State' → 'state'
+  - `years_available`: '2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022; 2023' → '2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022; 2023; 2024'
+- Utah (UT) — SNAP/TANF -Case Data
+  - `entity_type`: 'State' → 'state'
+  - `years_available`: '2023' → '2023; 2024'
+- Utah (UT) — SNAP/TANF Application Data
+  - `entity_type`: 'State' → 'state'
+  - `years_available`: '2023' → '2023; 2024'
+- Utah (UT) — SNAP/TANF Client Data
+  - `entity_type`: 'State' → 'state'
+  - `years_available`: '2023' → '2023; 2024'
+- Utah (UT) — Unemployment Insurance
+  - `entity_type`: 'State' → 'state'
+- Utah (UT) — WIC
+  - `entity_type`: 'State' → 'state'
+- Utah System of Higher Education — Demographic Data
+  - `years_available`: '2011-2020; 2021-2022; 2023' → '2011-2020; 2011-2024; 2021-2022; 2023'
+- Utah System of Higher Education — Enrollment Data
+  - `years_available`: '2011-2020; 2021-2022; 2023' → '2011-2020; 2011-2024; 2021-2022; 2023'
+- Vermont (VT) — Employment and Wage (ES202)
+  - `entity_type`: 'State' → 'state'
+  - `new_years_received`: '2024 202401a; 2024 202402' → ''
+- Vermont (VT) — Unemployment Insurance
+  - `entity_type`: 'State' → 'state'
+- Virgin Islands (VI) — St. Croix -Voter Registration Data
+  - `new_years_received`: '2014-2024' → ''
+- Virgin Islands (VI) — St. John -Voter Registration Data
+  - `new_years_received`: '2014-2024' → ''
+- Virgin Islands (VI) — St. Thomas -Voter Registration Data
+  - `new_years_received`: '2014-2024' → ''
+- Virgin Islands (VI) — Unemployment Insurance
+  - `entity_type`: 'State' → 'state'
+- Virginia (VA) — Employment and Wage (ES202)
+  - `entity_type`: 'State' → 'state'
+  - `new_years_received`: '2024 202401a; 2024 202402' → ''
+- Virginia (VA) — SNAP
+  - `entity_type`: 'State' → 'state'
+  - `years_available`: '2009-2013; 2014; 2014-2016; 2015; 2016; 2023' → '2009-2013; 2014; 2014-2016; 2015; 2016; 2023; 2024'
+- Virginia (VA) — TANF
+  - `entity_type`: 'State' → 'state'
+  - `years_available`: '2023' → '2023; 2024'
+- Virginia (VA) — Unemployment Insurance
+  - `entity_type`: 'State' → 'state'
+- Washington (WA) — Employment and Wage (ES202)
+  - `entity_type`: 'State' → 'state'
+  - `new_years_received`: '2024 202401a; 2024 202402' → ''
+- Washington (WA) — Unemployment Insurance
+  - `entity_type`: 'State' → 'state'
+- Washington (WA) — WIC
+  - `entity_type`: 'State' → 'state'
+- West Virginia (WV) — Employment and Wage (ES202)
+  - `entity_type`: 'State' → 'state'
+  - `new_years_received`: '2024 202401a; 2024 202402' → ''
+- West Virginia (WV) — Unemployment Insurance
+  - `entity_type`: 'State' → 'state'
+- West Virginia Higher Education Policy Commission — Degree Data
+  - `years_available`: '2001-2023' → '2001-2022; 2001-2023'
+- West Virginia Higher Education Policy Commission — Demographic Data
+  - `years_available`: '2001-2023' → '2001-2022; 2001-2023'
+- Wisconsin (WI) — Employment and Wage (ES202)
+  - `entity_type`: 'State' → 'state'
+  - `new_years_received`: '2024 202402' → ''
+- Wisconsin (WI) — SNAP
+  - `entity_type`: 'State' → 'state'
+  - `new_years_received`: '2024' → ''
+- Wisconsin (WI) — SNAP Case Data
+  - `entity_type`: 'State' → 'state'
+  - `new_years_received`: '2024' → ''
+- Wisconsin (WI) — SNAP Individual Data
+  - `entity_type`: 'State' → 'state'
+  - `new_years_received`: '2024' → ''
+- Wisconsin (WI) — TANF/CCS
+  - `entity_type`: 'State' → 'state'
+- Wisconsin (WI) — Unemployment Insurance
+  - `entity_type`: 'State' → 'state'
+- Wisconsin (WI) — WIC
+  - `entity_type`: 'State' → 'state'
+- Wyoming (WY) — Employment and Wage (ES202)
+  - `entity_type`: 'State' → 'state'
+  - `new_years_received`: '2024 202401a; 2024 202402' → ''
+- Wyoming (WY) — SNAP
+  - `entity_type`: 'State' → 'state'
+- Wyoming (WY) — Unemployment Insurance
+  - `entity_type`: 'State' → 'state'
+- Wyoming (WY) — WIC
+  - `entity_type`: 'State' → 'state'
+  - `new_years_received`: '2023' → '2024'
+- Wyoming Community College Commission — Demographic Data
+  - `years_available`: '2001-2022' → '2001-2022; 2001-2024'
+- Wyoming Community College Commission — Enrollment Data
+  - `years_available`: '2001-2022' → '2001-2022; 2001-2024'
+
 ## 2025-05-08
 
 Compared [`data-file-inventory-2025-03-22.pdf`](snapshots/data-file-inventory-2025-03-22.pdf) (673 rows) to [`data-file-inventory-2025-05-08.pdf`](snapshots/data-file-inventory-2025-05-08.pdf) (695 rows).
