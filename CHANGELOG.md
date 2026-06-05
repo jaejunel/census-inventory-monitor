@@ -2,6 +2,289 @@
 
 History of changes to the Census Bureau's administrative data file inventory PDF, newest first. See README.md for how row identity works and what a removed row does and does not mean.
 
+## 2026-06-05
+
+Compared [`data-file-inventory-2026-05-27.pdf`](snapshots/data-file-inventory-2026-05-27.pdf) (871 rows) to [`data-file-inventory-2026-06-05.pdf`](snapshots/data-file-inventory-2026-06-05.pdf) (884 rows).
+
+**13 added, 0 removed, 116 modified.**
+
+### Added (13)
+
+- Internal Revenue Service (IRS) — Form 1098 Mortgage Interest Statement
+- Internal Revenue Service (IRS) — Form 1098E Student Loan Interest
+- Internal Revenue Service (IRS) — Form 1098T Tuition Statement
+- Michigan (MI) — SNAP Case File
+- Michigan (MI) — SNAP Individual File
+- Social Security Administration (SSA) — SSA MBR Direct Deposit Addresses
+- Social Security Administration (SSA) — SSA SS5 Original and Replacement Card Addresses
+- Social Security Administration (SSA) — SSA SS5 Sensitive Addresses
+- Social Security Administration (SSA) — SSA SSR Direct Deposit Addresses
+- University of North Carolina — NC -UNC Enrollment Data
+- University of North Carolina — NC-UNC Degree Data
+- University of North Carolina — NC-UNC Demographic Data
+- University of Pittsburgh — Degree Data
+
+### Modified (116)
+
+- Administration for Children and Families (ACF) — TANF
+  - `new_years_received`: '2022 ; 2023 ; 2024' → '2020 ; 2021'
+- Administration for Children and Families (ACF) — TANF Adult Data
+  - `new_years_received`: '2022 ; 2023 ; 2024' → ''
+- Administration for Children and Families (ACF) — TANF Child Data
+  - `new_years_received`: '2022 ; 2023 ; 2024' → ''
+- Administration for Children and Families (ACF) — TANF Family Data
+  - `new_years_received`: '2022 ; 2023 ; 2024' → ''
+- Arizona (AZ) — TANF
+  - `years_available`: '2009; 2010; 2011; 2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022; 2023; 2024' → '2009; 2010; 2011; 2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022; 2023; 2024; 2025'
+  - `new_years_received`: '' → '2025'
+- Arizona (AZ) — TANF -Approvals Data
+  - `years_available`: '2023; 2024' → '2023; 2024; 2025'
+- Arizona (AZ) — TANF -Benefits Data
+  - `years_available`: '2023; 2024' → '2023; 2024; 2025'
+- Arizona (AZ) — TANF -Countable Income Data
+  - `years_available`: '2023; 2024' → '2023; 2024; 2025'
+- Arizona (AZ) — TANF -Denial Data
+  - `years_available`: '2023; 2024' → '2023; 2024; 2025'
+- Arizona (AZ) — TANF -Gross Earned Income Data
+  - `years_available`: '2023; 2024' → '2023; 2024; 2025'
+- Arizona (AZ) — TANF -Mailing Address Data
+  - `years_available`: '2023; 2024' → '2023; 2024; 2025'
+- Arizona (AZ) — TANF -Phone Numbers Data
+  - `years_available`: '2023; 2024' → '2023; 2024; 2025'
+- Arizona (AZ) — TANF -Residential Address Data
+  - `years_available`: '2023; 2024' → '2023; 2024; 2025'
+- Arizona (AZ) — TANF -Simplified Reports Data
+  - `years_available`: '2023; 2024' → '2023; 2024; 2025'
+- Bryant University — Degree Data
+  - `years_available`: '2001-2023; 2001-2024' → '2001-2023; 2001-2024; 2025'
+- Bryant University — Demographic Data
+  - `years_available`: '2001-2023; 2001-2024' → '2001-2023; 2001-2024; 2025'
+- Bryant University — Enrollment Data
+  - `years_available`: '2001-2023; 2001-2024' → '2001-2023; 2001-2024; 2025'
+- Census — SSA Administrative Records Linked to Current Population Survey (CPS) -Detail Earnings
+  - `new_years_received`: '1973-2025' → ''
+- Census — SSA Administrative Records Linked to Current Population Survey (CPS) -Disability
+  - `new_years_received`: '1973-2025' → ''
+- Census — SSA Administrative Records Linked to Current Population Survey (CPS) -Member Beneficiary Record
+  - `new_years_received`: '1973-2025' → ''
+- Census — SSA Administrative Records Linked to Current Population Survey (CPS) -Payment History Update System
+  - `new_years_received`: '1973-2025' → ''
+- Census — SSA Administrative Records Linked to Current Population Survey (CPS) -Summary Earnings
+  - `new_years_received`: '1973-2025' → ''
+- Census — SSA Administrative Records Linked to Current Population Survey (CPS) -Supplemental Security Record
+  - `new_years_received`: '1973-2025' → ''
+- Census — SSA Administrative Records Linked to Survey of Income and Program Participation (SIPP) - Detail Earnings
+  - `new_years_received`: '1984-2025' → ''
+- Census — SSA Administrative Records Linked to Survey of Income and Program Participation (SIPP) - Member Beneficiary Record
+  - `new_years_received`: '1984-2025' → ''
+- Census — SSA Administrative Records Linked to Survey of Income and Program Participation (SIPP) - Summary Earnings
+  - `new_years_received`: '1984-2025' → ''
+- Colorado (CO) — SNAP
+  - `years_available`: '2012; 2013; 2014; 2015; 2016; 2017; 2018; 2018a; 2019; 2020; 2021; 2022; 2023; 2024' → '2012; 2013; 2014; 2015; 2016; 2017; 2018; 2018a; 2019; 2020; 2021; 2022; 2023; 2024; 2025'
+- Colorado (CO) — SNAP Case Data
+  - `years_available`: '2014; 2015; 2016; 2017; 2018a; 2023; 2024' → '2014; 2015; 2016; 2017; 2018a; 2023; 2024; 2025'
+- Colorado (CO) — SNAP Individual Data
+  - `years_available`: '2014; 2015; 2016; 2017; 2023; 2024' → '2014; 2015; 2016; 2017; 2023; 2024; 2025'
+- Connecticut State Colleges and Universities — Degree Data
+  - `new_years_received`: '2024-2025' → ''
+- Connecticut State Colleges and Universities — Demographic Data
+  - `new_years_received`: '2024-2025' → ''
+- Connecticut State Colleges and Universities — Enrollment Data
+  - `new_years_received`: '2024-2025' → ''
+- Department of Defense — Military-Civilian Transition Office
+  - `years_available`: '2016-2024' → '2016-2020; 2016-2024; 2021-2025'
+  - `new_years_received`: '' → '2021-2025'
+- Department of Homeland Security — Immigration and Citizenship- Related Data
+  - `years_available`: '2020; 2025' → '2020; 2025; 202605'
+  - `new_years_received`: '' → '202605 202605'
+- Department of Homeland Security — Immigration and Customs Enforcement National Docket
+  - `years_available`: '2025' → '2020; 2021; 2022; 2023; 2024; 2025; 2026'
+  - `new_years_received`: '' → '2020 2020a'
+- Department of Homeland Security — Immigration and Customs Enforcement Removals
+  - `years_available`: '2025' → '2012-2019; 2025'
+  - `new_years_received`: '' → '2012-2019'
+- Department of Homeland Security — USCIS Case File
+  - `years_available`: '202602' → '202602; 202602b'
+  - `new_years_received`: '' → '202602b'
+- Department of Labor — ETA RAPIDS Apprentice Data
+  - `years_available`: '2024' → '2024; 2026'
+- Department of Labor — ETA RAPIDS Davis Bacon Data
+  - `years_available`: '2024' → '2024; 2026'
+- Department of Labor — ETA RAPIDS EEO Deficets Data
+  - `years_available`: '2024; 202403' → '2024; 202403; 2026'
+- Department of Labor — ETA RAPIDS EEO Review Data
+  - `years_available`: '2024; 202403' → '2024; 202403; 2026'
+- Department of Labor — ETA RAPIDS Employer Data
+  - `years_available`: '2024; 202403' → '2024; 202403; 2026'
+- Department of Labor — ETA RAPIDS Program Contacts Data
+  - `years_available`: '2024' → '2024; 2026'
+- Department of Labor — ETA RAPIDS Program Data
+  - `years_available`: '2024; 202403' → '2024; 202403; 2026'
+- Department of Labor — ETA RAPIDS Program Occupation Data
+  - `years_available`: '2024; 202403' → '2024; 202403; 2026'
+- Department of Labor — ETA RAPIDS QAA Review Data
+  - `years_available`: '2024; 202403' → '2024; 202403; 2026'
+- Department of Labor — ETA RAPIDS RTI Provider Detail Data
+  - `years_available`: '2024' → '2024; 2026'
+- Department of Labor — ETA RAPIDS Wage Schedule Data
+  - `years_available`: '2024' → '2024; 2026'
+- Department of Labor — Employment and Training Agency Registered Apprenticeship Partners Information Data System (ETA RAPIDS)
+  - `years_available`: '2022; 2023; 2024; 2024; 202403' → '2022; 2023; 2024; 2024; 202403; 2026'
+  - `new_years_received`: '' → '2026 202601'
+- Department of State — Passport Data
+  - `new_years_received`: '1978b 1978b; 2022' → '2022'
+- Department of Veteran's Affairs — US Veteran's Data
+  - `years_available`: '2013; 2015; 2017; 2018; 2019; 2020; 2021; 2023' → '2013; 2015; 2017; 2018; 2019; 2020; 2021; 2023; 2024'
+  - `new_years_received`: '' → '2024'
+- Harvard University — Harvard Gallop Daily Poll Data
+  - `new_years_received`: '2008-2017' → '2009-2024 2009-2024a'
+- Harvard University — Workforce Data -WGU File
+  - `years_available`: '2001-2025' → '2001-2025; 2013-2025'
+- Health and Human Services (HHS) — Refugee Arrivals Data System (RADS)
+  - `years_available`: '2017-2021' → '2017; 2017-2021; 2018; 2019; 2020; 2021; 2022; 2023; 2024'
+  - `new_years_received`: '' → '2017 ; 2018 ; 2019 ; 2020 ; 2021 ; 2022 ; 2023 ; 2024'
+- Idaho Utah NonProfit and Ensign College — Degree Data
+  - `years_available`: '2016-2025' → '2016-2025; 2020-2025'
+  - `new_years_received`: '2016-2025' → ''
+- Idaho Utah NonProfit and Ensign College — Demographic Data
+  - `years_available`: '2016-2025' → '2016-2025; 2020-2025'
+  - `new_years_received`: '2016-2025' → ''
+- Idaho Utah NonProfit and Ensign College — Enrollment Data
+  - `years_available`: '2016-2025' → '2016-2025; 2020-2025'
+  - `new_years_received`: '2016-2025' → ''
+- Illinois Board of Higher Education — Degree Data
+  - `new_years_received`: '2024-2025' → ''
+- Illinois Board of Higher Education — Demographic Data
+  - `new_years_received`: '2024-2025' → ''
+- Indian Health Service (IHS) — Patient Registration
+  - `years_available`: '1999; 2000; 2001; 2002; 2003; 2004; 2005; 2006; 2007; 2008; 2009; 2010; 2011; 2012; 2013; 2014; 2015; 2016; 2017; 2018; 2018a; 2019; 2019a; 2020; 2020a; 2021; 2022; 2023; 2024; 2025' → '1999; 2000; 2001; 2002; 2003; 2004; 2005; 2006; 2007; 2008; 2009; 2010; 2011; 2012; 2013; 2014; 2015; 2016; 2017; 2018; 2018a; 2019; 2019a; 2020; 2020a; 2021; 2022; 2023; 2024; 2025; 2026'
+  - `new_years_received`: '2018a ; 2019a ; 2020a ; 2021 ; 2022 ; 2023 ; 2024 ; 2025' → ''
+- Indiana Commission For Higher Education — Degree Data
+  - `years_available`: '2002-2019; 2002-2021; 2021; 2022-2024; 2024-2025' → '2002-2019; 2002-2021; 2020-2025; 2021; 2022-2024; 2024-2025'
+  - `new_years_received`: '2024-2025' → '2020-2025'
+- Indiana Commission For Higher Education — Demographic Data
+  - `years_available`: '2001-2024; 2002-2019; 2002-2021; 2021; 2024-2025' → '2001-2024; 2002-2019; 2002-2021; 2020-2025; 2021; 2024-2025'
+  - `new_years_received`: '2024-2025' → '2020-2025'
+- Indiana Commission For Higher Education — Enrollment Data
+  - `years_available`: '2002-2019; 2002-2021; 2021; 2022-2024; 2024-2025' → '2002-2019; 2002-2021; 2020-2025; 2021; 2022-2024; 2024-2025'
+  - `new_years_received`: '2024-2025' → '2020-2025'
+- Internal Revenue Service (IRS) — Form 1040 Returns
+  - `new_years_received`: 'ty2025 202613' → 'ty2025 202617'
+- Internal Revenue Service (IRS) — Form 1095 Employer-Provided Health Insurance Offer and Coverage
+  - `new_years_received`: 'ty2025 202611' → 'ty2025 202615'
+- Internal Revenue Service (IRS) — Form 1095 Health Health Coverage Data
+  - `new_years_received`: 'ty2025 202611' → 'ty2025 202615'
+- Internal Revenue Service (IRS) — Form 1095 Health Insurance Marketplace Statement data
+  - `new_years_received`: 'ty2025 202611' → 'ty2025 202615'
+- Internal Revenue Service (IRS) — Form 1096 Summary of Information Returns (1099-MISC only)
+  - `years_available`: 'ty2011; ty2012; ty2013; ty2014; ty2015; ty2016; ty2017; ty2018; ty2019; ty2020; ty2021; ty2022; ty2023' → 'ty2011; ty2012; ty2013; ty2014; ty2015; ty2016; ty2017; ty2018; ty2019; ty2020; ty2021; ty2022; ty2023; ty2024'
+- Internal Revenue Service (IRS) — Form 1099 Returns (Information Returns)
+  - `new_years_received`: 'ty2025 202607; ty2025 202611' → 'ty2023 202429'
+- Internal Revenue Service (IRS) — Form 1099-R Returns (Information Returns)
+  - `new_years_received`: 'TY2025 202607; TY2025 202611' → 'TY2025 202615'
+- Internal Revenue Service (IRS) — Form W-2
+  - `years_available`: 'ty1999; ty2000; ty2001; ty2002; ty2003; ty2004; ty2005; ty2006; ty2007; ty2008; ty2009; ty2010; ty2011; ty2012; ty2013; ty2014; ty2015; ty2016; ty2017; ty2018; ty2019; ty2020; ty2021; ty2022; ty2023; ty2023; ty2024' → 'ty1999; ty2000; ty2001; ty2002; ty2003; ty2004; ty2005; ty2006; ty2007; ty2008; ty2009; ty2010; ty2011; ty2012; ty2013; ty2014; ty2015; ty2016; ty2017; ty2018; ty2019; ty2020; ty2021; ty2022; ty2023; ty2023; ty2024; TY2025'
+- Internal Revenue Service (IRS) — Forms 1120, 1120F, 1120L, 1120- PC, 1120-RIC, 1120-REIT, 990-R (formerly 990), 990-RZ (formerly 990-EZ), 990-PF, 1120-C (formerly 990-C), 6765, 851, 1096, 990-N
+  - `years_available`: '(current); 2024; 2025; 2026; 202607; 202608; 202609; 202610; 202611; 202612; 202613; 202615' → '(current); 2024; 2025; 2026; 202607; 202608; 202609; 202610; 202611; 202612; 202613; 202614; 202615; 202616; 202619'
+  - `new_years_received`: '202607 202607; 202608 202608; 202609 202609; 202610 202610; 202611 202611; 202612 202612; 202613 202613; 202615 202615' → '202614 202614; 202616 202616; 202619 202619'
+- Internal Revenue Service (IRS) — Forms 941, 941PR, 941SS, 943, 943PR, 944, 944-SP, 944-PR, 944- SS
+  - `years_available`: '2025; 2026; 202607; 202608; 202609; 202610; 202611; 202612; 202613; 202615; ty2025' → '2025; 2026; 202607; 202608; 202609; 202610; 202611; 202612; 202613; 202614; 202615; 202616; 202619'
+  - `new_years_received`: '202607 202607; 202608 202608; 202609 202609; 202610 202610; 202611 202611; 202612 202612; 202613 202613; 202615 202615' → '202614 202614; 202616 202616; 202619 202619'
+- Internal Revenue Service (IRS) — IRS SSA Kidlink Data
+  - `new_years_received`: '202608 202608' → ''
+- Kentucky (KY) — Kentucky SNAP data
+  - `new_years_received`: '2025' → ''
+- Kentucky (KY) — SNAP Case Data
+  - `new_years_received`: '2025' → ''
+- Kentucky (KY) — SNAP Individual Data
+  - `new_years_received`: '2025' → ''
+- Michigan (MI) — SNAP
+  - `years_available`: '2010; 2011; 2012; 2013; 2014; 2015; 2016' → '2010; 2011; 2012; 2013; 2014; 2015; 2016; 2025'
+  - `new_years_received`: '' → '2025'
+- Missouri Department of Higher Education — Degree Data
+  - `new_years_received`: '2024-2025' → ''
+- Missouri Department of Higher Education — Demographic Data
+  - `new_years_received`: '2024-2025' → ''
+- Missouri Department of Higher Education — Enrollment Data
+  - `new_years_received`: '2024-2025' → ''
+- Montana (MT) — WIC
+  - `years_available`: '2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022; 2023' → '2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022; 2023; 2024; 2025'
+- Ohio Department of Higher Education — Degree Data
+  - `new_years_received`: '2024-2025' → ''
+- Ohio Department of Higher Education — Demographic Data
+  - `new_years_received`: '2024-2025' → ''
+- Ohio Department of Higher Education — Enrollment Data
+  - `new_years_received`: '2024-2025' → ''
+- Pennsylvania State University — Degree Data
+  - `years_available`: '2019-2023; 2024-2025' → '2019-2023; 2019-2025; 2024-2025'
+  - `new_years_received`: '2024-2025' → ''
+- Pennsylvania State University — Demographic Data
+  - `years_available`: '2000-2019a; 2001-2022; 2024-2025' → '2000-2019a; 2001-2022; 2001-2022; 2024-2025'
+  - `new_years_received`: '2024-2025' → ''
+- Pennsylvania State University — Enrollment Data
+  - `years_available`: '2000-2019a; 2001-2022; 2024-2025' → '2000-2019a; 2001-2022; 2001-2022; 2024-2025'
+  - `new_years_received`: '2024-2025' → ''
+- Providence College — Degree Data
+  - `years_available`: '2007-2023; 2023-2024' → '2007-2023; 2023-2024; 2024-2025'
+- Puerto Rico — Hacienda Administrative Tax Form 480
+  - `new_years_received`: '2019-2023 2019- 2023a; 2019-2023 2019-2023b' → ''
+- Puerto Rico — Hacienda Administrative Tax Form 482
+  - `new_years_received`: '2019-2023' → ''
+- Safegraph — Safegraph Place Brand Info File
+  - `new_years_received`: '' → '2026 202605'
+- Safegraph — Safegraph Place Core POI File
+  - `new_years_received`: '' → '2026 202605'
+- Safegraph — Safegraph Place Data
+  - `new_years_received`: '202604 202604' → ''
+- Safegraph — Safegraph Spend Patterns File
+  - `new_years_received`: '202604 202604' → ''
+- Safegraph — Safegraph Transaction Panel Summary File
+  - `new_years_received`: '202604 202604' → ''
+- Social Security Administration (SSA) — SSA SS5 Replacement Card Application Addresses
+  - `years_available`: '2018; 2019; 2020; 2021; 2022; 2023; 2024; 2025; 2026' → '2009-2017; 2018; 2019; 2020; 2021; 2022; 2023; 2024; 2025; 2026'
+- South Carolina Commission on Higher Education — Degree Data
+  - `new_years_received`: '2024' → ''
+- South Carolina Commission on Higher Education — Demographic Data
+  - `new_years_received`: '2024' → ''
+- South Carolina Commission on Higher Education — Enrollment Data
+  - `new_years_received`: '2024' → ''
+- United States Postal Service — National Change of Address (NCOA)
+  - `years_available`: '2010; 2011; 2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022; 2023; 2024; 2024; 202410; 2025; 202510; 202511; 202601; 202602; 202603; 202604' → '2010; 2011; 2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022; 2023; 2024; 2024; 202410; 2025; 202510; 202511; 202601; 202602; 202603; 202604; 202605'
+  - `new_years_received`: '202602 202602; 202603 202603; 202604 202604' → '202605 202605'
+- University System of Georgia — Degree Data
+  - `years_available`: '2001-2021; 2023-2024' → '2001-2021; 2023-2024; 2024-2025'
+  - `new_years_received`: '' → '2024-2025'
+- University System of Georgia — Demographic Data
+  - `years_available`: '2001-2022a; 2023-2024' → '2001-2022a; 2023-2024; 2024-2025'
+  - `new_years_received`: '' → '2024-2025'
+- University System of Georgia — Enrollment Data
+  - `years_available`: '2001-2022; 2023-2024' → '2001-2022; 2023-2024; 2024-2025'
+  - `new_years_received`: '' → '2024-2025'
+- University of Iowa — Degree Data
+  - `new_years_received`: '2024-2025' → ''
+- University of Iowa — Demographic Data
+  - `new_years_received`: '2024-2025' → ''
+- University of Iowa — Enrollment Data
+  - `new_years_received`: '2024-2025' → ''
+- University of North Carolina — NC-UNC General Administration
+  - `years_available`: '2012' → '2012; 2024-2025'
+- Vermont Community College — Degree Data
+  - `new_years_received`: '2016-2025' → ''
+- Vermont Community College — Demographic Data
+  - `new_years_received`: '2016-2025' → ''
+- Vermont Community College — Emrollment Data
+  - `new_years_received`: '2016-2025' → ''
+- West Virginia Higher Education Policy Commission — Degree Data
+  - `years_available`: '2001-2022; 2001-2023' → '2001-2022; 2001-2023; 2024-2025'
+- West Virginia Higher Education Policy Commission — Demographic Data
+  - `years_available`: '2001-2022; 2001-2023' → '2001-2022; 2001-2023; 2024-2025'
+- Wyoming Community College Commission — Degree Data
+  - `new_years_received`: '2024-2025' → ''
+- Wyoming Community College Commission — Demographic Data
+  - `new_years_received`: '2024-2025' → ''
+- Wyoming Community College Commission — Enrollment Data
+  - `new_years_received`: '2024-2025' → ''
+
 ## 2026-05-27
 
 Compared [`data-file-inventory-2026-02-03.pdf`](snapshots/data-file-inventory-2026-02-03.pdf) (801 rows) to [`data-file-inventory-2026-05-27.pdf`](snapshots/data-file-inventory-2026-05-27.pdf) (871 rows).
