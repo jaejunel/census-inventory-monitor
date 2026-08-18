@@ -37,18 +37,34 @@ def _draw_header(c: canvas.Canvas, y: float) -> float:
     return y
 
 
-def _draw_footer(c: canvas.Canvas, page_num: int, page_count_placeholder: int = 1) -> None:
+def _draw_footer(
+    c: canvas.Canvas, page_num: int, page_count_placeholder: int = 1, *, glue_of: bool = False
+) -> None:
     c.setFont("Helvetica", 8)
     date_str = datetime.date(2026, 1, 1).strftime("%A, %B %d, %Y")
-    c.drawString(30, BOTTOM_MARGIN - 20, f"{date_str} Page {page_num} of {page_count_placeholder}")
+    # glue_of=True reproduces a real capture's kerning quirk where "of" and
+    # the page total rendered with no space between them ("...Page 20
+    # of50") -- see parse.py's _FOOTER_RE comment.
+    sep = "" if glue_of else " "
+    c.drawString(30, BOTTOM_MARGIN - 20, f"{date_str} Page {page_num} of{sep}{page_count_placeholder}")
 
 
-def write_inventory_pdf(path: str, lines: list[dict], *, include_banner: bool = True) -> None:
+def write_inventory_pdf(
+    path: str,
+    lines: list[dict],
+    *,
+    include_banner: bool = True,
+    glue_footer: bool = False,
+    page_height: float = PAGE_HEIGHT,
+) -> None:
     """Render `lines` (a flat, single logical sequence of physical lines --
-    pagination is handled automatically) into a PDF at `path`."""
-    c = canvas.Canvas(path, pagesize=(PAGE_WIDTH, PAGE_HEIGHT))
+    pagination is handled automatically) into a PDF at `path`. glue_footer
+    reproduces the "of50" no-space kerning quirk in the footer line.
+    page_height can be shrunk to force a page break after just a few lines,
+    for tests that need content on both sides of a page boundary."""
+    c = canvas.Canvas(path, pagesize=(PAGE_WIDTH, page_height))
     page_num = 1
-    y = PAGE_HEIGHT - TOP_MARGIN
+    y = page_height - TOP_MARGIN
 
     if include_banner:
         c.setFont("Helvetica", 11)
@@ -61,10 +77,10 @@ def write_inventory_pdf(path: str, lines: list[dict], *, include_banner: bool = 
         gap = line.get("gap", NEW_ROW_GAP)
         y -= gap
         if y < BOTTOM_MARGIN:
-            _draw_footer(c, page_num)
+            _draw_footer(c, page_num, glue_of=glue_footer)
             c.showPage()
             page_num += 1
-            y = PAGE_HEIGHT - TOP_MARGIN
+            y = page_height - TOP_MARGIN
             y = _draw_header(c, y)
             y -= gap  # keep gap semantics consistent across the page break -- test data avoids relying on cross-page continuation
 
@@ -78,7 +94,7 @@ def write_inventory_pdf(path: str, lines: list[dict], *, include_banner: bool = 
                 if value:
                     c.drawString(x, y, value)
 
-    _draw_footer(c, page_num)
+    _draw_footer(c, page_num, glue_of=glue_footer)
     c.save()
 
 

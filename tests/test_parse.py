@@ -171,6 +171,49 @@ def test_disclaimer_line_is_stripped(tmp_path):
     assert rows[0]["data_type"] == "Business Master File"
 
 
+def test_footer_with_no_space_before_page_total_is_still_stripped(tmp_path):
+    """Regression test: a real capture (2025-02-20) rendered its footer as
+    "...Page 20 of50" -- no space between "of" and the page total, a PDF
+    kerning quirk on that one page. The old regex required \\s+ there, so
+    the line fell through as content and (landing in the entity_type
+    column's x-range) got forward-filled into every row below it, until
+    the audit caught 122 corrupted rows in that one file.
+
+    Force a page break so the glued footer sits between two real rows --
+    matching exactly how the bug actually manifested -- and confirm the
+    row *after* the footer still gets the correct forward-filled
+    entity_type, not the leaked footer text.
+    """
+    lines = [
+        {"entity_type": "Other", "gap": NEW_ROW_GAP},
+        {"agency_or_program": "Legal Services Corporation", "gap": NEW_ROW_GAP},
+        {
+            "data_provider": "Legal Services Corporation",
+            "data_type": "Evictions Data",
+            "years_available": "2020",
+            "gap": NEW_ROW_GAP,
+        },
+        # A small page_height forces the page break to land right here,
+        # putting the glued footer between this row and the next.
+        {
+            "data_provider": "Maine Community College System",
+            "data_type": "Degree Data",
+            "years_available": "2021",
+            "gap": NEW_ROW_GAP,
+        },
+    ]
+    path = str(tmp_path / "gluedfooter.pdf")
+    # Small enough that the page breaks after the second row.
+    write_inventory_pdf(path, lines, glue_footer=True, page_height=220)
+    rows = parse_pdf(path)
+    assert len(rows) == 2
+    for row in rows:
+        assert row["entity_type"] == "Other"
+        for value in row.values():
+            assert "2026" not in value  # the footer's year must never leak in
+            assert "Page" not in value
+
+
 def test_no_rows_raises_parse_error(tmp_path):
     """A PDF that never contains the expected header text at all (e.g. a
     completely different layout) must fail loudly, not silently return an

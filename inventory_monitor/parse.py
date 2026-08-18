@@ -39,7 +39,15 @@ from . import config
 ROW_GAP_THRESHOLD = 14.5
 
 _DISCLAIMER_PREFIX = "The following data are available for use by qualified researchers"
-_FOOTER_RE = re.compile(r"^\w+,\s+\w+\s+\d{1,2},\s+\d{4}\s+Page\s+\d+\s+of\s+\d+$")
+# Whitespace between tokens is \s* (optional), not \s+ (required): a real
+# capture (2025-02-20) rendered its footer as "...Page 20 of50" -- a PDF
+# kerning quirk on that one page glued "of" to the page total with no
+# space. With \s+ that line didn't match, fell through as content, and
+# (starting at x0 in the entity_type column's range) got forward-filled
+# into 122 subsequent rows before the bug was caught. See CHANGELOG.md's
+# 2026-08-xx correction entry and tests/test_parse.py for the regression
+# test.
+_FOOTER_RE = re.compile(r"^\w+,\s*\w+\s*\d{1,2},\s*\d{4}\s*Page\s*\d+\s*of\s*\d+$")
 _WHITESPACE_RE = re.compile(r"\s+")
 
 
