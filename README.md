@@ -116,7 +116,7 @@ record of what the Bureau *said*, not a record of what it *has*.
 
 A parser this dependent on a specific column layout will eventually meet a
 version of the document formatted differently — and a diff produced by a
-broken parser looks exactly like a diff, just a wrong one. Two guards
+broken parser looks exactly like a diff, just a wrong one. Three guards
 exist so that a layout break gets caught instead of silently emitted as a
 changelog entry:
 
@@ -124,7 +124,21 @@ changelog entry:
    header text, or matches it but extracts zero rows from the content that
    follows, it raises `ParseError` immediately rather than producing an
    empty inventory.
-2. **Excessive churn.** If additions plus removals exceed 25% of the total
+2. **An invalid `entity_type`.** This column only ever legitimately holds
+   Federal / State / Other / Third Party (loosely matched, so a real
+   in-source typo like a stray lowercase `"state"` still passes — see
+   `parse._looks_like_entity_type()`). A value that doesn't loosely match
+   any of them raises `ParseError`. This exists because a real bug got
+   past guard #1: on one page of one capture, the footer rendered without
+   a space (`"...Page 20 of50"`), didn't match the footer-stripping
+   regex, and — landing in `entity_type`'s column bucket — got
+   forward-filled into 122 otherwise-normal-looking rows. Row count
+   didn't change and churn was 0%, so guard #3 below couldn't have caught
+   it either; only a value-level sanity check on the field itself can.
+   That corruption was caught by a manual audit, not by the pipeline —
+   see the "Fix footer regex..." and "Correct entity_type corruption..."
+   commits in the repo history for the full story.
+3. **Excessive churn.** If additions plus removals exceed 25% of the total
    row count (`config.MAX_CHURN_FRACTION`), that is treated as far more
    likely to be a parser/layout break than genuine turnover in a
    monthly-updated inventory, and no changelog entry is written. The
@@ -135,7 +149,17 @@ changelog entry:
    loudly. See `CHECK_LOG.md` and any `*.suspect.csv` files after a
    failure.
 
-Both guards are exercised in `tests/test_guards.py`.
+**What these guards do not cover:** they catch a parser producing no rows,
+a nonsense `entity_type`, or wildly different row counts — not a
+subtler, localized misread that leaves row count and every checked field
+looking individually plausible (e.g. two adjacent real values swapped, or
+a single field silently truncated). The `entity_type` guard exists
+precisely because a real bug slipped through the other two; treat the
+guards as a floor, not a substitute for occasionally spot-checking
+`extracted/*.csv` against the source PDF by hand, especially after a
+capture that looks unusual.
+
+All three guards are exercised in `tests/test_guards.py`.
 
 ## Known gap: pre-2023 captures
 

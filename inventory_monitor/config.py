@@ -104,3 +104,17 @@ KEY_FIELDS = ["data_provider", "data_type"]
 # treat the diff as a probable parser/layout break rather than a genuine
 # inventory turnover, and refuse to write a changelog entry.
 MAX_CHURN_FRACTION = 0.25
+
+# Guard: entity_type only ever legitimately holds one of these four values
+# (case aside -- the Bureau's own PDF has been observed to render this as
+# a stray lowercase "state"). A value that doesn't loosely match any of
+# them is a strong signal that unrelated text (e.g. a stray header/footer
+# line that slipped past the strippers -- see the "of50" bug) leaked in
+# and got forward-filled across many rows, since entity_type sits in the
+# leftmost, widest-matching column bucket. See parse.py's
+# _looks_like_entity_type(). ENTITY_TYPE_TYPO_SLACK is how many extra
+# characters a value is allowed to have beyond the canonical value it
+# matches, to tolerate small in-source typos (e.g. "Othere") without
+# tolerating an entire unrelated sentence.
+CANONICAL_ENTITY_TYPES = ["Federal", "State", "Other", "Third Party"]
+ENTITY_TYPE_TYPO_SLACK = 3

@@ -1,5 +1,5 @@
-"""Tests for the two sanity guards: no-rows-found (parse.ParseError) and
-excess churn (guards.ChurnGuardError)."""
+"""Tests for the three sanity guards: no-rows-found, invalid entity_type
+(both parse.ParseError), and excess churn (guards.ChurnGuardError)."""
 
 from __future__ import annotations
 
@@ -7,9 +7,9 @@ import pytest
 
 from inventory_monitor.diff import diff_rows
 from inventory_monitor.guards import ChurnGuardError, check_churn
-from inventory_monitor.parse import ParseError, parse_pdf
+from inventory_monitor.parse import ParseError, _looks_like_entity_type, parse_pdf
 
-from .pdf_builder import full_rows_to_lines, write_inventory_pdf
+from .pdf_builder import NEW_ROW_GAP, full_rows_to_lines, write_inventory_pdf
 
 
 def _row(i):
@@ -70,6 +70,71 @@ def test_churn_guard_boundary_is_exclusive():
     # At exactly the threshold fraction, the guard must NOT trip (it only
     # trips when strictly above).
     check_churn(result, old_row_count=len(old_rows), new_row_count=len(new_rows))
+
+
+@pytest.mark.parametrize(
+    "value,expected",
+    [
+        ("Federal", True),
+        ("State", True),
+        ("Other", True),
+        ("Third Party", True),
+        ("state", True),  # real in-source typo (2026-02-03 capture)
+        ("Othere", True),  # real in-source typo (2026-05-27/06-05 captures)
+        ("federal", True),  # case-insensitive
+        ("Thursday, February 13, 2025", False),  # the real corruption case
+        ("Thursday, February 13, 2025 Page 20 of 70", False),
+        ("", False),
+        ("Zorblaxian Committee", False),
+    ],
+)
+def test_looks_like_entity_type(value, expected):
+    assert _looks_like_entity_type(value) is expected
+
+
+def test_entity_type_guard_tolerates_real_in_source_typos(tmp_path):
+    """A small typo the Bureau's own PDF is known to contain (lowercase
+    "state", or "Othere") must NOT be treated as corruption."""
+    rows = [
+        {
+            "entity_type": "state",  # in-source typo, not a parser bug
+            "agency_or_program": "Ohio Department of Higher Education",
+            "data_provider": "Ohio Department of Higher Education",
+            "data_type": "Degree Data",
+            "years_available": "2020",
+            "new_years_received": "",
+        }
+    ]
+    path = str(tmp_path / "typo.pdf")
+    write_inventory_pdf(path, full_rows_to_lines(rows))
+    parsed = parse_pdf(path)  # must not raise
+    assert parsed[0]["entity_type"] == "state"
+
+
+def test_entity_type_guard_catches_leaked_content(tmp_path):
+    """A garbage entity_type (e.g. leaked footer/header text that slipped
+    past the strippers) forward-filled across several rows must raise
+    ParseError, independent of whatever specifically caused the leak."""
+    lines = [
+        {"entity_type": "Zorblaxian Committee Quarterly Report", "gap": NEW_ROW_GAP},
+        {"agency_or_program": "Treasury", "gap": NEW_ROW_GAP},
+        {
+            "data_provider": "IRS",
+            "data_type": "Business Master File",
+            "years_available": "2020",
+            "gap": NEW_ROW_GAP,
+        },
+        {
+            "data_provider": "IRS",
+            "data_type": "Form 1040 Returns",
+            "years_available": "2021",
+            "gap": NEW_ROW_GAP,
+        },
+    ]
+    path = str(tmp_path / "leaked.pdf")
+    write_inventory_pdf(path, lines)
+    with pytest.raises(ParseError, match="entity_type"):
+        parse_pdf(path)
 
 
 def test_end_to_end_parse_error_via_layout_change(tmp_path):

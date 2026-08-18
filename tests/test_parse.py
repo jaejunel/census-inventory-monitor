@@ -78,6 +78,7 @@ def test_wrapped_data_provider_merges_and_persists_forward_fill(tmp_path):
     be inherited *complete* by later rows in the same group, not just the
     pre-wrap fragment."""
     lines = [
+        {"entity_type": "Other", "gap": NEW_ROW_GAP},
         {"agency_or_program": "Health Agencies", "gap": NEW_ROW_GAP},
         {
             "data_provider": "University of North Carolina Health Care",
@@ -102,6 +103,7 @@ def test_wrapped_data_provider_merges_and_persists_forward_fill(tmp_path):
 
 def test_wrapped_data_type_merges(tmp_path):
     lines = [
+        {"entity_type": "Federal", "gap": NEW_ROW_GAP},
         {"agency_or_program": "Treasury", "gap": NEW_ROW_GAP},
         {
             "data_provider": "IRS",

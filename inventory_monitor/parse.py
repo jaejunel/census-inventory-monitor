@@ -233,6 +233,36 @@ def _rows_from_lines(lines: list[Line]) -> list[dict[str, str]]:
     return rows
 
 
+def _looks_like_entity_type(value: str) -> bool:
+    """True if `value` loosely matches one of config.CANONICAL_ENTITY_TYPES
+    -- case-insensitively, and allowing a handful of extra characters so a
+    small in-source typo (e.g. "Othere") still passes, but a whole
+    unrelated sentence (e.g. a leaked footer line) does not."""
+    normalized = value.strip().lower()
+    for canonical in config.CANONICAL_ENTITY_TYPES:
+        c = canonical.lower()
+        if c in normalized and len(normalized) <= len(c) + config.ENTITY_TYPE_TYPO_SLACK:
+            return True
+    return False
+
+
+def _validate_entity_types(rows: list[dict[str, str]], pdf_path: str) -> None:
+    bad = [(i, r["entity_type"]) for i, r in enumerate(rows) if not _looks_like_entity_type(r["entity_type"])]
+    if bad:
+        examples = ", ".join(f"row {i}: {v!r}" for i, v in bad[:5])
+        more = f" (+{len(bad) - 5} more)" if len(bad) > 5 else ""
+        raise ParseError(
+            f"{len(bad)} of {len(rows)} rows in {pdf_path} have an "
+            f"entity_type that doesn't loosely match any of "
+            f"{config.CANONICAL_ENTITY_TYPES}: {examples}{more}. This is "
+            f"almost always a stray header/footer/disclaimer line that "
+            f"slipped past the strippers and got forward-filled into "
+            f"entity_type (it sits in the leftmost column bucket) -- see "
+            f"the 'of50' bug in CHANGELOG.md for a real example. Refusing "
+            f"to trust this extraction."
+        )
+
+
 def parse_pdf(pdf_path: str) -> list[dict[str, str]]:
     """Parse a snapshot PDF into a list of row dicts (config.COLUMN_NAMES keys).
 
@@ -259,5 +289,7 @@ def parse_pdf(pdf_path: str) -> list[dict[str, str]]:
             f"zero data rows from them. The layout has likely changed; "
             f"re-calibrate config.py before trusting any diff."
         )
+
+    _validate_entity_types(rows, pdf_path)
 
     return rows
