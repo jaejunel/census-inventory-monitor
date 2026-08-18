@@ -1,0 +1,88 @@
+name: Monitor Census data file inventory
+
+on:
+  schedule:
+    # 08:00 UTC on the 1st of every month. GitHub's scheduled workflows are
+    # best-effort and can run late under platform load -- see the README's
+    # "Automation" section for what to check if a month goes by silently.
+    - cron: "0 8 1 * *"
+  workflow_dispatch: {}
+
+# Needed so the built-in GITHUB_TOKEN can push the new snapshot/CSV/changelog
+# back to the repo and open an issue -- no personal access token required.
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: census-inventory-monitor
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run test suite
+        run: pytest -q
+
+      - name: Run monitor
+        id: monitor
+        run: |
+          set +e
+          python monitor.py run
+          echo "exit_code=$?" >> "$GITHUB_OUTPUT"
+          set -e
+
+      - name: Check what changed
+        id: changes
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+          fi
+          if git status --porcelain | grep -q "CHANGELOG.md"; then
+            echo "changelog_changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "changelog_changed=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit and push
+        if: steps.changes.outputs.has_changes == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Automated check: $(date -u +%Y-%m-%d)"
+          git push
+
+      - name: Open an issue summarizing the change
+        if: steps.changes.outputs.changelog_changed == 'true' && steps.monitor.outputs.exit_code == '0'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python -c "from inventory_monitor.changelog import latest_entry; print(latest_entry())" > /tmp/entry.md
+          gh issue create \
+            --title "Inventory changed: $(date -u +%Y-%m-%d)" \
+            --body-file /tmp/entry.md
+
+      - name: Open an issue and fail if the monitor needs attention
+        if: steps.monitor.outputs.exit_code != '0'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue create \
+            --title "Census inventory monitor needs attention: $(date -u +%Y-%m-%d)" \
+            --body "The monitor run exited with code ${{ steps.monitor.outputs.exit_code }} -- a parse failure or the churn guard likely tripped. Check CHECK_LOG.md and any extracted/*.suspect.csv files in this commit for details before trusting the next diff."
+          exit 1
