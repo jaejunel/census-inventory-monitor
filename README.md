@@ -181,7 +181,7 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 
-# Normal monthly check (what the GitHub Actions workflow runs):
+# Normal scheduled check (what the GitHub Actions workflow runs):
 python monitor.py run
 
 # One-time (or repeatable) historical backfill from the Wayback Machine:
@@ -200,8 +200,20 @@ any individual captures it couldn't produce a changelog entry for.
 
 ## Automation (GitHub Actions)
 
-`.github/workflows/monitor.yml` runs `python monitor.py run` on a monthly
-cron and on manual `workflow_dispatch`. When the PDF changed, it commits
+`.github/workflows/monitor.yml` runs `python monitor.py run` **on the 8th
+and 22nd of each month** (08:00 UTC) and on manual `workflow_dispatch`.
+
+Those dates are chosen from the Bureau's own behavior rather than picked
+round: every PDF since 2023 records a generation date in its page footer,
+and across the 13 snapshots carrying one, publication falls on day-of-month
+`1, 2, 2, 3, 3, 4, 4, 5, 6, 6, 6, 10, 13` — clustered in the first week,
+median the 4th, occasionally slipping to the 10th–13th. Checking on the 8th
+catches the main cluster within a few days; the 22nd catches stragglers and
+mid-month re-uploads (the 2025-03-21 and 2025-03-22 snapshots differ in
+bytes, so re-uploads do happen). Regenerate this distribution any time with
+the footer dates in `snapshots/*.pdf`.
+
+When the PDF changed, it commits
 the new snapshot, CSV, and changelog back to the repository and opens a
 GitHub issue summarizing what changed, using the repo's built-in
 `GITHUB_TOKEN` (no secrets to configure). Dependencies are pinned in

@@ -2,10 +2,25 @@ name: Monitor Census data file inventory
 
 on:
   schedule:
-    # 08:00 UTC on the 1st of every month. GitHub's scheduled workflows are
-    # best-effort and can run late under platform load -- see the README's
-    # "Automation" section for what to check if a month goes by silently.
-    - cron: "0 8 1 * *"
+    # 08:00 UTC on the 8th and 22nd of each month.
+    #
+    # Timed against the Bureau's actual publication pattern, not a guess: each
+    # PDF records its own generation date in the page footer, and across the 13
+    # snapshots that carry one, the day-of-month is
+    #     1, 2, 2, 3, 3, 4, 4, 5, 6, 6, 6, 10, 13
+    # -- clustered in the first week, median the 4th, with occasional slippage
+    # to the 10th-13th. (The original schedule ran on the 1st, which sat just
+    # BEFORE almost every publication and so kept re-checking the prior
+    # month's document.)
+    #
+    # The 8th catches the main first-week cluster within a few days; the 22nd
+    # catches the stragglers and any mid-month re-upload (the 2025-03-21 and
+    # 2025-03-22 snapshots differ in bytes, so re-uploads do happen).
+    #
+    # GitHub's scheduled workflows are best-effort and can run late under
+    # platform load -- see the README's "Automation" section for what to check
+    # if a month goes by silently.
+    - cron: "0 8 8,22 * *"
   workflow_dispatch: {}
 
 # Needed so the built-in GITHUB_TOKEN can push the new snapshot/CSV/changelog
