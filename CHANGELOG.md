@@ -2,6 +2,134 @@
 
 History of changes to the Census Bureau's administrative data file inventory PDF, newest first. See README.md for how row identity works and what a removed row does and does not mean.
 
+## 2026-09-11
+
+Compared [`data-file-inventory-2026-08-18.pdf`](snapshots/data-file-inventory-2026-08-18.pdf) (909 rows) to [`data-file-inventory-2026-09-11.pdf`](snapshots/data-file-inventory-2026-09-11.pdf) (935 rows).
+
+**27 added, 1 removed, 35 modified.**
+
+### Added (27)
+
+- College Possible — Advising Program Data
+- Harvard University — Harvard Workforce QST File
+- Harvard University — Harvard Workforce Study and Education Data
+- ICE Data Services Housing Data — ICE Data Services Housing - Automated Valuation Models
+- ICE Data Services Housing Data — ICE Data Services Housing -Parcel Boundary
+- ICE Data Services Housing Data — ICE Data Services Housing- Climate Data
+- Internal Revenue Service (IRS) — Form 1041 Income Tax Return for Estates and Trusts
+- Internal Revenue Service (IRS) — Form 1099 Miscellaneous
+- Internal Revenue Service (IRS) — Form 1099G Certain Government Payments
+- Internal Revenue Service (IRS) — Form 1099K Payment Card and Third Party Network
+- Internal Revenue Service (IRS) — Form 1099NEC Nonemployee Compensation
+- Internal Revenue Service (IRS) — Form 1099Q Payments from Qualified Education Programs
+- Internal Revenue Service (IRS) — Form 3921 Incentive Stock Options
+- Internal Revenue Service (IRS) — Form 5498 IRA Contribution Information
+- Internal Revenue Service (IRS) — Form 5498SA HAS, Archer MSA, or Medicare Advantage MSA Information
+- Internal Revenuw Service (IRS) — Form 1041-K1Beneficiary's Share of Income, Deductions, Credits
+- Lightbox Smart Fabric Data — LightBox parcel data
+- Naphsis — Naphsis Data -Puerto Rico
+- Nielsen Consumer Spending — Nielsen Consumer Spending- Panel File
+- Nielsen Consumer Spending — Nielsen Consumer Spending- Product File
+- Nielsen Consumer Spending — Nielsen Consumer Spending- Retailer File
+- Safegraph — Civic Digital Fellow Data
+- Texas (TX) — SNAP
+- University of California, Irvine — Course Data
+- University of Michigan — Demographic Data
+- University of Michigan — Enrollment Data
+- Vermont (VT) — PSEO Enrollment Data
+
+### Removed (1)
+
+- Iowa (IA) — Drivers License Data
+
+### Modified (35)
+
+- Department of Homeland Security — Customs and Border Patrol Departure Data
+  - `new_years_received`: '2026' → ''
+- Department of Homeland Security — Customs and Border Protection Arrival Data
+  - `new_years_received`: '2026' → ''
+- Department of Homeland Security — Immigration and Customs Enforcement Removals
+  - `years_available`: '2012-2019; 2025' → '2012-2019; 2020-2025'
+- Department of Homeland Security — Immigration and Customs Enforcement Student and Exchange Visitor Program Data
+  - `new_years_received`: '2026' → ''
+- Department of State — Passport Data
+  - `new_years_received`: '2022' → ''
+- Harvard University — Harvard Gallop Daily Poll Data
+  - `new_years_received`: '' → '2008-2017 a'
+- Internal Revenue Service (IRS) — Business Master File
+  - `years_available`: 'ty2021; ty2022; ty2023; ty2023; ty2024; ty2025' → '2026; ty2021; ty2022; ty2023; ty2023; ty2024; ty2025'
+- Internal Revenue Service (IRS) — Form 1040 Returns
+  - `new_years_received`: 'ty2025 202626' → 'ty2025 202630'
+- Internal Revenue Service (IRS) — Form 1098 Mortgage Interest Statement
+  - `new_years_received`: '' → 'ty2025 202611; ty2025 202615; ty2025 202619; ty2025 202623; ty2025 202626'
+- Internal Revenue Service (IRS) — Form 1098E Student Loan Interest
+  - `new_years_received`: '' → 'ty2025 202611; ty2025 202615; ty2025 202619; ty2025 202623; ty2025 202626'
+- Internal Revenue Service (IRS) — Form 1098T Tuition Statement
+  - `new_years_received`: '' → 'ty2025 202607; ty2025 202611; ty2025 202615; ty2025 202619; ty2025 202623; ty2025 202626'
+- Internal Revenue Service (IRS) — Form 1099-R Returns (Information Returns)
+  - `new_years_received`: 'ty2025 202623' → ''
+- Internal Revenue Service (IRS) — Form W-2
+  - `new_years_received`: 'ty2025 202626' → ''
+- Internal Revenue Service (IRS) — Forms 1120, 1120F, 1120L, 1120- PC, 1120-RIC, 1120-REIT, 990-R (formerly 990), 990-RZ (formerly 990-EZ), 990-PF, 1120-C (formerly 990-C), 6765, 851, 1096, 990-N
+  - `years_available`: '(current); 2024; 2025; 2026; 202609; 202611; 202612' → '(current); 2024; 2025; 2026; 202609; 202611; 202612; 202629; 202631'
+  - `new_years_received`: '2026 202624; 2026 202625; 2026 202626; 2026 202627; 2026 202628' → '2026 202630; 202629 202629; 202631 202631'
+- Internal Revenue Service (IRS) — Forms 941, 941PR, 941SS, 943, 943PR, 944, 944-SP, 944-PR, 944- SS
+  - `years_available`: '2025; 2026; 202608; 202609; 202611; 202612' → '2025; 2026; 202608; 202609; 202611; 202612; 202629; 202631'
+  - `new_years_received`: '2026 202624; 2026 202625; 2026 202626; 2026 202627; 2026 202628' → '2026 202630; 202629 202629; 202631 202631'
+- New York City Department of Education — Enrollment Data
+  - `years_available`: '2005-2025' → '2005-2025; 2022; 2023; 2024; 2025'
+- Safegraph — Safegraph Place Brand Info File
+  - `new_years_received`: '' → '2026 202607'
+- Safegraph — Safegraph Place Core POI File
+  - `new_years_received`: '' → '2026 202607'
+- Safegraph — Safegraph Spend Patterns File
+  - `new_years_received`: '202607 202607' → '2026 202608'
+- Safegraph — Safegraph Transaction Panel Summary File
+  - `new_years_received`: '202607 202607' → '2026 202608'
+- South Dakota Board of Technical Education — Degree Data
+  - `years_available`: '2001-2020; 2021-2022; 2022-2023; 2023-2024' → '2001-2020; 2021-2022; 2022-2023; 2023; 2023-2024'
+- The Oregon Higher Education Coordinating Commission — Degree Data
+  - `years_available`: '2001-2021; 2001-2023' → '2001-2021; 2001-2023; 2009-2025'
+  - `new_years_received`: '' → '2009-2025'
+- The Oregon Higher Education Coordinating Commission — Demographic Data
+  - `years_available`: '2001-2021a; 2001-2023' → '2001-2021a; 2001-2023; 2009-2025'
+  - `new_years_received`: '' → '2009-2025'
+- United States Postal Service — National Change of Address (NCOA)
+  - `new_years_received`: '2026 202607' → ''
+- University Employee — Award Names
+  - `years_available`: '2025' → '2025; 2026'
+  - `new_years_received`: '' → '2026 202602'
+- University Employee — Award Transaction File
+  - `years_available`: '2025' → '2025; 2026'
+  - `new_years_received`: '' → '2026 202602'
+- University Employee — Employee Names
+  - `years_available`: '2025' → '2025; 2026'
+  - `new_years_received`: '' → '2026 202602'
+- University Employee — Employee Transaction File
+  - `years_available`: '2025' → '2025; 2026'
+  - `new_years_received`: '' → '2026 202602'
+- University Employee — Institution Names
+  - `years_available`: '2025' → '2025; 2026'
+  - `new_years_received`: '' → '2026 202602'
+- University Employee — Institution Profile Table
+  - `years_available`: '2025' → '2025; 2026'
+  - `new_years_received`: '' → '2026 202602'
+- University Employee — Subaward Transaction File
+  - `years_available`: '2025' → '2025; 2026'
+  - `new_years_received`: '' → '2026 202602'
+- University Employee — Vendor Transaction File
+  - `years_available`: '2025' → '2025; 2026'
+  - `new_years_received`: '' → '2026 202602'
+- University of California, Irvine — Class Roster
+  - `years_available`: '2017-2018; 2018-2019; 2020-2021; 2021-2022; 2022_2023; 2024-2025' → '2017-2018; 2018-2019; 2020-2021; 2021-2022; 2022_2023; 2023-2024; 2024-2025'
+  - `new_years_received`: '' → '2023-2024'
+- University of Pittsburgh — Degree Data
+  - `years_available`: '2007-2025' → '2007-2025; 2023'
+  - `new_years_received`: '' → '2023'
+- University of Wyoming — Degree Data
+  - `years_available`: '2006-2023' → '2006-2023; 2024-2025'
+  - `new_years_received`: '' → '2024-2025'
+
 ## 2026-08-18
 
 Compared [`data-file-inventory-2026-06-05.pdf`](snapshots/data-file-inventory-2026-06-05.pdf) (884 rows) to [`data-file-inventory-2026-08-18.pdf`](snapshots/data-file-inventory-2026-08-18.pdf) (909 rows).
